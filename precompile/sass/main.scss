@@ -1,4 +1,12 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
 
-body {
-  display: flex;
+header,
+footer,
+main {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 20px;
 }
