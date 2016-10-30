@@ -1,6 +1,6 @@
 {{ partial "head" . }}
 <main>
-  <h1>Pages in {{ .Title | singularize }}</h1>
+  <h1>{{ .Title | singularize }} Posts</h1>
   {{ range .Data.Pages }}
   	<a href="{{ .Permalink }}" title="{{ .Title }}">
   		<h2>{{ .Title }}</h2>
