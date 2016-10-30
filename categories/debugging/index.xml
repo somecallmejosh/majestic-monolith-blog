@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Majestic Monolith Blog</title>
+    <link>https://somecallmejosh.github.io/majestic-monolith-blog/categories/debugging/index.xml</link>
+    <description>Recent content on Majestic Monolith Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/categories/debugging/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>blog Categories</title>
+      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-categories/</link>
+      <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
+      
+      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-categories/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a current list of Category types for Blog Entries&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Guide&lt;/li&gt;
+&lt;li&gt;Problem Solving&lt;/li&gt;
+&lt;li&gt;Before and After&lt;/li&gt;
+&lt;li&gt;Debugging&lt;/li&gt;
+&lt;li&gt;Opinion&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

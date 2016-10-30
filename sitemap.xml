@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://somecallmejosh.github.io/majestic-monolith-blog/</loc>
+    <lastmod>2016-10-30T14:14:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-categories/</loc>
+    <lastmod>2016-10-30T14:14:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</loc>
+    <lastmod>2016-10-30T14:14:02-04:00</lastmod>
+  </url>
+  
+</urlset>

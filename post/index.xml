@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-rsses on Majestic Monolith Blog</title>
+    <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/index.xml</link>
+    <description>Recent content in Post-rsses on Majestic Monolith Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 30 Oct 2016 14:14:02 -0400</lastBuildDate>
+    <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>blog Categories</title>
+      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-categories/</link>
+      <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
+      
+      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-categories/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a current list of Category types for Blog Entries&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Guide&lt;/li&gt;
+&lt;li&gt;Problem Solving&lt;/li&gt;
+&lt;li&gt;Before and After&lt;/li&gt;
+&lt;li&gt;Debugging&lt;/li&gt;
+&lt;li&gt;Opinion&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>blog types</title>
+      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</link>
+      <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
+      
+      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a current list of Tag types for the blog entries.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;audio&lt;/li&gt;
+&lt;li&gt;backend&lt;/li&gt;
+&lt;li&gt;business&lt;/li&gt;
+&lt;li&gt;css&lt;/li&gt;
+&lt;li&gt;code example&lt;/li&gt;
+&lt;li&gt;front end&lt;/li&gt;
+&lt;li&gt;golang&lt;/li&gt;
+&lt;li&gt;html&lt;/li&gt;
+&lt;li&gt;javascript&lt;/li&gt;
+&lt;li&gt;video&lt;/li&gt;
+&lt;li&gt;Sass&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

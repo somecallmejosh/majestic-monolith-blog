@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Majestic Monolith Blog</title>
+    <link>https://somecallmejosh.github.io/majestic-monolith-blog/tags/code-example/index.xml</link>
+    <description>Recent content on Majestic Monolith Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/tags/code-example/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>blog types</title>
+      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</link>
+      <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
+      
+      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a current list of Tag types for the blog entries.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;audio&lt;/li&gt;
+&lt;li&gt;backend&lt;/li&gt;
+&lt;li&gt;business&lt;/li&gt;
+&lt;li&gt;css&lt;/li&gt;
+&lt;li&gt;code example&lt;/li&gt;
+&lt;li&gt;front end&lt;/li&gt;
+&lt;li&gt;golang&lt;/li&gt;
+&lt;li&gt;html&lt;/li&gt;
+&lt;li&gt;javascript&lt;/li&gt;
+&lt;li&gt;video&lt;/li&gt;
+&lt;li&gt;Sass&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,8 +1,0 @@
-baseurl = "https://somecallmejosh.github.io/majestic-monolith-blog/"
-
-[params]
-  author = "Majestic Monolith"
-  description = "A description of this site"
-  disqusShortname = "majestic-monolith"
-  title = "Majestic Monolith Blog"
-  languageCode = "en-us"
