@@ -8,12 +8,22 @@
     <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>blog types</title>
+      <title>How Full Stack Are You?</title>
+      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/how-full-stack-are-you/</link>
+      <pubDate>Sun, 30 Oct 2016 21:12:30 -0400</pubDate>
+      
+      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/how-full-stack-are-you/</guid>
+      <description>&lt;p&gt;Unless you absolutely love HTML and CSS as much as you love GoLang, Javascript, Ruby, etc, you might not be full stack.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blog types</title>
       <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</link>
       <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
       
       <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s a current list of Tag types for the blog entries.&lt;/p&gt;
+      <description>&lt;p&gt;Here&#39;s a current list of Tag types for the blog entries.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;audio&lt;/li&gt;

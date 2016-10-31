@@ -8,12 +8,42 @@
     <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>blog types</title>
+      <title>How Full Stack Are You?</title>
+      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/how-full-stack-are-you/</link>
+      <pubDate>Sun, 30 Oct 2016 21:12:30 -0400</pubDate>
+      
+      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/how-full-stack-are-you/</guid>
+      <description>&lt;p&gt;Unless you absolutely love HTML and CSS as much as you love GoLang, Javascript, Ruby, etc, you might not be full stack.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSS Sucks, When the Markup Sucks</title>
+      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/css-sucks-when-the-markup-sucks/</link>
+      <pubDate>Sun, 30 Oct 2016 21:09:20 -0400</pubDate>
+      
+      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/css-sucks-when-the-markup-sucks/</guid>
+      <description>&lt;p&gt;I&#39;ve been getting a lot of Screen Hero requests to look at CSS issues. 9 times out of 10, the problem could be fixed with a good foundation in HTML, but we&#39;re so far into the project that a major refactor is unthinkable. And, of course, CSS gets the bad rap.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HTML is Not a By-Product</title>
+      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/html-is-not-a-by-product/</link>
+      <pubDate>Sun, 30 Oct 2016 21:03:11 -0400</pubDate>
+      
+      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/html-is-not-a-by-product/</guid>
+      <description>&lt;p&gt;HTML is the be all, end all of web accessibility, search engine optimization, open web &#39;scrape&#39;ability, and much more. Yet, we still treat it like a 3rd class citizen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blog types</title>
       <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</link>
       <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
       
       <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s a current list of Tag types for the blog entries.&lt;/p&gt;
+      <description>&lt;p&gt;Here&#39;s a current list of Tag types for the blog entries.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;audio&lt;/li&gt;
