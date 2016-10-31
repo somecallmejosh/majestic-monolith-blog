@@ -1,16 +1,12 @@
 {{ partial "head" . }}
-<main>
-  <h1>{{ .Title | singularize }} Posts</h1>
-  {{ range .Data.Pages }}
-  	<a href="{{ .Permalink }}" title="{{ .Title }}">
-  		<h2>{{ .Title }}</h2>
-  	</a>
-
-  	<br>
-  	{{ printf "%s" .Summary | markdownify }}
-
-  	<hr>
-  {{ end }}
+<main role="main" class="main">
+  <h1 class="x-large">{{ .Title | singularize }} Posts</h1>
+    {{ range .Data.Pages }}
+      <div class="card">
+      	<h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
+      	<p>{{ printf "%s" .Summary | markdownify }}</p>
+      </div>
+    {{ end }}
 </main>
 
 {{ partial "footer" . }}

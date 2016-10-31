@@ -16,12 +16,12 @@ categories = [
   "guide"
 ]
 author = "jkb"
-title = "blog types"
+title = "Blog types"
 date = "2016-10-30T14:14:02-04:00"
 
 +++
 
-Here's a current list of Tag types for the blog entries.
+<p>Here's a current list of Tag types for the blog entries.</p>
 
 - audio
 - backend

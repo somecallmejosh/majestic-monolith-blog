@@ -1,0 +1,161 @@
+%display-4 {
+  font-size: 11.2rem;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: -.04em;
+}
+
+%display-3 {
+  font-size: 5.6rem;
+  font-weight: normal;
+  line-height: 1.35;
+  letter-spacing: -.02em;
+}
+
+%display-2 {
+  font-size: 4.5rem;
+  font-weight: normal;
+  line-height: 4.8rem;
+}
+
+%display-1 {
+  font-size: 3.4rem;
+  font-weight: normal;
+  line-height: 4.0rem;
+}
+
+%headline {
+  font-size: 2.4rem;
+  font-weight: normal;
+  line-height: 3.2rem;
+}
+
+%title {
+  font-size: 2.0rem;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: .02em;
+}
+
+%subheading {
+  @include media-max($bp-large) {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  @include media-min($bp-large) {
+    font-size: 1.5rem;
+    line-height: 2.25;
+  }
+  font-weight: normal;
+  letter-spacing: .01em;
+}
+
+%body-2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: .01em;
+  line-height: 2.4rem;
+  font-weight: bold;
+}
+
+%body-1 {
+  font-size: 1.4rem;
+  line-height: 2.0rem;
+  font-weight: normal;
+  letter-spacing: .01em;
+}
+
+%caption {
+  font-size: 1.2rem;
+  letter-spacing: .02em;
+  line-height: 1;
+}
+
+%button {
+  cursor: pointer;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: .01em;
+  line-height: 3.6rem;
+}
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($accent-color, 10%);
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+figure {
+  color: $primary-text-color;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+.large {
+  @extend %display-1;
+}
+
+.x-large {
+  @extend %display-2;
+}
+
+.xx-large {
+  @extend %display-3;
+}
+
+.xxx-large {
+  @extend %display-4;
+}
+
+h1 {
+  @extend %headline;
+}
+
+h2 {
+  @extend %title;
+}
+
+h3, th {
+  @extend %subheading;
+}
+
+footer ul,
+footer ol,
+main ul,
+main ol {
+  margin-left: 2rem;
+}
+
+p, li, td {
+  @extend %body-1;
+
+  strong {
+    @extend %body-2;
+  }
+}
+
+input[type="submit"],
+button,
+.button {
+  @extend %button;
+}
+
+small {
+  @extend %caption;
+}

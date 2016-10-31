@@ -1,7 +1,10 @@
 {{ partial "head" . }}
 
-<main>
-  {{ .Content }}
+<main role="main" class="main">
+  <div class="card">
+    <h1 class="x-large">{{ .Title }}</h1>
+    {{ .Content }}
+  </div>
 
   <div id="disqus_thread"></div>
   <script>

@@ -1,0 +1,19 @@
+//-------------------------------------------------
+// Media Query Mixins
+//-------------------------------------------------
+
+@mixin media-range($from, $to) {
+  @media (min-width: $from) and (max-width: $to) {
+    @content;
+  }
+}
+@mixin media-min($width) {
+  @media (min-width: $width) {
+    @content;
+  }
+}
+@mixin media-max($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}

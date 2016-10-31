@@ -1,0 +1,33 @@
+header,
+footer,
+main {
+  margin: 0 auto;
+  max-width: 100rem;
+  padding: 0 2rem;
+}
+
+header {
+  padding: 2rem;
+}
+
+.main, footer {
+  padding: 0 2rem;
+}
+
+.main {
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: $white;
+  margin-bottom: 2rem;
+  padding: 4rem;
+}
+
+.footer__meta {
+  display: flex;
+
+  aside {
+    flex: 1;
+  }
+}
