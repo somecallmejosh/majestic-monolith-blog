@@ -2,6 +2,7 @@ baseurl = "https://somecallmejosh.github.io/majestic-monolith-blog/"
 
 [params]
   author = "Majestic Monolith"
+  base = "majestic-monolith-blog"
   description = "It is vain to do with more what can be done with less. – William of Occam"
   disqusShortname = "majestic-monolith"
   title = "Majestic Monolith Blog"
