@@ -2,10 +2,10 @@
   <div class="footer__meta">
     <aside>
   		<h2>Categories</h2>
+      {{ .Site.BaseURL }}
   		<ul>
   			{{ range $key, $value := .Site.Taxonomies.categories }}
-          <!--  This is a temporary fix -->
-  				<li><a href="https://somecallmejosh.github.io/majestic-monolith-blog/categories/{{ $key}}">{{ $key | title }}</a></li>
+  				<li><a href="/categories/{{ $key}}">{{ $key | title }}</a></li>
   			{{ end }}
   		</ul>
   	</aside>
@@ -15,7 +15,7 @@
   		<ul>
   			{{ range $key, $value := .Site.Taxonomies.tags }}
           <!--  This is a temporary fix -->
-  				<li><a href="https://somecallmejosh.github.io/majestic-monolith-blog/tags/{{ $key}}">{{ $key | title }}</a></li>
+  				<li><a href="/tags/{{ $key}}">{{ $key | title }}</a></li>
   			{{ end }}
   		</ul>
   	</aside>
