@@ -3,34 +3,20 @@
 <main role="main" class="main">
   <div class="card">
     <h1 class="x-large">{{ .Title }}</h1>
-    <small>{{ .Date.Format "Mon Jan 2, 2006" }} | Reading Time: {{.ReadingTime}} min</small>
+    <small>Posted {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}</small>
+    <small>Reading Time: {{.ReadingTime}}min</small>
     {{ .Content }}
   </div>
 
   <div class="cta">
     <h2>Like what you just read?</h2>
     <p>Follow us on Twitter.</p>
-    <p>Share this with a friend.</p>
     <p>Sign up for our weekly newsletter.</p>
+    {{ partial "email_signup" . }}
   </div>
 
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    (function() {
-        // Don't ever inject Disqus on localhost--it creates unwanted
-        // discussions from 'localhost:1313' on your Disqus account...
-        if (window.location.hostname == "localhost")
-            return;
+  {{ partial "disqus" . }}
 
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        var disqus_shortname = 'majestic-monolith';
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </script>
-  {{ template "_internal/disqus.html" . }}
 
 </main>
 

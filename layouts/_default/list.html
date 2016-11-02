@@ -4,7 +4,8 @@
     {{ range .Data.Pages }}
       <div class="card">
       	<h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
-        <small>{{ .Date.Format "Mon Jan 2, 2006" }} | Reading Time: {{.ReadingTime}} min</small>
+        <small>Posted {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}</small>
+        <small>Reading Time: {{.ReadingTime}}min</small>ate.Format "Jan 2, 2006" }} by {{ .Params.author }}</small>
       	<p>{{ printf "%s" .Summary | markdownify }}</p>
       </div>
     {{ end }}
