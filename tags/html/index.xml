@@ -14,6 +14,9 @@
       
       <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/how-full-stack-are-you/</guid>
       <description>&lt;p&gt;Unless you absolutely love HTML and CSS as much as you love GoLang, Javascript, Ruby, etc, you might not be full stack.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.15 will have 30%+ faster render times thanks to this commit &lt;a href=&#34;https://t.co/FfzhM8bNhT&#34;&gt;https://t.co/FfzhM8bNhT&lt;/a&gt;  &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://t.co/ITbMNU2BUf&#34;&gt;https://t.co/ITbMNU2BUf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Steve Francia (@spf13) &lt;a href=&#34;https://twitter.com/spf13/status/666616452582129664&#34;&gt;November 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
@@ -23,7 +26,13 @@
       <pubDate>Sun, 30 Oct 2016 21:09:20 -0400</pubDate>
       
       <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/css-sucks-when-the-markup-sucks/</guid>
-      <description>&lt;p&gt;I&#39;ve been getting a lot of Screen Hero requests to look at CSS issues. 9 times out of 10, the problem could be fixed with a good foundation in HTML, but we&#39;re so far into the project that a major refactor is unthinkable. And, of course, CSS gets the bad rap.&lt;/p&gt;
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;I&#39;ve been getting a lot of Screen Hero requests to look at CSS issues. 9 times out of 10, the problem could be fixed with a good foundation in HTML, but we&#39;re so far into the project that a major refactor is unthinkable. And, of course, CSS gets the bad rap.&lt;/p&gt;
 </description>
     </item>
     
@@ -34,6 +43,8 @@
       
       <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/html-is-not-a-by-product/</guid>
       <description>&lt;p&gt;HTML is the be all, end all of web accessibility, search engine optimization, open web &#39;scrape&#39;ability, and much more. Yet, we still treat it like a 3rd class citizen.&lt;/p&gt;
+
+&lt;script src=&#34;//gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
@@ -44,6 +55,8 @@
       
       <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</guid>
       <description>&lt;p&gt;Here&#39;s a current list of Tag types for the blog entries.&lt;/p&gt;
+
+&lt;script async class=&#39;speakerdeck-embed&#39; data-id=&#39;4e8126e72d853c0060001f97&#39; data-ratio=&#39;1.33333333333333&#39; src=&#39;//speakerdeck.com/assets/embed.js&#39;&gt;&lt;/script&gt;
 
 &lt;ul&gt;
 &lt;li&gt;audio&lt;/li&gt;
