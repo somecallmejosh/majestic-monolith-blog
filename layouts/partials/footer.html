@@ -2,21 +2,21 @@
   <div class="footer__meta">
     <aside>
   		<h3>Categories</h3>
-  		<ul>
+  		<nav>
   			{{ range $key, $value := .Site.Taxonomies.categories }}
-  				<li><a href="/categories/{{ $key}}">{{ $key | title }}</a></li>
+  				<a href="/categories/{{ $key}}">{{ $key | title }}</a>
   			{{ end }}
-  		</ul>
+  		</nav>
   	</aside>
 
   	<aside>
   		<h3>Tags</h3>
-  		<ul>
+  		<nav>
   			{{ range $key, $value := .Site.Taxonomies.tags }}
           <!--  This is a temporary fix -->
-  				<li><a href="/tags/{{ $key}}">{{ $key | title }}</a></li>
+  				<a href="/tags/{{ $key}}">{{ $key | title }}</a>
   			{{ end }}
-  		</ul>
+  		</nav>
   	</aside>
   </div>
 

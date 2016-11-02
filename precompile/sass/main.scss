@@ -39,7 +39,31 @@ h1 {
   }
 }
 
-.cta {
+.cta,
+footer nav a {
   background-color: #f4f4f4;
   border: darken(#f4f4f4, 10%) 1px solid;
+}
+
+footer  {
+  nav {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    align-items: center;
+    display: flex;
+    flex: 1 0 calc(50% - 5px);
+    justify-content: center;
+    height: 40px;
+    margin: 0 0 5px;
+    max-width: calc(50% - 2px);
+    padding: 0;
+
+  }
 }
