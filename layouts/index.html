@@ -3,7 +3,7 @@
 	{{ range where .Site.Pages "Section" "post" }}
 		<div class="card">
 			<h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</a></h1>
-			<small>{{ .Date.Format "Mon, Jan 2, 2006" }}</small>
+			<small>{{ .Date.Format "Mon Jan 2, 2006" }}</small>
 			{{ .Content }}
 		</div>
 	{{ end }}

@@ -1,5 +1,6 @@
 baseurl = "https://somecallmejosh.github.io/majestic-monolith-blog/"
 canonifyurls = true
+googleAnalytics = "UA-86559799-1"
 
 [params]
   author = "Majestic Monolith"

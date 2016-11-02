@@ -11,8 +11,10 @@ categories = [
   "opinion",
   "problem-solving",
 ]
-author = ""
+author = "jkb"
 
 +++
 
 <p>Unless you absolutely love HTML and CSS as much as you love GoLang, Javascript, Ruby, etc, you might not be full stack.</p>
+
+{{< tweet 666616452582129664 >}}

@@ -12,3 +12,5 @@ author = "jkb"
 +++
 
 <p>HTML is the be all, end all of web accessibility, search engine optimization, open web 'scrape'ability, and much more. Yet, we still treat it like a 3rd class citizen.</p>
+
+{{< gist spf13 7896402 >}}

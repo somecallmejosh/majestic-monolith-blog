@@ -23,6 +23,8 @@ date = "2016-10-30T14:14:02-04:00"
 
 <p>Here's a current list of Tag types for the blog entries.</p>
 
+{{< speakerdeck 4e8126e72d853c0060001f97 >}}
+
 - audio
 - backend
 - business
