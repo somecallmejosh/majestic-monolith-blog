@@ -23,7 +23,8 @@
   <p>© {{ .Site.Params.author}}. {{ $.Now.Format "2006" }}. All rights reserved.</p>
 </footer>
 </div>
-<script src="{{ .Site.BaseURL }}/js/main.min.js"></script>
+<script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+<script src="{{ .Site.BaseURL }}js/main.min.js"></script>
 <script id="dsq-count-scr" src="//majestic-monolith.disqus.com/count.js" async></script>
 {{ template "_internal/google_analytics_async.html" . }}
 </body>
