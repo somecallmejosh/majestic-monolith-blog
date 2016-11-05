@@ -19,7 +19,10 @@ function setTwitterLink(){
   var truncationLength = 140 - (currentURLStringLength + twitterStringExtension.length) - 3;
   var link = "https://twitter.com/intent/tweet?via=MjesticMonolith&url=" + currentURL + "&text=";
   var truncatedQuote = blockQuoteText.substring(0, truncationLength);
-  console.log(currentURL);
+  console.log("URL Length: " + currentURLStringLength);
+  console.log("Twitter String Extension Length: " + twitterStringExtension.length);
+  console.log("Truncation Length: " + truncationLength);
+  console.log("Total: " + (currentURLStringLength + twitterStringExtension.length + truncationLength));
   if(quoteLength < truncationLength){
     twitterButton.setAttribute('href', link + blockQuoteText);
   } else {
