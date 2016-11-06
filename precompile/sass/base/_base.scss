@@ -35,6 +35,14 @@ blockquote {
   padding: 10px 0;
 }
 
+code {
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  color: red;
+  display: inline-block;
+  padding: 2px 8px;
+}
+
 .on-site {
   height: 100vh;
   overflow-y: scroll;
