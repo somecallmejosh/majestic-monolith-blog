@@ -52,7 +52,11 @@ footer nav a {
 .card {
   border-bottom: darken(#f4f4f4, 5%) 1px solid;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.comments {
+  margin-bottom: 30px;
 }
 
 footer  {
@@ -80,5 +84,14 @@ footer  {
     &:hover {
       background-color: #fff;
     }
+  }
+}
+
+small {
+  font-size: 75%;
+  opacity: .5;
+
+  + small {
+    display: block;
   }
 }

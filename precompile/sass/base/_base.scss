@@ -3,6 +3,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   font-size: 110%;
+  line-height: 1.5;
   width: 100%;
 
   *,
@@ -29,9 +30,10 @@ body {
 blockquote {
   font-style: italic;
   opacity: .5;
+  padding: 10px 0;
 }
 
-.ofw {
+.on-site {
   height: 100vh;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
@@ -51,55 +53,4 @@ input[type="search"]::-webkit-search-results-decoration {
 :-moz-placeholder,
 ::-moz-placeholder {
   opacity: 1;
-}
-
-small + small {
-  display: block;
-}
-
-#mc_embed_signup {
-  overflow: hidden;
-  input[type="email"] {
-    border: darken(#f4f4f4, 10%) solid 1px;
-    display: block;
-    height: 40px;
-  }
-
-  input[type="submit"] {
-    background-color: darken(#f4f4f4, 80%);
-    border: darken(#f4f4f4, 80%) 1px solid;
-    color: white;
-    height: 40px;
-    text-align: center;
-  }
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-}
-
-.mc-field-group {
-  float: left;
-  overflow: hidden;
-  width: 100%;
-
-  [type="email"] {
-    float: left;
-    width: calc(100% - 90px);
-  }
-
-  [type="submit"] {
-    float: left;
-    width: 90px;
-  }
-}
-
-#mce-responses,
-.mc-field-group {
-  margin-bottom: 10px;
-}
-
-#mce-error-response {
-  color: red;
 }
