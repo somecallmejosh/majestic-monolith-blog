@@ -8,28 +8,90 @@
     <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/tags/audio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Blog types</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</link>
+      <title>A Post For Mike</title>
+      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/a-post-for-mike/</link>
       <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
       
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/blog-tags/</guid>
-      <description>&lt;p&gt;Here&#39;s a current list of Tag types for the blog entries.&lt;/p&gt;
+      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/a-post-for-mike/</guid>
+      <description>
 
-&lt;script async class=&#39;speakerdeck-embed&#39; data-id=&#39;4e8126e72d853c0060001f97&#39; data-ratio=&#39;1.33333333333333&#39; src=&#39;//speakerdeck.com/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;p&gt;In an effort to keep things organized, I&amp;rsquo;ve laid out this post for your stank ass.&lt;/p&gt;
+
+&lt;h1 id=&#34;front-matter-considerations&#34;&gt;Front Matter Considerations&lt;/h1&gt;
+
+&lt;p&gt;When filling in the &lt;code&gt;author&lt;/code&gt; attribute, use your initials &lt;code&gt;mtp&lt;/code&gt;. My initials are &lt;code&gt;jkb&lt;/code&gt;. This will ensure we are clearly attributed at the bottom of each post we write. Right now, this is clunky at best. I&amp;rsquo;m just using a static partial. If we want this to scale at some point, we&amp;rsquo;ll want to convert this to some sort of JSON object for each author.&lt;/p&gt;
+
+&lt;h2 id=&#34;our-main-categories-will-be&#34;&gt;Our Main categories will be:&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;audio&lt;/li&gt;
-&lt;li&gt;backend&lt;/li&gt;
-&lt;li&gt;business&lt;/li&gt;
-&lt;li&gt;css&lt;/li&gt;
-&lt;li&gt;code example&lt;/li&gt;
-&lt;li&gt;front end&lt;/li&gt;
-&lt;li&gt;golang&lt;/li&gt;
-&lt;li&gt;html&lt;/li&gt;
-&lt;li&gt;javascript&lt;/li&gt;
-&lt;li&gt;video&lt;/li&gt;
+&lt;li&gt;Before and After&lt;/li&gt;
+&lt;li&gt;Debugging&lt;/li&gt;
+&lt;li&gt;Problem Solving&lt;/li&gt;
+&lt;li&gt;Guide or How To&lt;/li&gt;
+&lt;li&gt;Opinion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;our-main-tags-will-be&#34;&gt;Our Main tags will be:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Audio&lt;/li&gt;
+&lt;li&gt;Backend&lt;/li&gt;
+&lt;li&gt;Business&lt;/li&gt;
+&lt;li&gt;CSS&lt;/li&gt;
+&lt;li&gt;Code Example&lt;/li&gt;
+&lt;li&gt;Front End&lt;/li&gt;
+&lt;li&gt;Golang&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;Javascript&lt;/li&gt;
+&lt;li&gt;Rails&lt;/li&gt;
+&lt;li&gt;Ruby&lt;/li&gt;
+&lt;li&gt;Video&lt;/li&gt;
 &lt;li&gt;Sass&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Obviously we can add more to the categories and tags as needed. This is just a starting point. In the footer, you can see that each tag and category has it&amp;rsquo;s own landing page you can link to.&lt;/p&gt;
+
+&lt;h2 id=&#34;here-s-how-to-add-a-quote-that-can-be-shared-on-twitter&#34;&gt;Here&amp;rsquo;s how to add a quote that can be shared on Twitter&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Right now, we should limit this to one pullquote per post.&lt;/strong&gt; My js is looking for the first &lt;code&gt;&amp;lt;blockquote&amp;gt;&lt;/code&gt; on the page. I could refactor to loop through all blockquotes, but one seems sufficient.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;h2 id=&#34;here-s-how-to-add-a-gist&#34;&gt;Here&amp;rsquo;s How to add a Gist&lt;/h2&gt;
+
+&lt;p&gt;For code samples, we agreed that gists would be a reasonable solution for now.&lt;/p&gt;
+
+&lt;script src=&#34;//gist.github.com/somecallmejosh/a0d9b419a8989213b783.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;here-s-how-to-embed-a-tweet&#34;&gt;Here&amp;rsquo;s how to embed a Tweet&lt;/h2&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.15 will have 30%+ faster render times thanks to this commit &lt;a href=&#34;https://t.co/FfzhM8bNhT&#34;&gt;https://t.co/FfzhM8bNhT&lt;/a&gt;  &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://t.co/ITbMNU2BUf&#34;&gt;https://t.co/ITbMNU2BUf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Steve Francia (@spf13) &lt;a href=&#34;https://twitter.com/spf13/status/666616452582129664&#34;&gt;November 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;here-s-how-to-add-a-youtube-video&#34;&gt;Here&amp;rsquo;s how to add a Youtube Video&lt;/h2&gt;
+
+&lt;p&gt;This has responsive goodness already baked in, so no need to worry about adding any sort of &amp;lsquo;is-responsive&amp;rsquo; classes.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h2 id=&#34;like-what-you-just-read&#34;&gt;Like What You Just Read?&lt;/h2&gt;
+
+&lt;p&gt;The following stuff is auto generated from the &lt;code&gt;single.html&lt;/code&gt; file. The &lt;strong&gt;similar posts&lt;/strong&gt; section is based on &lt;strong&gt;front matter category&lt;/strong&gt; but could be expanded to include posts with similar &lt;strong&gt;front matter tags&lt;/strong&gt; if we want.&lt;/p&gt;
+
+&lt;p&gt;Also, I will add SVG&amp;rsquo;s to the newsletter and twitter links at some point in the near future.&lt;/p&gt;
+
+&lt;h2 id=&#34;joining-the-discussion-below-the-like-what-you-just-read-section&#34;&gt;Joining the discussion (Below the &amp;lsquo;Like what you just read?&amp;rsquo; section)&lt;/h2&gt;
+
+&lt;p&gt;This is a partial that is included in every post. It&amp;rsquo;s part of the &lt;code&gt;single.html&lt;/code&gt; file, too. Nothing really special going on, other than the fact that you will not see this in your local dev environment. The nice folks at Hugo recommend keeping the discussion out of local for the following reason:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t ever inject Disqus on localhost&amp;ndash;it creates unwanted discussions from &amp;lsquo;localhost:1313&amp;rsquo; on your Disqus account&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
