@@ -13,16 +13,19 @@
       <pubDate>Sun, 30 Oct 2016 21:12:30 -0400</pubDate>
       
       <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/how-full-stack-are-you/</guid>
-      <description>&lt;p&gt;Unless you absolutely love HTML and CSS as much as you love GoLang, Javascript, Ruby, etc, you might not be full stack.&lt;/p&gt;
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.15 will have 30%+ faster render times thanks to this commit &lt;a href=&#34;https://t.co/FfzhM8bNhT&#34;&gt;https://t.co/FfzhM8bNhT&lt;/a&gt;  &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://t.co/ITbMNU2BUf&#34;&gt;https://t.co/ITbMNU2BUf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Steve Francia (@spf13) &lt;a href=&#34;https://twitter.com/spf13/status/666616452582129664&#34;&gt;November 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
     </item>
     
@@ -32,9 +35,7 @@
       <pubDate>Sun, 30 Oct 2016 21:09:20 -0400</pubDate>
       
       <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/css-sucks-when-the-markup-sucks/</guid>
-      <description>&lt;p&gt;I&#39;ve been getting a lot of Screen Hero requests to look at CSS issues. 9 times out of 10, the problem could be fixed with a good foundation in HTML, but we&#39;re so far into the project that a major refactor is unthinkable. And, of course, CSS gets the bad rap.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -45,8 +46,9 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
@@ -62,17 +64,20 @@
       <pubDate>Sun, 30 Oct 2016 21:03:11 -0400</pubDate>
       
       <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/html-is-not-a-by-product/</guid>
-      <description>&lt;p&gt;HTML is the be all, end all of web accessibility, search engine optimization, open web &amp;lsquo;scrape&amp;rsquo;ability, and much more. Yet, we still treat it like a 3rd class citizen.&lt;/p&gt;
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+  &lt;p&gt;This is a quote that will be shared on Twitter! Ain&amp;#39;t it grand? &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 &lt;script src=&#34;//gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.&lt;/p&gt;
 </description>
     </item>
     
