@@ -1,11 +1,12 @@
 baseurl = "https://somecallmejosh.github.io/majestic-monolith-blog/"
 canonifyurls = true
 googleAnalytics = "UA-86559799-1"
+DisqusShortname = "majestic-monolith"
 
 [params]
   author = "Majestic Monolith"
   base = "majestic-monolith-blog"
   description = "It is vain to do with more what can be done with less. – William of Occam"
-  DisqusShortname = "majestic-monolith"
   title = "Majestic Monolith Blog"
+  twitterName = "MjesticMonolith"
   languageCode = "en-us"

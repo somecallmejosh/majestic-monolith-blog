@@ -1,13 +1,14 @@
 // https://dev.twitter.com/web/tweet-button/web-intent
+var shareButton = document.querySelector(".share-button");
 
 function setTwitterLink(){
   var blockQuote = document.querySelectorAll('blockquote')[0].querySelectorAll('p')[0].textContent,
       currentURL = window.location.href,
       handle = "MjesticMonolith",
-      handleExtension = "via @" + twitterHandle,
+      handleExtension = "via @" + handle,
       link = "https://twitter.com/intent/tweet?via=" + handle + "&url=" + currentURL + "&text=",
-      shareButton = document.querySelector(".share-button"),
-      truncationLength = 140 - (currentURLString.length + handleExtension.length) - 3,
+      // truncationLength = 140 - (currentURL.length + handleExtension.length) - 3,
+      truncationLength = 140 - (currentURL.length + handleExtension.length) - 3,
       truncatedQuote = blockQuote.substring(0, truncationLength);
 
   if(blockQuote.length < truncationLength){
@@ -17,4 +18,6 @@ function setTwitterLink(){
   }
 }
 
-shareButton.addEventListener("click", setTwitterLink);
+if(shareButton) {
+  shareButton.addEventListener("click", setTwitterLink);
+}

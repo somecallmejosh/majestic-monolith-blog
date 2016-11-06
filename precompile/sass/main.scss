@@ -8,6 +8,7 @@
 header,
 main,
 footer,
+.author,
 .cta {
   padding: 20px;
 }
@@ -39,10 +40,18 @@ h1 {
   }
 }
 
+.author,
+.cta {
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+}
+
+
+.author,
 .cta,
 footer nav a {
-  background-color: #f4f4f4;
-  border: darken(#f4f4f4, 10%) 1px solid;
+  border: darken(#f4f4f4, 5%) 1px solid;
+  border-radius: 3px;
 }
 
 footer  {
@@ -57,6 +66,7 @@ footer  {
 
   a {
     align-items: center;
+    background-color: lighten(#f4f4f4, 1%);
     display: flex;
     flex: 1 0 calc(50% - 5px);
     justify-content: center;
@@ -64,6 +74,10 @@ footer  {
     margin: 0 0 5px;
     max-width: calc(50% - 2px);
     padding: 0;
+    transition: all .2s ease-in-out;
 
+    &:hover {
+      background-color: #fff;
+    }
   }
 }
