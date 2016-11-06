@@ -2,10 +2,10 @@
 title = "HTML is Not a By-Product"
 date = "2016-10-30T21:03:11-04:00"
 tags = [
-  "html"
+  "HTML"
 ]
 categories = [
-  "opinion"
+  "Opinion"
 ]
 author = "jkb"
 

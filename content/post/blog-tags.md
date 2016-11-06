@@ -1,19 +1,19 @@
 +++
 tags = [
-  "audio",
-  "backend",
-  "business",
-  "css",
-  "code example",
-  "front end",
-  "golang",
-  "html",
-  "javascript",
-  "video",
+  "Audio",
+  "Backend",
+  "Business",
+  "CSS",
+  "Code Example",
+  "Front End",
+  "Golang",
+  "HTML",
+  "Javascript",
+  "Video",
   "Sass"
 ]
 categories = [
-  "guide"
+  "Guide"
 ]
 author = "jkb"
 title = "Blog types"

@@ -1,9 +1,4 @@
-// @import 'utilities/mixins';
-// @import 'base/config-variables';
-// @import 'base/colors';
-// @import 'base/typography';
 @import 'base/base';
-// @import 'layout/baseline';
 
 header,
 main,
@@ -52,6 +47,12 @@ h1 {
 footer nav a {
   border: darken(#f4f4f4, 5%) 1px solid;
   border-radius: 3px;
+}
+
+.card {
+  border-bottom: darken(#f4f4f4, 5%) 1px solid;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 footer  {

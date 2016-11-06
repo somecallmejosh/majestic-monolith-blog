@@ -1,13 +1,13 @@
 +++
 categories = [
-  "opinion"
+  "Opinion"
 ]
 author = "mtp"
 title = "CSS Sucks, When the Markup Sucks"
 date = "2016-10-30T21:09:20-04:00"
 tags = [
-  "html",
-  "css",
+  "HTML",
+  "CSS",
 ]
 
 +++

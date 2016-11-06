@@ -2,14 +2,14 @@
 title = "How Full Stack Are You?"
 date = "2016-10-30T21:12:30-04:00"
 tags = [
-  "html",
-  "css",
-  "javascript",
-  "golang"
+  "HTML",
+  "CSS",
+  "Javascript",
+  "Golang"
 ]
 categories = [
-  "opinion",
-  "problem-solving",
+  "Opinion",
+  "Problem Solving",
 ]
 author = "jkb"
 

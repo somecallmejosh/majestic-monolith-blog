@@ -1,13 +1,13 @@
 +++
 tags = [
-  "categories",
+  "Categories",
 ]
 categories = [
-  "guide",
-  "problem solving",
-  'before and after',
-  'debugging',
-  'opinion'
+  "Guide",
+  "Problem Solving",
+  'Before and After',
+  'Debugging',
+  'Opinion'
 ]
 author = "jkb"
 title = "Blog Categories"
