@@ -10,8 +10,22 @@
     <h2>Like what you just read?</h2>
     <p>Follow us on <a href="http://www.twitter.com/{{ .Site.Params.twitterName }}" target="_blank">Twitter.</p>
     <p>Sign up for our <a href="http://ikick.us7.list-manage.com/subscribe?u=8523d9263f5cc37057e16ab42&id=a0784e376f" target="_blank">newsletter</a>.</p>
+
+    <p>Similar posts:</p>
+    {{ $page_link := .Permalink }}
+    {{ $categories := .Params.categories }}
+    <ul>
+      {{ range $page := .Site.Pages }}
+        {{ $has_common_categories := intersect $categories .Params.categories | len | lt 0 }}
+        {{ if and $has_common_categories (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$c") 5)}}
+        {{ $.Scratch.Add "$c" 1 }}
+        <li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>
+        {{ end }}
+      {{ end }}
+    </ul>
+
   </div>
-  
+
   {{ partial "disqus" . }}
   {{ partial "authors" . }}
 </main>

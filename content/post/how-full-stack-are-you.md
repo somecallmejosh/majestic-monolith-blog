@@ -8,8 +8,7 @@ tags = [
   "Golang"
 ]
 categories = [
-  "Opinion",
-  "Problem Solving",
+  "Opinion"
 ]
 author = "jkb"
 
