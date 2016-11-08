@@ -2,61 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Majestic Monolith Blog</title>
-    <link>https://somecallmejosh.github.io/majestic-monolith-blog/index.xml</link>
+    <link>https://somecallmejosh.github.io/majestic-monolith-blog/authors/michael-peritore/index.xml</link>
     <description>Recent content on Majestic Monolith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Nov 2016 21:07:06 -0500</lastBuildDate>
-    <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>About</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/about/</link>
-      <pubDate>Mon, 07 Nov 2016 21:07:06 -0500</pubDate>
-      
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;about-majestic-monolith&#34;&gt;About Majestic Monolith&lt;/h2&gt;
-
-&lt;p&gt;The web industry seems to pride itself on complexity. But, Michael Peritore and Joshua Briley strive for simplicity. These guys have seen and developed overweight projects. They&amp;rsquo;ve used bulky libraries and frameworks. They&amp;rsquo;ve seen obscene amounts of money spent on hosting. &lt;em&gt;They&amp;rsquo;ve even seen 4 character HTML elements converted to 40 line React components&lt;/em&gt;. They&amp;rsquo;ve seen enough. They&amp;rsquo;ve had enough.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Majestic Monolith&lt;/strong&gt; is a &lt;em&gt;tongue-in-cheek&lt;/em&gt; reference to the mindset shared by Mike and Josh. They refer to all oversized and over-complicated projects as majestic monoliths. This blog aims to provide you with solutions that keep your web projects clean and simple. Kiss the unnecessary, monolithic web projects goodbye.&lt;/p&gt;
-
-&lt;h2 id=&#34;who-is-majestic-monolith&#34;&gt;Who is Majestic Monolith&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Michael Peritore&lt;/strong&gt; is the Lead Software Engineer for America&amp;rsquo;s Test Kitchen in Brookline, MA. He is an experienced Rails developer and enjoys architecting crazy simple backend solutions that wow the heck out of people. Follow Mike on &lt;a href=&#34;http://www.github.com/primalcodes&#34;&gt;Github&lt;/a&gt; and &lt;a href=&#34;http://twitter.com/MikePeritore&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Joshua Briley&lt;/strong&gt; is a Senior Software Engineer for America&amp;rsquo;s Test Kitchen in Brookline, MA. He focuses on front end architecture, performance and UI development. His tools of choice are HTML, Sass, and Javascript (when needed). Follow Josh on &lt;a href=&#34;http://www.github.com/somecallmejosh&#34;&gt;Github&lt;/a&gt; and &lt;a href=&#34;http://twitter.com/joshuabriley&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;the-goal&#34;&gt;The Goal&lt;/h2&gt;
-
-&lt;p&gt;Things don&amp;rsquo;t need to be so damned difficult in this industry. They don&amp;rsquo;t need to be fancy. &lt;strong&gt;They need to be fast and they need to make money&lt;/strong&gt;. The goal of Majestic Monolith is to teach you to plan, program and manage web projects.&lt;/p&gt;
-
-&lt;p&gt;Follow this blog to or signup for our &lt;strong&gt;&lt;a href=&#34;http://ikick.us7.list-manage.com/subscribe?u=8523d9263f5cc37057e16ab42&amp;id=a0784e376f&#34; target=&#34;_blank&#34;&gt;newsletter&lt;/a&gt;&lt;/strong&gt; to start learning.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How Full Stack Are You?</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/how-full-stack-are-you/</link>
-      <pubDate>Sun, 30 Oct 2016 21:12:30 -0400</pubDate>
-      
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/how-full-stack-are-you/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.15 will have 30%+ faster render times thanks to this commit &lt;a href=&#34;https://t.co/FfzhM8bNhT&#34;&gt;https://t.co/FfzhM8bNhT&lt;/a&gt;  &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://t.co/ITbMNU2BUf&#34;&gt;https://t.co/ITbMNU2BUf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Steve Francia (@spf13) &lt;a href=&#34;https://twitter.com/spf13/status/666616452582129664&#34;&gt;November 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-    </item>
+    <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/authors/michael-peritore/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CSS Sucks, When the Markup Sucks</title>
@@ -84,29 +33,6 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>HTML is Not a By-Product</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/html-is-not-a-by-product/</link>
-      <pubDate>Sun, 30 Oct 2016 21:03:11 -0400</pubDate>
-      
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/html-is-not-a-by-product/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a quote that will be shared on Twitter! Ain&amp;#39;t it grand? &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.&lt;/p&gt;
 </description>
     </item>
     
