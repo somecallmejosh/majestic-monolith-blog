@@ -2,7 +2,7 @@
 categories = [
   "Opinion"
 ]
-author = "mtp"
+authors = "Michael Peritore"
 title = "CSS Sucks, When the Markup Sucks"
 date = "2016-10-30T21:09:20-04:00"
 tags = [

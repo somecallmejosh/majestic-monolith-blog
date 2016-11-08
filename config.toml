@@ -9,3 +9,8 @@ DisqusShortname = "majestic-monolith"
   title = "Majestic Monolith Blog"
   twitterName = "MjesticMonolith"
   languageCode = "en-us"
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"

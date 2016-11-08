@@ -19,7 +19,7 @@ categories = [
   "Debugging",
   "Opinion"
 ]
-author = "mtp"
+authors = "Michael Peritore"
 title = "A Post For Mike"
 date = "2016-10-30T14:14:02-04:00"
 

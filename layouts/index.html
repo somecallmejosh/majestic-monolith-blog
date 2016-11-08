@@ -5,7 +5,7 @@
 		<div class="card">
 			<h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</a></h2>
 			<small>Category: {{ delimit .Params.categories ", " }}</small>
-			<small>Posted {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}</small>
+			<small>Posted {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.authors }}</small>
 			<small>Reading Time: {{.ReadingTime}}min</small>
 			<p>{{ printf "%s" .Summary | markdownify }}</p>
 		</div>

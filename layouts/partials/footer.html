@@ -1,6 +1,15 @@
 <footer>
   <div class="footer__meta">
     <aside>
+  		<h3>Authors</h3>
+  		<nav>
+  			{{ range $key, $value := .Site.Taxonomies.authors }}
+  				<a href="/authors/{{ $key}}">{{ $key | title }}</a>
+  			{{ end }}
+  		</nav>
+  	</aside>
+    
+    <aside>
   		<h3>Categories</h3>
   		<nav>
   			{{ range $key, $value := .Site.Taxonomies.categories }}

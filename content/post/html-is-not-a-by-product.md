@@ -7,7 +7,7 @@ tags = [
 categories = [
   "Opinion"
 ]
-author = "jkb"
+authors = "Joshua Briley"
 
 +++
 

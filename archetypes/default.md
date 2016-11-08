@@ -1,5 +1,5 @@
 +++
-author = ""
+authors = ""
 date = ""
 layout = ""
 title = ""

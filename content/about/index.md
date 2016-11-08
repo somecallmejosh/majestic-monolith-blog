@@ -9,7 +9,7 @@ layout = "page"
 
 The web industry seems to pride itself on complexity. But, Michael Peritore and Joshua Briley strive for simplicity. These guys have seen and developed overweight projects. They've used bulky libraries and frameworks. They've seen obscene amounts of money spent on hosting. *They've even seen 4 character HTML elements converted to 40 line React components*. They've seen enough. They've had enough.
 
-**Majestic Monolith** is a *tongue-in-cheek* reference to the mindset shared by Mike and Josh. The refer to all oversized and over-complicated projects as majestic monoliths. This blog aims to provide you with solutions that keep your web projects clean and simple. Kiss the unnecessary, monolithic web projects goodbye.
+**Majestic Monolith** is a *tongue-in-cheek* reference to the mindset shared by Mike and Josh. They refer to all oversized and over-complicated projects as majestic monoliths. This blog aims to provide you with solutions that keep your web projects clean and simple. Kiss the unnecessary, monolithic web projects goodbye.
 
 ## Who is Majestic Monolith
 
