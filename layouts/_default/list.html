@@ -1,5 +1,6 @@
 {{ partial "head" . }}
 <main role="main" class="main">
+  {{ partial "site_nav" . }}
   <h1 class="x-large">{{ .Title }} Posts</h1>
     {{ range .Data.Pages }}
       <div class="card">

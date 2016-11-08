@@ -1,5 +1,6 @@
 {{ partial "head" . }}
 <main role="main" class="main">
+	{{ partial "site_nav" . }}
 	{{ range where .Site.Pages "Section" "post" }}
 		<div class="card">
 			<h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</a></h2>

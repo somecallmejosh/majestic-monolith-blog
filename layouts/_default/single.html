@@ -1,6 +1,7 @@
 {{ partial "head" . }}
 
 <main role="main" class="main">
+  {{ partial "site_nav" . }}
   <h1 class="x-large">{{ .Title }}</h1>
   <small>Posted {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}</small>
   <small>Reading Time: {{.ReadingTime}}min</small>
