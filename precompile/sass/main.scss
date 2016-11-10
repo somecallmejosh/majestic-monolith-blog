@@ -1,4 +1,5 @@
 @import 'base/base';
+@import 'utilities/mixins';
 
 main,
 footer,
@@ -50,11 +51,6 @@ footer nav a {
   border-radius: 3px;
 }
 
-.card {
-  border-bottom: darken(#f4f4f4, 5%) 1px solid;
-  margin-bottom: 20px;
-  padding-bottom: 30px;
-}
 
 .comments {
   margin-bottom: 30px;
@@ -101,8 +97,72 @@ small {
   }
 }
 
-main,
-.footer__meta {
+.article-view {
   max-width: 768px;
   margin: 0 auto;
+}
+
+main,
+.footer__meta {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.responsive-img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+@include media-min(700px) {
+  .cards {
+    column-count: 2;
+  }
+}
+
+@include media-min(1000px) {
+  .cards {
+    column-count: 3;
+  }
+}
+
+@include media-min(1200px) {
+  main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.card {
+  background-color: #fff;
+  border: #f4f4f4 1px solid;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100%;
+
+  &__image {
+    overflow: hidden;
+  }
+
+  &__content {
+    overflow: auto;
+    padding: 20px;
+  }
+}
+
+.list {
+  align-items: center;
+  border: #f4f4f4 1px solid;
+  display: flex;
+  margin-bottom: 20px;
+
+  &__image {
+    flex: 1 0 200px;
+    max-width: 200px;
+  }
+
+  &__content {
+    float: auto;
+    padding: 0 20px;
+  }
 }

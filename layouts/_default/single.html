@@ -1,6 +1,27 @@
 {{ partial "head" . }}
-
-<main role="main" class="main">
+<div class="hero">
+  <img
+    class="responsive-img"
+    sizes="(max-width: 1400px) 100vw, 1400px"
+    srcset="
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_200.jpg 200w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_407.jpg 407w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_550.jpg 550w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_682.jpg 682w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_787.jpg 787w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_877.jpg 877w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_972.jpg 972w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_1046.jpg 1046w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_1120.jpg 1120w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_1194.jpg 1194w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_1266.jpg 1266w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_1332.jpg 1332w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_1394.jpg 1394w,
+    {{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_1400.jpg 1400w"
+    src="{{ .Site.BaseURL }}img/{{ .Params.lpimage}},w_1400.jpg"
+    alt="">
+</div>
+<main role="main" class="article-view">
   {{ partial "site_nav" . }}
   <h1 class="x-large">{{ .Title }}</h1>
   <small>Posted {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.authors }}</small>

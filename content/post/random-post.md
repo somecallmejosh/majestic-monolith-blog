@@ -19,11 +19,11 @@ categories = [
   "Debugging",
   "Opinion"
 ]
-authors = "Michael Peritore"
+authors = "Joshua Briley"
 lpimage = "half-dome/yosemite"
-title = "A Post For Mike"
+title = "A Random Post"
 date = "2016-10-30T14:14:02-04:00"
-snippet = "Obviously we can add more to the categories and tags as needed. This is just a starting point."
+snippet = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 +++
 
 In an effort to keep things organized, I've laid out this post for your stank ass.

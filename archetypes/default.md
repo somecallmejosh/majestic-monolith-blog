@@ -1,5 +1,6 @@
 +++
 authors = ""
+landingPageImage = ""
 date = ""
 layout = ""
 title = ""
