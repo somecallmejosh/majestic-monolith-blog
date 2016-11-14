@@ -20,8 +20,8 @@ categories = [
   "Opinion"
 ]
 authors = "Joshua Briley"
-lpimage = "half-dome/yosemite"
-title = "A Random Post"
+cloudinary = "v1467055854/stock-10_q2o0xk.jpg"
+title = "A Random Post About Nothing"
 date = "2016-10-30T14:14:02-04:00"
 snippet = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 +++

@@ -6,7 +6,7 @@ DisqusShortname = "majestic-monolith"
 [params]
   author = "Majestic Monolith"
   base = "majestic-monolith-blog"
-  title = "Majestic Monolith Blog"
+  title = "Majestic Monolith"
   twitterName = "MjesticMonolith"
   languageCode = "en-us"
 

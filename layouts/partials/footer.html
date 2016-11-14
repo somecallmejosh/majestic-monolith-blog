@@ -32,8 +32,9 @@
   <p class="copyright">© {{ .Site.Params.author}}. {{ $.Now.Format "2006" }}. All rights reserved.</p>
 </footer>
 </div>
-<script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
-<script src="{{ .Site.BaseURL }}js/main.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/main.min.js" defer></script>
+<script src="{{ .Site.BaseURL }}js/cloudinary/cloudinary.js" defer></script>
+<script type="text/javascript" src="https://platform.twitter.com/widgets.js" async></script>
 <script id="dsq-count-scr" src="//majestic-monolith.disqus.com/count.js" async></script>
 {{ template "_internal/google_analytics_async.html" . }}
 </body>

@@ -22,10 +22,15 @@ a {
 }
 
 header {
+  align-items: center;
+  display: flex;
   overflow: auto;
   padding: 0 20px;
   h1 {
     font-size: 120%;
+  }
+  nav {
+    margin-left: auto;
   }
 }
 
@@ -97,7 +102,9 @@ small {
   }
 }
 
-.article-view {
+.article-view,
+.list-view,
+.page-view {
   max-width: 768px;
   margin: 0 auto;
 }
@@ -157,12 +164,18 @@ main,
   margin-bottom: 20px;
 
   &__image {
-    flex: 1 0 200px;
-    max-width: 200px;
+    flex: 1 0 150px;
+    max-width: 150px;
   }
 
   &__content {
     float: auto;
     padding: 0 20px;
   }
+}
+
+.on-site {
+  height: 100vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }

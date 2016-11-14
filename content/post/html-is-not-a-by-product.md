@@ -8,7 +8,7 @@ categories = [
   "Opinion"
 ]
 authors = "Joshua Briley"
-lpimage = "half-dome/yosemite"
+cloudinary = "v1467055853/stock-7_ouwh6w.jpg"
 snippet = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et."
 +++
 

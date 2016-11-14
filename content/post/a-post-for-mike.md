@@ -20,7 +20,7 @@ categories = [
   "Opinion"
 ]
 authors = "Michael Peritore"
-lpimage = "half-dome/yosemite"
+cloudinary = "v1467055871/stock-5_rsbgn1.jpg"
 title = "A Post For Mike"
 date = "2016-10-30T14:14:02-04:00"
 snippet = "Obviously we can add more to the categories and tags as needed. This is just a starting point."
@@ -30,7 +30,7 @@ In an effort to keep things organized, I've laid out this post for your stank as
 
 # Front Matter Considerations
 
-When filling in the `author` attribute, use your initials `mtp`. My initials are `jkb`. This will ensure we are clearly attributed at the bottom of each post we write. Right now, this is clunky at best. I'm just using a static partial. If we want this to scale at some point, we'll want to convert this to some sort of JSON object for each author.
+When filling in the `author` attribute, use your full name `Michael Peritore`. This will ensure we are clearly attributed at the bottom of each post we write. Right now, this is clunky at best. I'm just using a static partial. If we want this to scale at some point, we'll want to convert this to some sort of JSON object for each author.
 
 ## Our Main categories will be:
 
@@ -63,6 +63,10 @@ Obviously we can add more to the categories and tags as needed. This is just a s
 **Right now, we should limit this to one pullquote per post.** My js is looking for the first `<blockquote>` on the page. I could refactor to loop through all blockquotes, but one seems sufficient.
 
 {{< twitterShareQuote "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." >}}
+
+
+## Images
+Will be saved at 1200x797 pixels.
 
 ## Here's How to add a Gist
 
