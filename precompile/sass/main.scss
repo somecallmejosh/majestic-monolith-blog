@@ -1,19 +1,8 @@
 @import 'base/base';
 @import 'utilities/mixins';
 
-body {
-  // Because of fixed header
-  padding-top: 50px;
-}
-
-main,
-footer {
+main {
   padding: 20px;
-}
-
-header,
-footer {
-  color: #fff;
 }
 
 a {
@@ -24,23 +13,37 @@ a {
   }
 }
 
+.button {
+  background-color: darken(#f4f4f4, 80%);
+  color: #fff;
+  display: inline-block;
+  font-size: 80%;
+  line-height: 30px;
+  padding: 0 10px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: darken(#f4f4f4, 75%);
+    text-decoration: none;
+  }
+}
+
 header {
   align-items: center;
   background-color: darken(#f4f4f4, 80%);
   box-shadow: 0 0 10px #000;
   display: flex;
   height: 50px;
-  overflow: auto;
   padding: 0 20px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 100;
 
   a:link,
   a:visited {
-    color: inherit;
+    color: #fff;
     text-decoration: none;
   }
 
@@ -76,7 +79,7 @@ header {
   background-color: darken(#f4f4f4, 60%);
   color: #fff;
   overflow: auto;
-  padding: 20px 40px;
+  padding: 20px;
 
   a {
     color: inherit;
@@ -104,6 +107,7 @@ header {
 footer  {
   background-color: darken(#f4f4f4, 75%);
   color: #fff;
+  padding: 20px 10px;
 
   h3 {
     margin-left: 10px;
@@ -111,8 +115,11 @@ footer  {
   }
 
   nav {
-    margin: 0 0 40px;
+    margin-bottom: 20px;
     padding: 0;
+    &:last-child {
+      margin-bottom: 40px;
+    }
   }
 
   a {
@@ -189,6 +196,14 @@ main,
   margin-bottom: 20px;
   width: 100%;
 
+  h2 a {
+    color: darken(#f4f4f4, 80%);
+
+    &:hover {
+      color: darken(#f4f4f4, 70%);
+    }
+  }
+
   &__image {
     overflow: hidden;
   }
@@ -196,6 +211,10 @@ main,
   &__content {
     overflow: auto;
     padding: 20px;
+  }
+
+  .button {
+    margin: 10px 0;
   }
 }
 
@@ -219,5 +238,7 @@ main,
 .on-site {
   height: 100vh;
   overflow-y: scroll;
+  padding-top: 50px;
+  position: relative;
   -webkit-overflow-scrolling: touch;
 }
