@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Majestic Monolith Blog</title>
+    <title>Majestic Monolith</title>
     <link>https://somecallmejosh.github.io/majestic-monolith-blog/tags/rails/index.xml</link>
-    <description>Recent content on Majestic Monolith Blog</description>
+    <description>Recent content on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
     <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/tags/rails/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,7 +19,7 @@
 
 &lt;h1 id=&#34;front-matter-considerations&#34;&gt;Front Matter Considerations&lt;/h1&gt;
 
-&lt;p&gt;When filling in the &lt;code&gt;author&lt;/code&gt; attribute, use your initials &lt;code&gt;mtp&lt;/code&gt;. My initials are &lt;code&gt;jkb&lt;/code&gt;. This will ensure we are clearly attributed at the bottom of each post we write. Right now, this is clunky at best. I&amp;rsquo;m just using a static partial. If we want this to scale at some point, we&amp;rsquo;ll want to convert this to some sort of JSON object for each author.&lt;/p&gt;
+&lt;p&gt;When filling in the &lt;code&gt;author&lt;/code&gt; attribute, use your full name &lt;code&gt;Michael Peritore&lt;/code&gt;. This will ensure we are clearly attributed at the bottom of each post we write. Right now, this is clunky at best. I&amp;rsquo;m just using a static partial. If we want this to scale at some point, we&amp;rsquo;ll want to convert this to some sort of JSON object for each author.&lt;/p&gt;
 
 &lt;h2 id=&#34;our-main-categories-will-be&#34;&gt;Our Main categories will be:&lt;/h2&gt;
 
@@ -60,6 +60,10 @@
 &lt;/blockquote&gt;
 
 
+&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
+
+&lt;p&gt;Will be saved at 1200x797 pixels.&lt;/p&gt;
+
 &lt;h2 id=&#34;here-s-how-to-add-a-gist&#34;&gt;Here&amp;rsquo;s How to add a Gist&lt;/h2&gt;
 
 &lt;p&gt;For code samples, we agreed that gists would be a reasonable solution for now.&lt;/p&gt;
@@ -96,7 +100,7 @@
     </item>
     
     <item>
-      <title>A Random Post</title>
+      <title>A Random Post About Nothing</title>
       <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/random-post/</link>
       <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
       

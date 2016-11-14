@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Majestic Monolith Blog</title>
+    <title>Majestic Monolith</title>
     <link>https://somecallmejosh.github.io/majestic-monolith-blog/authors/joshua-briley/index.xml</link>
-    <description>Recent content on Majestic Monolith Blog</description>
+    <description>Recent content on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
     <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/authors/joshua-briley/index.xml" rel="self" type="application/rss+xml" />
     
@@ -75,7 +75,7 @@
     </item>
     
     <item>
-      <title>A Random Post</title>
+      <title>A Random Post About Nothing</title>
       <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/random-post/</link>
       <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
       

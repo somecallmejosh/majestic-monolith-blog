@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About-rsses on Majestic Monolith Blog</title>
+    <title>About-rsses on Majestic Monolith</title>
     <link>https://somecallmejosh.github.io/majestic-monolith-blog/about/index.xml</link>
-    <description>Recent content in About-rsses on Majestic Monolith Blog</description>
+    <description>Recent content in About-rsses on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 07 Nov 2016 21:07:06 -0500</lastBuildDate>
     <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/about/index.xml" rel="self" type="application/rss+xml" />
