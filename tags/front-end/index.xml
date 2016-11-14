@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Majestic Monolith</title>
-    <link>http://majesticmonolith.com/tags/front-end/index.xml</link>
+    <link>/tags/front-end/index.xml</link>
     <description>Recent content on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://majesticmonolith.com/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hugo file minification and concatenization</title>
-      <link>http://majesticmonolith.com/post/hugo-file-minification-and-concatenization/</link>
+      <link>/post/hugo-file-minification-and-concatenization/</link>
       <pubDate>Mon, 14 Nov 2016 13:18:31 -0500</pubDate>
       
-      <guid>http://majesticmonolith.com/post/hugo-file-minification-and-concatenization/</guid>
+      <guid>/post/hugo-file-minification-and-concatenization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo Image Optimization</title>
-      <link>http://majesticmonolith.com/post/hugo-image-optimization/</link>
+      <link>/post/hugo-image-optimization/</link>
       <pubDate>Mon, 14 Nov 2016 13:17:47 -0500</pubDate>
       
-      <guid>http://majesticmonolith.com/post/hugo-image-optimization/</guid>
+      <guid>/post/hugo-image-optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>When should I use a web framework or library?</title>
-      <link>http://majesticmonolith.com/post/should-i-use-a-web-framework/</link>
+      <link>/post/should-i-use-a-web-framework/</link>
       <pubDate>Mon, 14 Nov 2016 13:17:26 -0500</pubDate>
       
-      <guid>http://majesticmonolith.com/post/should-i-use-a-web-framework/</guid>
+      <guid>/post/should-i-use-a-web-framework/</guid>
       <description></description>
     </item>
     

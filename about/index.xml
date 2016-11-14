@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About-rsses on Majestic Monolith</title>
-    <link>http://majesticmonolith.com/about/index.xml</link>
+    <link>/about/index.xml</link>
     <description>Recent content in About-rsses on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 07 Nov 2016 21:07:06 -0500</lastBuildDate>
-    <atom:link href="http://majesticmonolith.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>http://majesticmonolith.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 07 Nov 2016 21:07:06 -0500</pubDate>
       
-      <guid>http://majesticmonolith.com/about/</guid>
+      <guid>/about/</guid>
       <description>
 
 &lt;h2 id=&#34;about-majestic-monolith&#34;&gt;About Majestic Monolith&lt;/h2&gt;

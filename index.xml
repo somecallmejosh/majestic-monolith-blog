@@ -2,54 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Majestic Monolith</title>
-    <link>http://majesticmonolith.com/index.xml</link>
+    <link>/index.xml</link>
     <description>Recent content on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 14 Nov 2016 13:52:11 -0500</lastBuildDate>
-    <atom:link href="http://majesticmonolith.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Why Unsplash is Awesome</title>
-      <link>http://majesticmonolith.com/post/why-unsplash-is-awesome/</link>
+      <link>/post/why-unsplash-is-awesome/</link>
       <pubDate>Mon, 14 Nov 2016 13:52:11 -0500</pubDate>
       
-      <guid>http://majesticmonolith.com/post/why-unsplash-is-awesome/</guid>
-      <description></description>
+      <guid>/post/why-unsplash-is-awesome/</guid>
+      <description>&lt;p&gt;The internet is full of wonderful people sharing knowledge and resources. Creatives and developers alike figure out new challenges and share their findings. We can see this in action on Github, Dribbble, Behance, Twitter and other social sites on the web. One thing that is hard to find is beautiful and usable photography. You can poke around Flickr. You can look for Google Images. You may get lucky and find photographs that are free to us. You may be able to use them without restriction, or attribution. And, you may be able to use them for commercial products or services. No guarantees. Welcome to Unsplash!&lt;/p&gt;
+
+&lt;p&gt;Unsplash shares &lt;a href=&#34;https://unsplash.com/&#34;&gt;photos you can use online or in print.&lt;/a&gt;. Their pictures fall under the Creative Commons Zero license. This means you can do anything you like with the pictures you use. There are no commercial restrictions. You can slice them. You can dice them. Unsplash won&amp;rsquo;t even get mad if you put a Photoshop 7.0 lens flare filter on one of their pics. The sky is the limit.&lt;/p&gt;
+
+&lt;p&gt;But, are they nice pictures? In my opinion, the pictures available on Unsplash are brilliant, professional photographs. They are interesting and though provoking. They are a departure from the typical stock photo look and feel. I haven&amp;rsquo;t come across two business people shaking hands. I haven&amp;rsquo;t found that excited and well groomed customer service representative. The pictures feel more like real life. Or, at least a life we&amp;rsquo;d like to imagine as being real. Since they are all hi-resolution images you can use them on your website and printed materials.&lt;/p&gt;
+
+&lt;p&gt;As a developer, you have a couple of options. You can go to their website and search for a particular keyword. This yielded better than expected results for my searches. They offer a series of collections that may prove useful. Mileage may vary, depending on your topic. They also offer &lt;a href=&#34;https://unsplash.com/developers&#34;&gt;Javascript and PHP API&amp;rsquo;s&lt;/a&gt; for those who want to geek out.&lt;/p&gt;
+
+&lt;p&gt;I would like to thank you, Unsplash. Every image on this site is a representation of your offering. I appreciate your service and wish you the best of luck. Dear reader, I encourage you to head over to &lt;a href=&#34;https://unsplash.com/&#34;&gt;their website&lt;/a&gt; and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose. Please share your thoughts below, and be sure to tell your friends if you like what you see on their site.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Hugo file minification and concatenization</title>
-      <link>http://majesticmonolith.com/post/hugo-file-minification-and-concatenization/</link>
+      <link>/post/hugo-file-minification-and-concatenization/</link>
       <pubDate>Mon, 14 Nov 2016 13:18:31 -0500</pubDate>
       
-      <guid>http://majesticmonolith.com/post/hugo-file-minification-and-concatenization/</guid>
+      <guid>/post/hugo-file-minification-and-concatenization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo Image Optimization</title>
-      <link>http://majesticmonolith.com/post/hugo-image-optimization/</link>
+      <link>/post/hugo-image-optimization/</link>
       <pubDate>Mon, 14 Nov 2016 13:17:47 -0500</pubDate>
       
-      <guid>http://majesticmonolith.com/post/hugo-image-optimization/</guid>
+      <guid>/post/hugo-image-optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>When should I use a web framework or library?</title>
-      <link>http://majesticmonolith.com/post/should-i-use-a-web-framework/</link>
+      <link>/post/should-i-use-a-web-framework/</link>
       <pubDate>Mon, 14 Nov 2016 13:17:26 -0500</pubDate>
       
-      <guid>http://majesticmonolith.com/post/should-i-use-a-web-framework/</guid>
+      <guid>/post/should-i-use-a-web-framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://majesticmonolith.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 07 Nov 2016 21:07:06 -0500</pubDate>
       
-      <guid>http://majesticmonolith.com/about/</guid>
+      <guid>/about/</guid>
       <description>
 
 &lt;h2 id=&#34;about-majestic-monolith&#34;&gt;About Majestic Monolith&lt;/h2&gt;
@@ -74,10 +83,10 @@
     
     <item>
       <title>Full stack driving you crazy?</title>
-      <link>http://majesticmonolith.com/post/how-full-stack-are-you/</link>
+      <link>/post/how-full-stack-are-you/</link>
       <pubDate>Sun, 30 Oct 2016 21:12:30 -0400</pubDate>
       
-      <guid>http://majesticmonolith.com/post/how-full-stack-are-you/</guid>
+      <guid>/post/how-full-stack-are-you/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -97,10 +106,10 @@
     
     <item>
       <title>Having Issues With CSS?</title>
-      <link>http://majesticmonolith.com/post/css-sucks-when-the-markup-sucks/</link>
+      <link>/post/css-sucks-when-the-markup-sucks/</link>
       <pubDate>Sun, 30 Oct 2016 21:09:20 -0400</pubDate>
       
-      <guid>http://majesticmonolith.com/post/css-sucks-when-the-markup-sucks/</guid>
+      <guid>/post/css-sucks-when-the-markup-sucks/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 
@@ -127,10 +136,10 @@
     
     <item>
       <title>A Post For Mike</title>
-      <link>http://majesticmonolith.com/post/a-post-for-mike/</link>
+      <link>/post/a-post-for-mike/</link>
       <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
       
-      <guid>http://majesticmonolith.com/post/a-post-for-mike/</guid>
+      <guid>/post/a-post-for-mike/</guid>
       <description>
 
 &lt;p&gt;In an effort to keep things organized, I&amp;rsquo;ve laid out this post for your stank ass.&lt;/p&gt;

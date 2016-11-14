@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Majestic Monolith</title>
-    <link>http://majesticmonolith.com/tags/backend/index.xml</link>
+    <link>/tags/backend/index.xml</link>
     <description>Recent content on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://majesticmonolith.com/tags/backend/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/backend/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>When should I use a web framework or library?</title>
-      <link>http://majesticmonolith.com/post/should-i-use-a-web-framework/</link>
+      <link>/post/should-i-use-a-web-framework/</link>
       <pubDate>Mon, 14 Nov 2016 13:17:26 -0500</pubDate>
       
-      <guid>http://majesticmonolith.com/post/should-i-use-a-web-framework/</guid>
+      <guid>/post/should-i-use-a-web-framework/</guid>
       <description></description>
     </item>
     
