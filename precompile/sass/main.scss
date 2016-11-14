@@ -101,7 +101,7 @@ header {
 }
 
 .hero {
-  background-color: #ccc;
+  background-color: $gray-500;
   height: 0;
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -222,6 +222,14 @@ small {
   background-color: $gray-100;
 }
 
+.landing-view {
+  .card__image {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+  }
+}
+
 .article-view,
 .page-view {
   background-color: $white;
@@ -257,13 +265,21 @@ small {
 
 @include media-min(700px) {
   .cards {
-    column-count: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    flex: 1 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
   }
 }
 
 @include media-min(1000px) {
-  .cards {
-    column-count: 3;
+  .card {
+    flex: 1 0 calc(33.33333% - 10px);
+    max-width: calc(33.33333% - 10px);
   }
 }
 
@@ -290,6 +306,7 @@ small {
   }
 
   &__image {
+    background-color: $gray-500;
     overflow: hidden;
   }
 

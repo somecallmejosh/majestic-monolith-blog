@@ -1,18 +1,6 @@
 +++
 tags = [
-  "Audio",
-  "Backend",
-  "Business",
-  "CSS",
-  "Code Example",
-  "Front End",
-  "Golang",
-  "HTML",
-  "Javascript",
-  "Rails",
-  "Ruby",
-  "Video",
-  "Sass"
+  "Code Example"
 ]
 categories = [
   "Problem Solving",
