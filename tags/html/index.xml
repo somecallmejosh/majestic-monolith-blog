@@ -158,7 +158,21 @@
 
 &lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 
-&lt;p&gt;Will be saved at 1200x797 pixels.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re using Cloudinary again. In the front matter, save the directory and filename like this: &lt;code&gt;cloudinary = &amp;quot;v1479098109/workflow_ap2fh4.jpg&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;inline-images&#34;&gt;Inline Images&lt;/h3&gt;
+
+&lt;p&gt;Created a shortcode &lt;code&gt;cloudinaryResponsiveImage&lt;/code&gt; for these guys. Pass a string just like above.&lt;/p&gt;
+
+&lt;div class=&#34;image&#34;&gt;
+  &lt;img
+    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1464399447/screen-cap_calotu.jpg&#39;
+    src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1464399447/screen-cap_calotu.jpg&#39;
+    alt=&#34;An image of sorts&#34;
+    class=&#34;cld-responsive responsive-img&#34;
+  &gt;
+&lt;/div&gt;
+
 
 &lt;h2 id=&#34;here-s-how-to-add-a-gist&#34;&gt;Here&amp;rsquo;s How to add a Gist&lt;/h2&gt;
 
