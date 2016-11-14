@@ -31,6 +31,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^5.0.0",
     "gulp-gh-pages": "^0.5.4",
+    "gulp-htmlmin": "^3.0.0",
     "gulp-sass": "^2.3.2",
     "gulp-shell": "^0.5.2",
     "gulp-sourcemaps": "^2.2.0",

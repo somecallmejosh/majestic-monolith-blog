@@ -7,6 +7,7 @@ var gulp = require('gulp'),
   connect = require('gulp-connect'),
   del = require('del'),
   ghPages = require('gulp-gh-pages'),
+  htmlmin = require('gulp-htmlmin'),
   path  = require('path'),
   sass = require('gulp-sass'),
   shell = require('gulp-shell'),
@@ -27,6 +28,7 @@ gulp.task('build', function(){
     .pipe(shell('rm -rf public'))
     .pipe(shell('hugo'))
     .pipe(shell('cp CNAME public/CNAME'))
+    .pipe(shell('gulp minify-html'))
     .pipe(gulp.dest(paths.public));
 });
 
@@ -49,6 +51,16 @@ gulp.task('default', ['watch']);
 gulp.task('deploy', ['build'], function() {
   return gulp.src('./public/**/*')
     .pipe(ghPages());
+});
+
+gulp.task('minify-html', function(){
+  return gulp.src('public/**/*.html')
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      removeComments: true,
+      useShortDoctype: true
+    }))
+    .pipe(gulp.dest('./public'));
 });
 
 gulp.task('javascript', function(){
