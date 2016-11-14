@@ -1,16 +1,19 @@
 @import 'base/base';
 @import 'utilities/mixins';
 
+body {
+  // Because of fixed header
+  padding-top: 50px;
+}
+
 main,
-footer,
-.author,
-.cta {
+footer {
   padding: 20px;
 }
 
 header,
 footer {
-  background-color: #f4f4f4;
+  color: #fff;
 }
 
 a {
@@ -23,25 +26,34 @@ a {
 
 header {
   align-items: center;
+  background-color: darken(#f4f4f4, 80%);
+  box-shadow: 0 0 10px #000;
   display: flex;
+  height: 50px;
   overflow: auto;
   padding: 0 20px;
-  h1 {
-    font-size: 120%;
-  }
-  nav {
-    margin-left: auto;
-  }
-}
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 
-h1 {
   a:link,
   a:visited {
-    color: black;
+    color: inherit;
     text-decoration: none;
   }
-}
 
+  h1 {
+    font-size: 100%;
+    font-weight: normal;
+  }
+
+  nav {
+    margin-left: auto;
+    font-size: 75%;
+  }
+}
 
 .hero {
   background-color: #ccc;
@@ -60,18 +72,24 @@ h1 {
   }
 }
 
-.author,
 .cta {
-  background-color: #f4f4f4;
-  margin-bottom: 20px;
-}
+  background-color: darken(#f4f4f4, 60%);
+  color: #fff;
+  overflow: auto;
+  padding: 20px 40px;
 
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
 
-.author,
-.cta,
-footer nav a {
-  border: darken(#f4f4f4, 5%) 1px solid;
-  border-radius: 3px;
+  h2, h3 {
+    font-size: 110%;
+  }
+
+  p, li {
+    font-size: 80%;
+  }
 }
 
 
@@ -84,30 +102,36 @@ footer nav a {
 }
 
 footer  {
+  background-color: darken(#f4f4f4, 75%);
+  color: #fff;
+
+  h3 {
+    margin-left: 10px;
+    font-size: 110%;
+  }
+
   nav {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0;
+    margin: 0 0 40px;
     padding: 0;
   }
 
   a {
-    align-items: center;
-    background-color: lighten(#f4f4f4, 1%);
-    display: flex;
-    flex: 1 0 calc(50% - 5px);
-    justify-content: center;
-    height: 40px;
-    margin: 0 0 5px;
-    max-width: calc(50% - 2px);
-    padding: 0;
+    border-bottom: darken(#f4f4f4, 70%) 1px solid;
+    color: #fff;
+    display: block;
+    font-size: 80%;
+    line-height: 45px;
+    padding: 0 10px;
     transition: all .2s ease-in-out;
 
     &:hover {
-      background-color: #fff;
+      color: darken(#fff, 20%);
+      text-decoration: none;
     }
+  }
+
+  p {
+    font-size: 75%;
   }
 }
 
