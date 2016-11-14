@@ -1,15 +1,19 @@
 {{ partial "head" . }}
 <main role="main" class="list-view">
-  <h1 class="x-large">{{ .Title }} Posts</h1>
-    {{ range .Data.Pages }}
-      <div class="list">
-        <div class="list__image">
-          {{ partial "postImage" . }}
+  <div class="list-view__wrap">
+    <h1 class="x-large">{{ .Title }} Posts</h1>
+      {{ range .Data.Pages }}
+        <div class="list">
+          <div class="list__image">
+            <a href="{{ .Permalink }}" title="{{ .Title }}">
+              {{ partial "postImage" . }}
+            </a>
+          </div>
+        	<div class="list__content">
+            <p><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></p>
+        	</div>
         </div>
-      	<div class="list__content">
-          <p><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></p>
-      	</div>
-      </div>
-    {{ end }}
+      {{ end }}
+  </div>
 </main>
 {{ partial "footer" . }}

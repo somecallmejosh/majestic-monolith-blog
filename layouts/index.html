@@ -1,24 +1,24 @@
 {{ partial "head" . }}
-<main role="main" class="ladngin-view">
-	<div class="cards">
-		{{ range where .Site.Pages "Section" "post" }}
-			<div class="card">
-				<div class="card__image">
-					<a href="{{ .Permalink }}" title="{{ .Title }}">
-						{{ partial "postImage" . }}
-					</a>
+<main role="main" class="landing-view">
+	<div class="landing-view__wrap">
+		<div class="cards">
+			{{ range where .Site.Pages "Section" "post" }}
+				<div class="card">
+					<div class="card__image">
+						<a href="{{ .Permalink }}" title="{{ .Title }}">
+							{{ partial "postImage" . }}
+						</a>
+					</div>
+					<div class="card__content">
+						<small>Category: {{ delimit .Params.categories ", " }}</small>
+						<h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</a></h2>
+						<p>{{ .Params.snippet }}</p>
+						<a href="{{ .Permalink }}" class="button">Read Article</a>
+						<small>Reading Time: {{.ReadingTime}}min</small>
+					</div>
 				</div>
-				<div class="card__content">
-					<small>Category: {{ delimit .Params.categories ", " }}</small>
-					<h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</a></h2>
-					<p>{{ .Params.snippet }}</p>
-					<a href="{{ .Permalink }}" class="button">Read Article</a>
-					<small>Reading Time: {{.ReadingTime}}min</small>
-				</div>
-			</div>
-		{{ end }}
+			{{ end }}
+		</div>
 	</div>
-
-
 </main>
 {{ partial "footer" . }}
