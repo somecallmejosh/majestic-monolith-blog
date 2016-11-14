@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Majestic Monolith</title>
-    <link>https://somecallmejosh.github.io/majestic-monolith-blog/categories/debugging/index.xml</link>
+    <link>http://majesticmonolith.com/categories/debugging/index.xml</link>
     <description>Recent content on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/categories/debugging/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://majesticmonolith.com/categories/debugging/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Post For Mike</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/a-post-for-mike/</link>
+      <link>http://majesticmonolith.com/post/a-post-for-mike/</link>
       <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
       
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/a-post-for-mike/</guid>
+      <guid>http://majesticmonolith.com/post/a-post-for-mike/</guid>
       <description>
 
 &lt;p&gt;In an effort to keep things organized, I&amp;rsquo;ve laid out this post for your stank ass.&lt;/p&gt;

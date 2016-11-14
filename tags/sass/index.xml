@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Majestic Monolith</title>
-    <link>https://somecallmejosh.github.io/majestic-monolith-blog/tags/sass/index.xml</link>
+    <link>http://majesticmonolith.com/tags/sass/index.xml</link>
     <description>Recent content on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/tags/sass/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://majesticmonolith.com/tags/sass/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hugo file minification and concatenization</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/hugo-file-minification-and-concatenization/</link>
+      <link>http://majesticmonolith.com/post/hugo-file-minification-and-concatenization/</link>
       <pubDate>Mon, 14 Nov 2016 13:18:31 -0500</pubDate>
       
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/hugo-file-minification-and-concatenization/</guid>
+      <guid>http://majesticmonolith.com/post/hugo-file-minification-and-concatenization/</guid>
       <description></description>
     </item>
     

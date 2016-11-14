@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Majestic Monolith</title>
-    <link>https://somecallmejosh.github.io/majestic-monolith-blog/categories/opinion/index.xml</link>
+    <link>http://majesticmonolith.com/categories/opinion/index.xml</link>
     <description>Recent content on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://majesticmonolith.com/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Why Unsplash is Awesome</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/why-unsplash-is-awesome/</link>
+      <link>http://majesticmonolith.com/post/why-unsplash-is-awesome/</link>
       <pubDate>Mon, 14 Nov 2016 13:52:11 -0500</pubDate>
       
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/why-unsplash-is-awesome/</guid>
+      <guid>http://majesticmonolith.com/post/why-unsplash-is-awesome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>When should I use a web framework or library?</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/should-i-use-a-web-framework/</link>
+      <link>http://majesticmonolith.com/post/should-i-use-a-web-framework/</link>
       <pubDate>Mon, 14 Nov 2016 13:17:26 -0500</pubDate>
       
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/should-i-use-a-web-framework/</guid>
+      <guid>http://majesticmonolith.com/post/should-i-use-a-web-framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Full stack driving you crazy?</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/how-full-stack-are-you/</link>
+      <link>http://majesticmonolith.com/post/how-full-stack-are-you/</link>
       <pubDate>Sun, 30 Oct 2016 21:12:30 -0400</pubDate>
       
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/how-full-stack-are-you/</guid>
+      <guid>http://majesticmonolith.com/post/how-full-stack-are-you/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -50,10 +50,10 @@
     
     <item>
       <title>Having Issues With CSS?</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/css-sucks-when-the-markup-sucks/</link>
+      <link>http://majesticmonolith.com/post/css-sucks-when-the-markup-sucks/</link>
       <pubDate>Sun, 30 Oct 2016 21:09:20 -0400</pubDate>
       
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/css-sucks-when-the-markup-sucks/</guid>
+      <guid>http://majesticmonolith.com/post/css-sucks-when-the-markup-sucks/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 
@@ -80,10 +80,10 @@
     
     <item>
       <title>A Post For Mike</title>
-      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/a-post-for-mike/</link>
+      <link>http://majesticmonolith.com/post/a-post-for-mike/</link>
       <pubDate>Sun, 30 Oct 2016 14:14:02 -0400</pubDate>
       
-      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/a-post-for-mike/</guid>
+      <guid>http://majesticmonolith.com/post/a-post-for-mike/</guid>
       <description>
 
 &lt;p&gt;In an effort to keep things organized, I&amp;rsquo;ve laid out this post for your stank ass.&lt;/p&gt;
