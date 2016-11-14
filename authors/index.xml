@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Majestic Monolith</title>
+    <link>https://somecallmejosh.github.io/majestic-monolith-blog/authors/index.xml</link>
+    <description>Recent content on Majestic Monolith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="https://somecallmejosh.github.io/majestic-monolith-blog/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo Image Optimization</title>
+      <link>https://somecallmejosh.github.io/majestic-monolith-blog/post/hugo-image-optimization/</link>
+      <pubDate>Mon, 14 Nov 2016 13:17:47 -0500</pubDate>
+      
+      <guid>https://somecallmejosh.github.io/majestic-monolith-blog/post/hugo-image-optimization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

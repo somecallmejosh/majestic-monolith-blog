@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>A Post For Mike - Majestic Monolith</title>
+  <title>When should I use a web framework or library? - Majestic Monolith</title>
   <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
-  <link rel="canonical" href="https://somecallmejosh.github.io/majestic-monolith-blog/post/a-post-for-mike/">
+  <link rel="canonical" href="https://somecallmejosh.github.io/majestic-monolith-blog/post/should-i-use-a-web-framework/">
   <link rel="stylesheet" href="https://somecallmejosh.github.io/majestic-monolith-blog/css/main.css">
 </head>
 <body>
@@ -18,115 +18,17 @@
 
 <div class="hero">
   <img
-  data-src='https://res.cloudinary.com/dwjulenau/image/upload/c_fill,g_face,dpr_auto,q_auto,w_auto/v1479098109/workflow_ap2fh4.jpg'
+  data-src='https://res.cloudinary.com/dwjulenau/image/upload/c_fill,g_face,dpr_auto,q_auto,w_auto/v1479147569/web-framework.jpg'
   alt="An image of sorts"
   class="cld-responsive responsive-img"
 >
 
 </div>
 <main role="main" class="article-view">
-  <h1 class="x-large">A Post For Mike</h1>
-  <small>Posted Oct 30, 2016 by Michael Peritore</small>
-  <small>Reading Time: 3min</small>
+  <h1 class="x-large">When should I use a web framework or library?</h1>
+  <small>Posted Nov 14, 2016 by Michael Peritore</small>
+  <small>Reading Time: 0min</small>
   
-
-<p>In an effort to keep things organized, I&rsquo;ve laid out this post for your stank ass.</p>
-
-<h1 id="front-matter-considerations">Front Matter Considerations</h1>
-
-<p>When filling in the <code>author</code> attribute, use your full name <code>Michael Peritore</code>. This will ensure we are clearly attributed at the bottom of each post we write. Right now, this is clunky at best. I&rsquo;m just using a static partial. If we want this to scale at some point, we&rsquo;ll want to convert this to some sort of JSON object for each author.</p>
-
-<h2 id="our-main-categories-will-be">Our Main categories will be:</h2>
-
-<ul>
-<li>Before and After</li>
-<li>Debugging</li>
-<li>Problem Solving</li>
-<li>Guide or How To</li>
-<li>Opinion</li>
-</ul>
-
-<h2 id="our-main-tags-will-be">Our Main tags will be:</h2>
-
-<ul>
-<li>Audio</li>
-<li>Backend</li>
-<li>Business</li>
-<li>CSS</li>
-<li>Code Example</li>
-<li>Front End</li>
-<li>Golang</li>
-<li>HTML</li>
-<li>Javascript</li>
-<li>Rails</li>
-<li>Ruby</li>
-<li>Video</li>
-<li>Sass</li>
-</ul>
-
-<p>Obviously we can add more to the categories and tags as needed. This is just a starting point. In the footer, you can see that each tag and category has it&rsquo;s own landing page you can link to.</p>
-
-<h2 id="here-s-how-to-add-a-quote-that-can-be-shared-on-twitter">Here&rsquo;s how to add a quote that can be shared on Twitter</h2>
-
-<p><strong>Right now, we should limit this to one pullquote per post.</strong> My js is looking for the first <code>&lt;blockquote&gt;</code> on the page. I could refactor to loop through all blockquotes, but one seems sufficient.</p>
-
-<blockquote>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <a href="https://twitter.com/intent/tweet?text=" class="share-button">Share on Twitter</a>
-</blockquote>
-
-
-<h2 id="images">Images</h2>
-
-<p>We&rsquo;re using Cloudinary again. In the front matter, save the directory and filename like this: <code>cloudinary = &quot;v1479098109/workflow_ap2fh4.jpg&quot;</code></p>
-
-<h3 id="inline-images">Inline Images</h3>
-
-<p>Created a shortcode <code>cloudinaryResponsiveImage</code> for these guys. Pass a string just like above.</p>
-
-<div class="image">
-  <img
-    data-src='https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1464399447/screen-cap_calotu.jpg'
-    src='https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1464399447/screen-cap_calotu.jpg'
-    alt="An image of sorts"
-    class="cld-responsive responsive-img"
-  >
-</div>
-
-
-<h2 id="here-s-how-to-add-a-gist">Here&rsquo;s How to add a Gist</h2>
-
-<p>For code samples, we agreed that gists would be a reasonable solution for now.</p>
-
-<script src="//gist.github.com/somecallmejosh/a0d9b419a8989213b783.js"></script>
-
-<h2 id="here-s-how-to-embed-a-tweet">Here&rsquo;s how to embed a Tweet</h2>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hugo 0.15 will have 30%+ faster render times thanks to this commit <a href="https://t.co/FfzhM8bNhT">https://t.co/FfzhM8bNhT</a>  <a href="https://twitter.com/hashtag/gohugo?src=hash">#gohugo</a> <a href="https://twitter.com/hashtag/golang?src=hash">#golang</a> <a href="https://t.co/ITbMNU2BUf">https://t.co/ITbMNU2BUf</a></p>&mdash; Steve Francia (@spf13) <a href="https://twitter.com/spf13/status/666616452582129664">November 17, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<h2 id="here-s-how-to-add-a-youtube-video">Here&rsquo;s how to add a Youtube Video</h2>
-
-<p>This has responsive goodness already baked in, so no need to worry about adding any sort of &lsquo;is-responsive&rsquo; classes.</p>
-
-
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
-
-<h2 id="like-what-you-just-read">Like What You Just Read?</h2>
-
-<p>The following stuff is auto generated from the <code>single.html</code> file. The <strong>similar posts</strong> section is based on <strong>front matter category</strong> but could be expanded to include posts with similar <strong>front matter tags</strong> if we want.</p>
-
-<p>Also, I will add SVG&rsquo;s to the newsletter and twitter links at some point in the near future.</p>
-
-<h2 id="joining-the-discussion-below-the-like-what-you-just-read-section">Joining the discussion (Below the &lsquo;Like what you just read?&rsquo; section)</h2>
-
-<p>This is a partial that is included in every post. It&rsquo;s part of the <code>single.html</code> file, too. Nothing really special going on, other than the fact that you will not see this in your local dev environment. The nice folks at Hugo recommend keeping the discussion out of local for the following reason:</p>
-
-<p><em>Don&rsquo;t ever inject Disqus on localhost&ndash;it creates unwanted discussions from &lsquo;localhost:1313&rsquo; on your Disqus account</em></p>
-
   <h2>Join the discussion</h2>
 <small>Please be courteous and professional in your comments.</small>
 <div class="comments" id="disqus_thread"></div>
@@ -174,9 +76,6 @@
         
           
           
-          
-          <li><a href="https://somecallmejosh.github.io/majestic-monolith-blog/post/should-i-use-a-web-framework/">When should I use a web framework or library?</a></li>
-          
         
           
           
@@ -194,6 +93,9 @@
           
         
           
+          
+          
+          <li><a href="https://somecallmejosh.github.io/majestic-monolith-blog/post/a-post-for-mike/">A Post For Mike</a></li>
           
         
       </ul>
