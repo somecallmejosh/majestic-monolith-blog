@@ -27,8 +27,27 @@ small {
 blockquote {
   border-left: $gray-200 5px solid;
   font-style: italic;
+  margin: 40px;
+  overflow: hidden;
   padding: 5px 0 5px 20px;
-  margin-left: 0;
+
+  .share-button {
+    color: $white;
+    cursor: pointer;
+    background-color: $accent-color;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80%;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: darken($accent-color, 10%);
+    }
+  }
 }
 
 .button {
@@ -99,13 +118,20 @@ header {
 }
 
 .cta {
-  background-color: $gray-200;
+  background-color: $gray-50;
+  border-top: $gray-100 1px solid;
   color: $primary-text-color;
   overflow: auto;
 
   a {
-    color: inherit;
+
+    color: $accent-color;
     text-decoration: underline;
+
+    &:hover {
+      color: $primary-text-color;
+      text-decoration: none;
+    }
   }
 
   h2, h3 {
@@ -295,6 +321,23 @@ small {
   }
 }
 
+
+.author {
+  align-items: flex-start;
+  display: flex;
+
+  &__content {
+    flex: auto;
+    padding: 0 0 0 20px;
+  }
+
+  &__image {
+    cursor: pointer;
+    flex: 1 0 100px;
+    padding-top: 24px;
+    max-width: 100px;
+  }
+}
 .on-site {
   height: 100vh;
   overflow-y: scroll;
