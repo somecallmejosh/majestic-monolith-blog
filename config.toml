@@ -1,4 +1,4 @@
-baseurl = "http://majesticmonolith.com//"
+baseurl = "/"
 canonifyurls = true
 googleAnalytics = "UA-86559799-1"
 DisqusShortname = "majestic-monolith"

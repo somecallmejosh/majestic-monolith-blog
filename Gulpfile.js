@@ -5,13 +5,10 @@ var gulp = require('gulp'),
   babel = require('gulp-babel'),
   concat = require('gulp-concat'),
   connect = require('gulp-connect'),
-  del = require('del'),
   ghPages = require('gulp-gh-pages'),
   htmlmin = require('gulp-htmlmin'),
-  path  = require('path'),
   sass = require('gulp-sass'),
   shell = require('gulp-shell'),
-  maps = require('gulp-sourcemaps'),
   uglify = require('gulp-uglify');
 
 var paths = {
@@ -53,24 +50,6 @@ gulp.task('deploy', ['build'], function() {
     .pipe(ghPages());
 });
 
-gulp.task('minify-html', function(){
-  return gulp.src('public/**/*.html')
-    .pipe(htmlmin({
-      collapseWhitespace: true,
-      removeComments: true,
-      useShortDoctype: true
-    }))
-    .pipe(gulp.dest('./public'));
-});
-
-gulp.task('javascript', function(){
-  return gulp.src(paths.jsPre)
-    .pipe(concat('main.min.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest(paths.js))
-    .pipe(connect.reload());
-});
-
 gulp.task('javascript', ['cloudinary'], function(){
   return gulp.src(
     [
@@ -84,6 +63,16 @@ gulp.task('javascript', ['cloudinary'], function(){
     .pipe(uglify())
     .pipe(gulp.dest(paths.js))
     .pipe(connect.reload());
+});
+
+gulp.task('minify-html', function(){
+  return gulp.src('public/**/*.html')
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      removeComments: true,
+      useShortDoctype: true
+    }))
+    .pipe(gulp.dest('./public'));
 });
 
 gulp.task('watch', function() {

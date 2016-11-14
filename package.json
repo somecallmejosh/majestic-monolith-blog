@@ -23,8 +23,6 @@
   "homepage": "https://github.com/somecallmejosh/majestic-monolith-blog#readme",
   "devDependencies": {
     "babel-preset-es2015": "^6.18.0",
-    "cloudinary-core": "^2.1.6",
-    "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-babel": "^6.1.2",
@@ -32,9 +30,9 @@
     "gulp-connect": "^5.0.0",
     "gulp-gh-pages": "^0.5.4",
     "gulp-htmlmin": "^3.0.0",
+    "gulp-inline-source": "^3.0.0",
     "gulp-sass": "^2.3.2",
     "gulp-shell": "^0.5.2",
-    "gulp-sourcemaps": "^2.2.0",
     "gulp-uglify": "^2.0.0",
     "jquery": "^3.1.1"
   }
