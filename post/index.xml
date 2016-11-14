@@ -17,7 +17,8 @@
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.&lt;/p&gt;
+  &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;
 &lt;/blockquote&gt;
 
 
@@ -39,7 +40,8 @@
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.&lt;/p&gt;
+  &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;
 &lt;/blockquote&gt;
 
 
@@ -69,7 +71,8 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.&lt;/p&gt;
+  &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;
 &lt;/blockquote&gt;
 
 
@@ -90,7 +93,8 @@
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;This is a quote that will be shared on Twitter! Ain&amp;#39;t it grand? &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;This is a quote that will be shared on Twitter! Ain&amp;#39;t it grand?&lt;/p&gt;
+  &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;
 &lt;/blockquote&gt;
 
 
@@ -153,7 +157,8 @@
 &lt;p&gt;&lt;strong&gt;Right now, we should limit this to one pullquote per post.&lt;/strong&gt; My js is looking for the first &lt;code&gt;&amp;lt;blockquote&amp;gt;&lt;/code&gt; on the page. I could refactor to loop through all blockquotes, but one seems sufficient.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+  &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;
 &lt;/blockquote&gt;
 
 
@@ -259,7 +264,8 @@
 &lt;p&gt;&lt;strong&gt;Right now, we should limit this to one pullquote per post.&lt;/strong&gt; My js is looking for the first &lt;code&gt;&amp;lt;blockquote&amp;gt;&lt;/code&gt; on the page. I could refactor to loop through all blockquotes, but one seems sufficient.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+  &lt;a href=&#34;https://twitter.com/intent/tweet?text=&#34; class=&#34;share-button&#34;&gt;Share on Twitter&lt;/a&gt;
 &lt;/blockquote&gt;
 
 
