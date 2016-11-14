@@ -22,7 +22,13 @@ var paths = {
   public: 'public'
 };
 
-gulp.task('build', ['clean'], shell.task('hugo'));
+gulp.task('build', function(){
+  return  gulp.src('CNAME')
+    .pipe(shell('rm -rf public'))
+    .pipe(shell('hugo'))
+    .pipe(shell('cp CNAME public/CNAME'))
+    .pipe(gulp.dest(paths.public));
+});
 
 gulp.task('css', function() {
   return gulp.src(paths.sass)
@@ -31,8 +37,6 @@ gulp.task('css', function() {
     .pipe(gulp.dest(paths.css))
     .pipe(connect.reload());
 });
-
-gulp.task('clean', shell.task('rm -rf public'));
 
 gulp.task('cloudinary', function(){
   return gulp.src('precompile/js/cloudinary/cloudinary.js')
