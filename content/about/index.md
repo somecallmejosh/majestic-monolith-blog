@@ -3,7 +3,7 @@ author = ""
 title = "About"
 date = "2016-11-07T21:07:06-05:00"
 layout = "page"
-lpimage = "half-dome/yosemite"
+cloudinary = "v1479098102/devices_cjgdju.jpg"
 +++
 
 ## About Majestic Monolith

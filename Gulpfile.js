@@ -34,6 +34,12 @@ gulp.task('css', function() {
 
 gulp.task('clean', shell.task('rm -rf public'));
 
+gulp.task('cloudinary', function(){
+  return gulp.src('precompile/js/cloudinary/cloudinary.js')
+    .pipe(uglify())
+    .pipe(gulp.dest(paths.js));
+});
+
 gulp.task('default', ['watch']);
 
 gulp.task('deploy', ['build'], function() {
@@ -49,7 +55,7 @@ gulp.task('javascript', function(){
     .pipe(connect.reload());
 });
 
-gulp.task('javascript', function(){
+gulp.task('javascript', ['cloudinary'], function(){
   return gulp.src(
     [
       'node_modules/jquery/dist/jquery.js',

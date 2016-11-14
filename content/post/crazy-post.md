@@ -11,7 +11,7 @@ categories = [
   "Opinion"
 ]
 authors = "Joshua Briley"
-cloudinary = "v1467055862/fog.jpg"
+cloudinary = "v1479098102/devices_cjgdju.jpg"
 snippet = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 +++
 

@@ -20,7 +20,7 @@ categories = [
   "Opinion"
 ]
 authors = "Michael Peritore"
-cloudinary = "v1467055871/stock-5_rsbgn1.jpg"
+cloudinary = "v1479098109/workflow_ap2fh4.jpg"
 title = "A Post For Mike"
 date = "2016-10-30T14:14:02-04:00"
 snippet = "Obviously we can add more to the categories and tags as needed. This is just a starting point."
@@ -66,7 +66,13 @@ Obviously we can add more to the categories and tags as needed. This is just a s
 
 
 ## Images
-Will be saved at 1200x797 pixels.
+We're using Cloudinary again. In the front matter, save the directory and filename like this: `cloudinary = "v1479098109/workflow_ap2fh4.jpg"`
+
+### Inline Images
+
+Created a shortcode `cloudinaryResponsiveImage` for these guys. Pass a string just like above.
+
+{{< cloudinaryResponsiveImage "v1464399447/screen-cap_calotu.jpg" >}}
 
 ## Here's How to add a Gist
 

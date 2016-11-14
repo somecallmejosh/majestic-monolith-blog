@@ -3,7 +3,7 @@ categories = [
   "Opinion"
 ]
 authors = "Michael Peritore"
-cloudinary = "v1467055857/stock-2_mvdgpt.jpg"
+cloudinary = "v1479098104/screen_crdinz.jpg"
 title = "CSS Sucks, When the Markup Sucks"
 date = "2016-10-30T21:09:20-04:00"
 tags = [
