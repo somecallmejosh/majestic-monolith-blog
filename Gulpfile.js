@@ -2,7 +2,6 @@
 
 var gulp = require('gulp'),
   autoprefixer = require('gulp-autoprefixer'),
-  babel = require('gulp-babel'),
   concat = require('gulp-concat'),
   connect = require('gulp-connect'),
   ghPages = require('gulp-gh-pages'),
@@ -38,7 +37,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('cloudinary', function(){
-  return gulp.src('precompile/js/cloudinary/cloudinary.js')
+  return gulp.src('precompile/js/vendor/cloudinary.js')
     .pipe(uglify())
     .pipe(gulp.dest(paths.js));
 });
@@ -54,12 +53,10 @@ gulp.task('javascript', ['cloudinary'], function(){
   return gulp.src(
     [
       'node_modules/jquery/dist/jquery.js',
+      'precompile/js/vendor/disqus.js',
       paths.jsPreProject
     ])
     .pipe(concat('main.min.js'))
-    .pipe(babel({
-      presets: ['es2015']
-    }))
     .pipe(uglify())
     .pipe(gulp.dest(paths.js))
     .pipe(connect.reload());
