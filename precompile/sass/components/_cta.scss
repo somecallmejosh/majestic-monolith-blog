@@ -23,6 +23,22 @@
     color: $primary-text-color;
   }
 
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    border-bottom: $gray-300 1px solid;
+    padding: 8px 5px;
+
+    a {
+      display: block;
+      text-decoration: none;
+    }
+  }
+
   &__wrap {
     padding: 20px;
   }
@@ -34,6 +50,10 @@
 
     &__content {
       flex: 1;
+
+      ul {
+        max-width: 80%;
+      }
     }
   }
 }
