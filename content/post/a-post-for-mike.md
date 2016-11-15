@@ -9,7 +9,7 @@ categories = [
 ]
 authors = "Michael Peritore"
 cloudinary = "v1479098109/workflow_ap2fh4.jpg"
-draft = true
+draft = false
 title = "A Post For Mike"
 date = "2016-10-30T14:14:02-04:00"
 snippet = "Obviously we can add more to the categories and tags as needed. This is just a starting point."
@@ -63,11 +63,44 @@ Created a shortcode `cloudinaryResponsiveImage` for these guys. Pass a string ju
 
 {{< cloudinaryResponsiveImage "v1464399447/screen-cap_calotu.jpg" >}}
 
-## Here's How to add a Gist
+## Adding Code Snippets
 
-For code samples, we agreed that gists would be a reasonable solution for now.
+For code samples, we are using Pygments:
 
-{{< gist somecallmejosh a0d9b419a8989213b783 >}}
+Here's an HTML Snippet:
+
+{{< highlight html >}}
+<section id="main">
+  <div>
+    <h1 id="title">{{ .Title }}</h1>
+    {{ range .Data.Pages }}
+      {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</section>
+{{< /highlight >}}
+
+
+Here's a Ruby Snippet:
+
+{{< highlight ruby >}}
+items = [ 'Mark', 12, 'goobers', 18.45 ]
+for it in items
+    print it, " "
+end
+print "\n"
+{{< /highlight >}}
+
+Here's a Javascript Snippet:
+
+{{< highlight Javascript >}}
+var someVar = document.getElementsById('myVar');
+if(someVar) {
+  for(var i = 0; i < someVar.length; i++) {
+    someVar.innerHTML = "Some Thing";
+  }
+}
+{{< /highlight >}}
 
 ## Here's how to embed a Tweet
 
