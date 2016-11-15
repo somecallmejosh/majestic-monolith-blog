@@ -81,21 +81,37 @@ header {
   }
 
   h1 {
+    color: $white;
     font-size: 105%;
     font-weight: normal;
-    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .logo {
+    align-items: center;
+    display: flex;
+    height: 60px;
   }
 
   nav {
+    align-items: center;
+    display: flex;
+    height: 60px;
     margin-left: auto;
     font-size: 90%;
+
+    a {
+      line-height: 60px;
+      padding: 0 10px;
+    }
   }
 
   svg {
-    display: inline-block;
     fill: $white;
     height: 20px;
-    vertical-align: text-bottom;
+    margin-right: 5px;
   }
 }
 
