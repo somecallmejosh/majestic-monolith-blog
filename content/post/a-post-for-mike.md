@@ -108,7 +108,7 @@ print "\n"
 
 ### Here's a Javascript Snippet:
 
-{{< highlight Javascript >}}
+{{< highlight javascript >}}
 var person = {
   firstName : "John",
   lastName  : "Doe",
