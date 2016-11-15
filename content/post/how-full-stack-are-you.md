@@ -11,6 +11,7 @@ categories = [
   "Opinion"
 ]
 authors = "Joshua Briley"
+draft = true
 cloudinary = "v1479148941/full-stack-dude_fbm9kl.jpg"
 snippet = "Browser compatability, routing, security, database perf, accessibility, responsive images, fonts... Too much, right?"
 +++

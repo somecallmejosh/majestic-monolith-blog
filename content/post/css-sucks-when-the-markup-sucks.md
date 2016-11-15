@@ -4,6 +4,7 @@ categories = [
 ]
 authors = "Joshua Briley"
 cloudinary = "v1479149263/css-web.jpg"
+draft = true
 title = "Having Issues With CSS?"
 date = "2016-10-30T21:09:20-04:00"
 tags = [

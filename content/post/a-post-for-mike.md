@@ -9,6 +9,7 @@ categories = [
 ]
 authors = "Michael Peritore"
 cloudinary = "v1479098109/workflow_ap2fh4.jpg"
+draft = true
 title = "A Post For Mike"
 date = "2016-10-30T14:14:02-04:00"
 snippet = "Obviously we can add more to the categories and tags as needed. This is just a starting point."
