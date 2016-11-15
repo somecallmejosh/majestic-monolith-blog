@@ -4,7 +4,7 @@
   		<h3>Authors</h3>
   		<nav>
   			{{ range $key, $value := .Site.Taxonomies.authors }}
-  				<a href="/authors/{{ $key}}">{{ $key | title }}</a>
+          <a href="/authors/{{ $key}}">{{ replace $key "-" " " | title }}</a>
   			{{ end }}
   		</nav>
   	</aside>
@@ -13,7 +13,7 @@
   		<h3>Categories</h3>
   		<nav>
   			{{ range $key, $value := .Site.Taxonomies.categories }}
-  				<a href="/categories/{{ $key}}">{{ $key | title }}</a>
+  				<a href="/categories/{{ $key}}">{{ replace $key "-" " " | title }}</a>
   			{{ end }}
   		</nav>
   	</aside>
@@ -22,8 +22,7 @@
   		<h3>Tags</h3>
   		<nav>
   			{{ range $key, $value := .Site.Taxonomies.tags }}
-          <!--  This is a temporary fix -->
-  				<a href="/tags/{{ $key}}">{{ $key | title }}</a>
+          <a href="/tags/{{ $key}}">{{ replace $key "-" " " | title }}</a>
   			{{ end }}
   		</nav>
   	</aside>

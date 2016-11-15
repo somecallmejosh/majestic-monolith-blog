@@ -14,3 +14,5 @@ tags = [
 ]
 
 +++
+
+Reference this study: https://github.com/somecallmejosh/google-font-tests
