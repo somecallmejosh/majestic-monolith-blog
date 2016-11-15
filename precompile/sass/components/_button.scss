@@ -1,0 +1,15 @@
+.button {
+  background-color: $accent-color;
+  color: $primary-color-text;
+  display: inline-block;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0 10px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: darken($accent-color, 10%);
+    text-decoration: none;
+  }
+}

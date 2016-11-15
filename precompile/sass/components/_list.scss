@@ -1,0 +1,32 @@
+.list {
+  align-items: center;
+  background-color: $white;
+  display: flex;
+  margin-bottom: 20px;
+
+  &__image {
+    flex: 1 0 150px;
+    min-height: 100px;
+    max-width: 150px;
+    a {
+      background-color: $gray-100;
+      height: 0;
+      overflow: hidden;
+      padding-bottom: 56.25%;
+    }
+
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  &__content {
+    float: auto;
+    padding: 0 20px;
+  }
+
+  a {
+    color: $accent-color;
+  }
+}

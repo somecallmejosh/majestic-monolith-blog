@@ -1,0 +1,49 @@
+.card {
+  background-color: $white;
+  border: $gray-100 1px solid;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100%;
+
+  h2 a {
+    color: $primary-text-color;
+
+    &:hover {
+      color: $primary-color-dark;
+    }
+  }
+
+  &__image {
+    background-color: $gray-100;
+    overflow: hidden;
+  }
+
+  &__content {
+    overflow: auto;
+    padding: 20px;
+  }
+
+  .button {
+    margin: 10px 0;
+  }
+}
+
+@include media-min(700px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    flex: 1 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+}
+
+@include media-min(1000px) {
+  .card {
+    flex: 1 0 calc(33.33333% - 10px);
+    max-width: calc(33.33333% - 10px);
+  }
+}

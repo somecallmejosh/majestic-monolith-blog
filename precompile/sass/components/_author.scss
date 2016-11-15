@@ -1,0 +1,22 @@
+.author {
+  align-items: flex-start;
+  display: flex;
+
+  svg {
+    display: inline-block;
+    height: 15px;
+    vertical-align: text-bottom;
+  }
+
+  &__content {
+    flex: auto;
+    padding: 0 0 0 20px;
+  }
+
+  &__image {
+    cursor: pointer;
+    flex: 1 0 100px;
+    padding-top: 24px;
+    max-width: 100px;
+  }
+}

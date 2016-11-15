@@ -1,6 +1,12 @@
 @import 'base/colors';
 @import 'base/base';
 @import 'utilities/mixins';
+@import 'components/button';
+@import 'components/author';
+@import 'components/cards';
+@import 'components/cta';
+@import 'components/hero';
+@import 'components/list';
 
 main {
   padding: 20px;
@@ -50,22 +56,6 @@ blockquote {
   }
 }
 
-.button {
-  background-color: $accent-color;
-  color: $primary-color-text;
-  display: inline-block;
-  font-size: 80%;
-  font-weight: bold;
-  line-height: 30px;
-  padding: 0 10px;
-  text-decoration: none;
-
-  &:hover {
-    background-color: darken($accent-color, 10%);
-    text-decoration: none;
-  }
-}
-
 header {
   align-items: center;
   background-color: $primary-color-dark;
@@ -98,68 +88,14 @@ header {
     margin-left: auto;
     font-size: 90%;
   }
-}
 
-.hero {
-  background-color: $gray-500;
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
-  width: 100%;
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  @include media-min(700px) {
-    padding-bottom: 30%;
+  svg {
+    fill: $white;
+    height: 20px;
+    margin-right: 5px;
   }
 }
 
-.cta {
-  background-color: $gray-50;
-  border-top: $gray-100 1px solid;
-  color: $primary-text-color;
-  overflow: auto;
-
-  a {
-
-    color: $accent-color;
-    text-decoration: underline;
-
-    &:hover {
-      color: $primary-text-color;
-      text-decoration: none;
-    }
-  }
-
-  h2, h3 {
-    font-size: 110%;
-  }
-
-  p, li, small, blockquote {
-    font-size: 90%;
-    color: $primary-text-color;
-  }
-
-  &__wrap {
-    padding: 20px;
-  }
-
-  @include media-min(800px) {
-    &__wrap {
-      display: flex;
-    }
-
-    &__content {
-      flex: 1;
-    }
-  }
-}
 
 .comments {
   margin-bottom: 30px;
@@ -209,14 +145,6 @@ footer  {
   }
 }
 
-small {
-  font-size: 75%;
-
-  + small {
-    display: block;
-  }
-}
-
 .landing-view,
 .list-view {
   background-color: $gray-100;
@@ -243,12 +171,14 @@ small {
   }
 
   a {
-    color: $accent-color;
-    text-decoration: underline;
+    &:not(.share-button) {
+      color: $accent-color;
+      text-decoration: underline;
 
-    &:hover {
-      color: $primary-color;
-      text-decoration: none;
+      &:hover {
+        color: $primary-color;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -273,25 +203,6 @@ small {
   width: 100%;
 }
 
-@include media-min(700px) {
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .card {
-    flex: 1 0 calc(50% - 10px);
-    max-width: calc(50% - 10px);
-  }
-}
-
-@include media-min(1000px) {
-  .card {
-    flex: 1 0 calc(33.33333% - 10px);
-    max-width: calc(33.33333% - 10px);
-  }
-}
 
 @include media-min(1200px) {
   main {
@@ -300,74 +211,7 @@ small {
   }
 }
 
-.card {
-  background-color: $white;
-  border: $gray-100 1px solid;
-  display: inline-block;
-  margin-bottom: 20px;
-  width: 100%;
 
-  h2 a {
-    color: $primary-text-color;
-
-    &:hover {
-      color: $primary-color-dark;
-    }
-  }
-
-  &__image {
-    background-color: $gray-500;
-    overflow: hidden;
-  }
-
-  &__content {
-    overflow: auto;
-    padding: 20px;
-  }
-
-  .button {
-    margin: 10px 0;
-  }
-}
-
-.list {
-  align-items: center;
-  background-color: $white;
-  display: flex;
-  margin-bottom: 20px;
-
-  &__image {
-    flex: 1 0 150px;
-    max-width: 150px;
-  }
-
-  &__content {
-    float: auto;
-    padding: 0 20px;
-  }
-
-  a {
-    color: $accent-color;
-  }
-}
-
-
-.author {
-  align-items: flex-start;
-  display: flex;
-
-  &__content {
-    flex: auto;
-    padding: 0 0 0 20px;
-  }
-
-  &__image {
-    cursor: pointer;
-    flex: 1 0 100px;
-    padding-top: 24px;
-    max-width: 100px;
-  }
-}
 .on-site {
   height: 100vh;
   overflow-y: scroll;

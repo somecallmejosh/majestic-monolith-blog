@@ -1,0 +1,45 @@
+.cta {
+  background-color: $gray-50;
+  border-top: $gray-100 1px solid;
+  color: $primary-text-color;
+  overflow: auto;
+
+  a {
+    color: $accent-color;
+    text-decoration: underline;
+
+    &:hover {
+      color: $primary-text-color;
+      text-decoration: none;
+    }
+  }
+
+  h2, h3 {
+    font-size: 110%;
+  }
+
+  p, li, small, blockquote {
+    font-size: 90%;
+    color: $primary-text-color;
+  }
+
+  svg {
+    display: inline-block;
+    vertical-align: text-bottom;
+    height: 15px;
+  }
+
+  &__wrap {
+    padding: 20px;
+  }
+
+  @include media-min(800px) {
+    &__wrap {
+      display: flex;
+    }
+
+    &__content {
+      flex: 1;
+    }
+  }
+}
