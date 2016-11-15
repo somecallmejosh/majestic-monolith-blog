@@ -26,10 +26,12 @@ body {
 }
 
 code {
-  background-color: $gray-200;
-  color: red;
+  background-color: $white;
+  border: $gray-200 1px solid;
+  border-radius: 2px;
+  color: complement($accent-color);
   display: inline-block;
-  padding: 2px 6px;
+  padding: 1px 4px;
 }
 
 p, li, td, small {
