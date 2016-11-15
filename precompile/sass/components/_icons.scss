@@ -1,0 +1,46 @@
+.icon {
+  display: inline-block;
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+  position: relative;
+
+  svg {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    fill: $white;
+  }
+
+  + .icon {
+    margin-left: 5px;
+  }
+
+  &.email {
+    background-color: $primary-color-dark;
+
+    &:hover {
+      background-color: lighten($primary-color-dark, 10%);
+    }
+  }
+
+  &.twitter {
+    background-color: #00aced;
+
+    &:hover {
+      background-color: lighten(#00aced, 10%);
+    }
+  }
+
+  &.github {
+    background-color: $black;
+
+    &:hover {
+      background-color: lighten($black, 30%);
+    }
+  }
+}

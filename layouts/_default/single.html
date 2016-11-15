@@ -14,8 +14,9 @@
   <div class="cta__wrap">
     <div class="cta__content">
       <h2>Like what you just read?</h2>
-      <p>Follow us on {{ partial "svgs/twitter" . }} <a href="http://www.twitter.com/{{ .Site.Params.twitterName }}" target="_blank">Twitter</a>.</p>
-      <p>Sign up for our {{ partial "svgs/envelope" . }} <a href="http://ikick.us7.list-manage.com/subscribe?u=8523d9263f5cc37057e16ab42&id=a0784e376f" target="_blank">newsletter</a>.</p>
+      <p>Follow us on:</p>
+      <a href="http://www.twitter.com/{{ .Site.Params.twitterName }}" target="_blank" class="icon twitter">{{ partial "svgs/twitter" . }}</a>
+      <a href="http://ikick.us7.list-manage.com/subscribe?u=8523d9263f5cc37057e16ab42&id=a0784e376f" target="_blank"  class="icon email"> {{ partial "svgs/envelope" . }}</a>
 
       <p><strong>Similar posts:</strong></p>
       {{ $page_link := .Permalink }}

@@ -2,12 +2,6 @@
   align-items: flex-start;
   display: flex;
 
-  svg {
-    display: inline-block;
-    height: 15px;
-    vertical-align: text-bottom;
-  }
-
   &__content {
     flex: auto;
     padding: 0 0 0 20px;
