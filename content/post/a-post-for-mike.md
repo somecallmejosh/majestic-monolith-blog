@@ -80,6 +80,22 @@ For code samples, we are using Pygments:
 </section>
 {{< /highlight >}}
 
+### Here's an SCSS Snippet:
+
+{{< highlight scss >}}
+.block {
+  display: block;
+
+  &__element {
+    padding: 20px;
+
+    &--modifier {
+      color: blue;
+    }
+  }
+}
+{{< /highlight >}}
+
 ### Here's a Ruby Snippet:
 
 {{< highlight ruby >}}

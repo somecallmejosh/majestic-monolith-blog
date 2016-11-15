@@ -1,9 +1,10 @@
-.highlight .language-go {
+.highlight .language-go,
+.highlight .language-scss {
   display: block;
   overflow: auto;
 }
 
-.highlight .hljs, .highlight .language-go {background-color: $white; padding: 20px; border: $gray-200 1px solid;}
+.highlight .hljs, .highlight .language-go, .highlight .language-scss {background-color: $white; padding: 20px; border: $gray-200 1px solid;}
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
