@@ -2,66 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Majestic Monolith</title>
-    <link>/categories/opinion/index.xml</link>
+    <link>/authors/michael-peritore/index.xml</link>
     <description>Recent content on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Unsplash is Awesome</title>
-      <link>/post/why-unsplash-is-awesome/</link>
-      <pubDate>Mon, 14 Nov 2016 13:52:11 -0500</pubDate>
-      
-      <guid>/post/why-unsplash-is-awesome/</guid>
-      <description>&lt;p&gt;The internet is full of wonderful people sharing knowledge and resources. Creatives and developers alike figure out new challenges and share their findings. We can see this in action on Github, Dribbble, Behance, Twitter and other social sites on the web. One thing that is hard to find is beautiful and usable photography. You can poke around Flickr. You can look for Google Images. You may get lucky and find photographs that are free to use. You may be able to use them without restriction, or attribution. And, you may be able to use them for commercial products or services. No guarantees. Welcome to Unsplash!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Unsplash shares &lt;a href=&#34;https://unsplash.com/&#34;&gt;photos you can use online or in print&lt;/a&gt;&lt;/strong&gt;. Their pictures fall under the Creative Commons Zero license. This means you can do anything you like with the pictures you use. There are no commercial restrictions. You can slice them. You can dice them. Unsplash won&amp;rsquo;t even get mad if you put a Photoshop 7.0 lens flare filter on one of their pics. The sky is the limit.&lt;/p&gt;
-
-&lt;p&gt;But, are they nice pictures? In my opinion, the pictures available on Unsplash are brilliant, professional photographs. They are interesting and thought provoking. They are a departure from the typical stock photo look and feel. I haven&amp;rsquo;t come across two business people shaking hands. I haven&amp;rsquo;t found that excited and well groomed customer service representative. The pictures feel more like real life. Or, at least a life we&amp;rsquo;d like to imagine as being real. Since they are all hi-resolution images you can use them on your website and printed materials.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Business Casual&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;div class=&#34;image&#34;&gt;
-  &lt;img
-    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479161837/unsplash-example.jpg&#39;
-    src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479161837/unsplash-example.jpg&#39;
-    alt=&#34;An image of sorts&#34;
-    class=&#34;cld-responsive responsive-img&#34;
-  &gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Artsy&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;div class=&#34;image&#34;&gt;
-  &lt;img
-    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162150/colorful.jpg&#39;
-    src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162150/colorful.jpg&#39;
-    alt=&#34;An image of sorts&#34;
-    class=&#34;cld-responsive responsive-img&#34;
-  &gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Nature:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&#34;image&#34;&gt;
-  &lt;img
-    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162320/yosemite.jpg&#39;
-    src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162320/yosemite.jpg&#39;
-    alt=&#34;An image of sorts&#34;
-    class=&#34;cld-responsive responsive-img&#34;
-  &gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;There are many different categories from which to choose.&lt;/p&gt;
-
-&lt;p&gt;As a developer, you have a couple of options. You can go to their website and search for a particular keyword. This yielded better than expected results for my searches. They offer a series of collections that may prove useful. Mileage may vary, depending on your topic. They also offer &lt;a href=&#34;https://unsplash.com/developers&#34;&gt;Javascript and PHP API&amp;rsquo;s&lt;/a&gt; for those who want to geek out.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I would like to thank you, Unsplash&lt;/strong&gt;. Almost every image on this site is a representation of your offering. I appreciate your service and wish you the best of luck. Dear reader, I encourage you to head over to &lt;a href=&#34;https://unsplash.com/&#34;&gt;their website&lt;/a&gt; and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose. Please share your thoughts below, and be sure to tell your friends if you like what you see on their site.&lt;/p&gt;
-</description>
-    </item>
+    <atom:link href="/authors/michael-peritore/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Post For Mike</title>
