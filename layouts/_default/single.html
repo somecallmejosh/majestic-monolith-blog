@@ -14,9 +14,9 @@
   <div class="cta__wrap">
     <div class="cta__content">
       <h2>If you enjoyed this post…</h2>
-      <p><strong>Try a similar post:</strong></p>
       {{ $page_link := .Permalink }}
       {{ $categories := .Params.categories }}
+      <p><strong>Try a similar post:</strong></p>
       <ul>
         {{ range $page := .Site.Pages }}
           {{ $has_common_categories := intersect $categories .Params.categories | len | lt 0 }}

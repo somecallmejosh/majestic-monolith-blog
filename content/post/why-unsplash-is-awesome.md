@@ -1,6 +1,6 @@
 +++
 snippet = "All photos published on Unsplash are licensed under Creative Commons Zero. Do what you want!"
-title = "Why Unsplash is Awesome"
+title = "Unsplash is Awesome"
 tags = [
   "Images"
 ]
