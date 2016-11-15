@@ -67,7 +67,7 @@ Created a shortcode `cloudinaryResponsiveImage` for these guys. Pass a string ju
 
 For code samples, we are using Pygments:
 
-Here's an HTML Snippet:
+### Here's an HTML Snippet:
 
 {{< highlight html >}}
 <section id="main">
@@ -80,8 +80,7 @@ Here's an HTML Snippet:
 </section>
 {{< /highlight >}}
 
-
-Here's a Ruby Snippet:
+### Here's a Ruby Snippet:
 
 {{< highlight ruby >}}
 items = [ 'Mark', 12, 'goobers', 18.45 ]
@@ -91,15 +90,40 @@ end
 print "\n"
 {{< /highlight >}}
 
-Here's a Javascript Snippet:
+### Here's a Javascript Snippet:
 
 {{< highlight Javascript >}}
-var someVar = document.getElementsById('myVar');
-if(someVar) {
-  for(var i = 0; i < someVar.length; i++) {
-    someVar.innerHTML = "Some Thing";
-  }
+var person = {
+  firstName : "John",
+  lastName  : "Doe",
+  age       : 50,
+  eyeColor  : "blue"
+};
+
+document.getElementById("demo").innerHTML = person.firstName + " is " + person.age + " years old.";
+{{< /highlight >}}
+
+### Here's a GoLang Snippet:
+
+{{< highlight go >}}
+package main
+import "fmt"
+
+func plus(a int, b int) int {
+  return a + b
 }
+
+func plusPlus(a, b, c int) int {
+  return a + b + c
+}
+
+func main() {
+  res := plus(1, 2)
+  fmt.Println("1+2 =", res)
+  res = plusPlus(1, 2, 3)
+  fmt.Println("1+2+3 =", res)
+}
+
 {{< /highlight >}}
 
 ## Here's how to embed a Tweet
