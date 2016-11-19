@@ -8,6 +8,7 @@ pygmentsuseclasses = true
 [params]
   author = "Majestic Monolith"
   base = "majestic-monolith-blog"
+  description = "100% total focus on web performance and beer. Rails, GoLang, Sass, HTML, Javascript and IPA consumption."
   title = "Majestic Monolith"
   twitterName = "MjesticMonolith"
   languageCode = "en-us"

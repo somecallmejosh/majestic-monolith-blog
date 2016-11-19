@@ -203,6 +203,15 @@ footer  {
   }
 }
 
+.article-view__header {
+  padding: 20px 10px;
+
+  &--snippet {
+    font-size: 140%;
+  }
+}
+
+.article-view__header,
 .article-view,
 .list-view__wrap,
 .page-view {
@@ -228,6 +237,9 @@ footer  {
   main {
     padding-left: 0;
     padding-right: 0;
+  }
+  .article-view__header {
+    padding: 40px 0;
   }
 }
 

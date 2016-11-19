@@ -25,6 +25,7 @@ gulp.task('build', function(){
     .pipe(shell('hugo'))
     .pipe(shell('cp CNAME public/CNAME'))
     .pipe(shell('gulp minify-html'))
+    .pipe(shell('cp robots.txt public/robots.txt'))
     .pipe(gulp.dest(paths.public));
 });
 

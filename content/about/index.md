@@ -4,6 +4,7 @@ title = "About"
 date = "2016-11-07T21:07:06-05:00"
 layout = "page"
 cloudinary = "v1479098102/devices_cjgdju.jpg"
+snippet = "Web developers Mike Peritore and Joshua Briley discuss best practices and performance optimization."
 +++
 
 ## About Majestic Monolith
