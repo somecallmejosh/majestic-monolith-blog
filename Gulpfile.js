@@ -23,9 +23,13 @@ gulp.task('build', function(){
   return  gulp.src('CNAME')
     .pipe(shell('rm -rf public'))
     .pipe(shell('hugo'))
-    .pipe(shell('cp CNAME public/CNAME'))
     .pipe(shell('gulp minify-html'))
+    .pipe(shell('cp CNAME public/CNAME'))
     .pipe(shell('cp robots.txt public/robots.txt'))
+    .pipe(shell('cp *.png public/'))
+    .pipe(shell('cp *.svg public/'))
+    .pipe(shell('cp manifest.json public/manifest.json'))
+    .pipe(shell('cp browserconfig.xml public/browserconfig.xml'))
     .pipe(gulp.dest(paths.public));
 });
 
