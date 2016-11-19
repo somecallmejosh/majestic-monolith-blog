@@ -18,13 +18,13 @@
 
 &lt;h2 id=&#34;royalty-free-doesn-t-always-mean-great&#34;&gt;Royalty Free Doesn&amp;rsquo;t Always Mean Great&lt;/h2&gt;
 
-&lt;p&gt;The internet is full of wonderful people sharing knowledge and resources. Creatives and developers alike figure out new challenges and share their findings. We can see this in action on Github, Dribbble, Behance, Twitter and other social sites on the web. One thing that is hard to find is beautiful and usable photography. You can poke around Flickr. You can look for Google Images. You may get lucky and find photographs that are free to use. You may be able to use them without restriction, or attribution. And, you may be able to use them for commercial products or services. No guarantees. Welcome to Unsplash!&lt;/p&gt;
+&lt;p&gt;The internet is full of wonderful people sharing knowledge and resources. Creatives and developers alike figure out new challenges and share their findings. We can see this in action on Github, Dribbble, Behance, Twitter and other social sites on the web. One thing that is hard to find is beautiful and usable photography. You can poke around Flickr. You can look for Google Images. You may get lucky and find photographs that are free to use. You may be able to use them without restriction, or attribution. And, you may be able to use them for commercial products or services. No guarantees. In a nutshell, royalty free doesn&amp;rsquo;t always mean great, or even good. Welcome to Unsplash!&lt;/p&gt;
 
 &lt;h2 id=&#34;beautiful-images-for-your-website-or-print-materials&#34;&gt;Beautiful Images for Your Website Or Print Materials&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Unsplash shares &lt;a href=&#34;https://unsplash.com/&#34;&gt;photos you can use online or in print&lt;/a&gt;&lt;/strong&gt;. Their pictures fall under the Creative Commons Zero license. This means you can do anything you like with the pictures you use. There are no commercial restrictions. You can slice them. You can dice them. Unsplash won&amp;rsquo;t even get mad if you put a Photoshop 7.0 lens flare filter on one of their pics. The sky is the limit.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unsplash shares &lt;a href=&#34;https://unsplash.com/&#34;&gt;photos you can use online or in print&lt;/a&gt;&lt;/strong&gt;. Their pictures fall under the Creative Commons Zero license. This means you can do anything you like with the pictures you use. There are no commercial restrictions. You can slice them. You can dice them. Unsplash won&amp;rsquo;t even get mad if you layer a Photoshop 7.0 lens flare filter on one of their pics. The sky is the limit.&lt;/p&gt;
 
-&lt;p&gt;But, are they nice pictures? In my opinion, the pictures available on Unsplash are brilliant, professional photographs. They are interesting and thought provoking. They are a departure from the typical stock photo look and feel. I haven&amp;rsquo;t come across two business people shaking hands. I haven&amp;rsquo;t found that excited and well groomed customer service representative. The pictures feel more like real life. Or, at least a life we&amp;rsquo;d like to imagine as being real. Since they are all hi-resolution images you can use them on your website and printed materials.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But, are they nice pictures?&lt;/strong&gt; In my opinion, the pictures available on Unsplash are brilliant, professional photographs. They are interesting and thought provoking. They are a departure from the typical stock photo look and feel. I haven&amp;rsquo;t come across two business people shaking hands. I haven&amp;rsquo;t found that excited and well groomed customer service representative. The pictures feel more like real life. Or, at least a life we&amp;rsquo;d like to imagine as being real. Since they are all hi-resolution images you can use them on your website and printed materials.&lt;/p&gt;
 
 &lt;h3 id=&#34;business-casual-web-image-example&#34;&gt;Business Casual Web Image Example:&lt;/h3&gt;
 
@@ -64,11 +64,19 @@
 
 &lt;p&gt;There are many different categories from which to choose.&lt;/p&gt;
 
-&lt;h2 id=&#34;web-images-made-easy-for-developers&#34;&gt;Web Images Made Easy for Developers&lt;/h2&gt;
+&lt;h2 id=&#34;web-image-management-for-developers&#34;&gt;Web Image Management for Developers&lt;/h2&gt;
 
-&lt;p&gt;As a developer, you have a couple of options. You can go to their website and search for a particular keyword. This yielded better than expected results for my searches. They offer a series of collections that may prove useful. Mileage may vary, depending on your topic. They also offer &lt;a href=&#34;https://unsplash.com/developers&#34;&gt;Javascript and PHP API&amp;rsquo;s&lt;/a&gt; for those who want to geek out.&lt;/p&gt;
+&lt;p&gt;As a developer, you have a couple of options. You can go to their website and search for a particular keyword. This yielded better than expected results for my searches. They offer a series of user created collections that may prove useful. Mileage may vary, depending on your topic. They also offer &lt;a href=&#34;https://unsplash.com/developers&#34;&gt;Javascript and PHP API&amp;rsquo;s&lt;/a&gt; for those who want to geek out.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;I would like to thank you, Unsplash&lt;/strong&gt;. Almost every image on this site is a representation of your offering. I appreciate your service and wish you the best of luck. Dear reader, I encourage you to head over to &lt;a href=&#34;https://unsplash.com/&#34;&gt;their website&lt;/a&gt; and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose. Please share your thoughts below, and be sure to tell your friends if you like what you see on their site.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve been managing our Unsplash images with &lt;a href=&#34;http://www.cloudinary.com&#34;&gt;Cloudinary&lt;/a&gt;. This is a service that deals with every image need we have. No need to save image variations for 1x, 1.5x, 2x and more. No need to write scripts to serve the appropriate file type (.webp, .jpg, .png, etc). No need to save cropped versions for smaller view ports. We&amp;rsquo;ve outsourced all these tasks to Cloudinary. Make sure to check out &lt;a href=&#34;http://cloudinary.com/pricing&#34;&gt;their plans&lt;/a&gt; to see if they offer a solution that meets your needs. Their free plan is serving at needs well (at the time of this writing). For us, it&amp;rsquo;s a total win. They handle image optimization so we can research and write content.&lt;/p&gt;
+
+&lt;h3 id=&#34;cloudinary-there-are-javascript-dependencies&#34;&gt;Cloudinary: There are Javascript Dependencies&lt;/h3&gt;
+
+&lt;p&gt;Cloudinary relies on Javascript for all the responsive and optimization features. You&amp;rsquo;ll need either &lt;a href=&#34;http://jquery.com/&#34;&gt;jQuery&lt;/a&gt; or &lt;a href=&#34;https://lodash.com/&#34;&gt;Lodash&lt;/a&gt; running in your project. This dependency is not ideal for us. It almost doesn&amp;rsquo;t make the cut. It sure does a lot of heavy lifting for us, though. We&amp;rsquo;ve decided the trade off is worth the extra dependencies.&lt;/p&gt;
+
+&lt;h2 id=&#34;in-closing&#34;&gt;In Closing&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Thank you, Unsplash&lt;/strong&gt;. Almost every image on this site is a representation of your offering. I appreciate your service and wish you the best of luck. Dear reader, I encourage you to head over to &lt;a href=&#34;https://unsplash.com/&#34;&gt;their website&lt;/a&gt; and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose. Please share your thoughts below, and be sure to tell your friends if you like what you see on their site.&lt;/p&gt;
 </description>
     </item>
     
