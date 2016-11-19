@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Majestic Monolith</title>
-    <link>/authors/joshua-briley/index.xml</link>
+    <link>/categories/guide/index.xml</link>
     <description>Recent content on Majestic Monolith</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="/authors/joshua-briley/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/guide/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Beautiful Unsplash.com Images Optimized with Cloudinary</title>

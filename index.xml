@@ -9,60 +9,24 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Unsplash Offers Free Web and Print Images</title>
-      <link>/post/why-unsplash-is-awesome/</link>
+      <title>Beautiful Unsplash.com Images Optimized with Cloudinary</title>
+      <link>/post/beatiful-unsplash-images-optimized-with-cloudinary/</link>
       <pubDate>Mon, 14 Nov 2016 13:52:11 -0500</pubDate>
       
-      <guid>/post/why-unsplash-is-awesome/</guid>
+      <guid>/post/beatiful-unsplash-images-optimized-with-cloudinary/</guid>
       <description>
 
 &lt;h2 id=&#34;royalty-free-doesn-t-always-mean-great&#34;&gt;Royalty Free Doesn&amp;rsquo;t Always Mean Great&lt;/h2&gt;
 
-&lt;p&gt;The internet is full of wonderful people sharing knowledge and resources. Creatives and developers alike figure out new challenges and share their findings. We can see this in action on Github, Dribbble, Behance, Twitter and other social sites on the web. One thing that is hard to find is beautiful and usable photography. You can poke around Flickr. You can look for Google Images. You may get lucky and find photographs that are free to use. You may be able to use them without restriction, or attribution. And, you may be able to use them for commercial products or services. No guarantees. In a nutshell, royalty free doesn&amp;rsquo;t always mean great, or even good. Welcome to Unsplash!&lt;/p&gt;
+&lt;p&gt;The internet is full of wonderful people sharing knowledge and resources. Creatives and developers alike figure out new challenges and share their findings. We can see this in action on Github, Dribbble, Behance, Twitter and other social sites on the web. This sharing makes our industry unique and wonderful.&lt;/p&gt;
 
-&lt;h2 id=&#34;beautiful-images-for-your-website-or-print-materials&#34;&gt;Beautiful Images for Your Website or Print Materials&lt;/h2&gt;
+&lt;p&gt;One thing that is hard to find is beautiful and usable photography. Royalty Free images are all over the web. You can poke around &lt;a href=&#34;http://www.flickr.com&#34;&gt;Flickr&lt;/a&gt;. You can look through &lt;a href=&#34;https://images.google.com&#34;&gt;Google Images&lt;/a&gt;. &lt;a href=&#34;http://www.gettyimages.com/&#34;&gt;Getty&lt;/a&gt; has some really nice stuff, too. You &lt;em&gt;may get lucky&lt;/em&gt; and find photographs that are free to use. You &lt;em&gt;may be able&lt;/em&gt; to use them without restriction, or attribution. And, you &lt;em&gt;may be able to use them for commercial products or services&lt;/em&gt;. Or, maybe not. No guarantees. Royalty free doesn&amp;rsquo;t always mean great, or even good. Welcome to Unsplash.com!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Unsplash shares &lt;a href=&#34;https://unsplash.com/&#34;&gt;photos you can use online or in print&lt;/a&gt;&lt;/strong&gt;. Their pictures fall under the Creative Commons Zero license. This means you can do anything you like with the pictures you use. There are no commercial restrictions. You can slice them. You can dice them. Unsplash won&amp;rsquo;t even get mad if you layer a Photoshop 7.0 lens flare filter on one of their pics. The sky is the limit.&lt;/p&gt;
+&lt;h2 id=&#34;unsplash-com-offers-beautiful-free-images&#34;&gt;Unsplash.com Offers Beautiful Free Images&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;But, are they nice pictures?&lt;/strong&gt; In my opinion, the pictures available on Unsplash are brilliant, professional photographs. They are interesting and thought provoking. They are a departure from the typical stock photo look and feel. I haven&amp;rsquo;t come across two business people shaking hands. I haven&amp;rsquo;t found that excited and well groomed customer service representative. The pictures feel more like real life. Or, at least a life we&amp;rsquo;d like to imagine as being real. Since they are all hi-resolution images you can use them on your website and printed materials.&lt;/p&gt;
+&lt;p&gt;Unsplash.com shares &lt;strong&gt;&lt;a href=&#34;https://unsplash.com/&#34;&gt;photos you can use online or in print&lt;/a&gt;&lt;/strong&gt;. Their pictures fall under the Creative Commons Zero license. This means you can do anything you like with the pictures you use. There are no commercial restrictions. You can slice them. You can dice them. Unsplash.com won&amp;rsquo;t even get mad if you layer a Photoshop 7.0 lens flare filter on one of their pics. The sky is the limit.&lt;/p&gt;
 
-&lt;h3 id=&#34;business-casual-web-image-example&#34;&gt;Business Casual Web Image Example:&lt;/h3&gt;
-
-&lt;div class=&#34;image&#34;&gt;
-  &lt;img
-    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479161837/unsplash-example.jpg&#39;
-    src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479161837/unsplash-example.jpg&#39;
-    alt=&#34;An image of sorts&#34;
-    class=&#34;cld-responsive responsive-img&#34;
-  &gt;
-&lt;/div&gt;
-
-
-&lt;h3 id=&#34;artsy-web-image-example&#34;&gt;Artsy Web Image Example&lt;/h3&gt;
-
-&lt;div class=&#34;image&#34;&gt;
-  &lt;img
-    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162150/colorful.jpg&#39;
-    src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162150/colorful.jpg&#39;
-    alt=&#34;An image of sorts&#34;
-    class=&#34;cld-responsive responsive-img&#34;
-  &gt;
-&lt;/div&gt;
-
-
-&lt;h3 id=&#34;nature-oriented-web-image-example&#34;&gt;Nature Oriented Web Image Example&lt;/h3&gt;
-
-&lt;div class=&#34;image&#34;&gt;
-  &lt;img
-    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162320/yosemite.jpg&#39;
-    src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162320/yosemite.jpg&#39;
-    alt=&#34;An image of sorts&#34;
-    class=&#34;cld-responsive responsive-img&#34;
-  &gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;There are many different categories from which to choose.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But, are they nice pictures?&lt;/strong&gt; I think the title of this article answers that question. Allow me to continue on that thought. In my opinion, the pictures available on Unsplash.com are brilliant, professional photographs. They are interesting and thought provoking. They are a departure from the typical stock photo look and feel. I haven&amp;rsquo;t come across any contrived images of two business people shaking hands. I haven&amp;rsquo;t found an excited and well groomed customer service representative. The pictures feel more like real life. Or, at least a life we&amp;rsquo;d like to imagine as being real. Since they are all hi-resolution images you can use them on your website and printed materials. In the &lt;a href=&#34;#optimized-unsplash-com-image-examples&#34;&gt;Cloudinary section below&lt;/a&gt;, I will demonstrate some Unsplash.com images. You can be the judge.&lt;/p&gt;
 
 &lt;h2 id=&#34;web-image-management-for-developers&#34;&gt;Web Image Management for Developers&lt;/h2&gt;
 
@@ -95,7 +59,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;All the magic happens in the string &lt;code&gt;c_fill,g_face,dpr_auto,q_auto,w_auto&lt;/code&gt; from the code snippet above. The Cloudinary.js script looks uses data attribute string to work its magic.&lt;/p&gt;
+&lt;p&gt;All the magic happens in the string &lt;code&gt;c_fill,g_face,dpr_auto,q_auto,w_auto&lt;/code&gt; from the code snippet above. The Cloudinary.js script looks uses data attribute string to work its magic. A fallback &lt;code&gt;src&lt;/code&gt; attribute can also be used in the case where Javascript is not available.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;c_fill&lt;/strong&gt;: fills the parent container.&lt;/li&gt;
@@ -107,9 +71,67 @@
 
 &lt;p&gt;The above only scratches the surface. I invite you to explore all the &lt;a href=&#34;http://cloudinary.com/documentation/image_transformations&#34;&gt;amazing things you can do with Cloudinary&lt;/a&gt;.&lt;/p&gt;
 
+&lt;h2 id=&#34;optimized-unsplash-com-image-examples&#34;&gt;Optimized Unsplash.com Image Examples&lt;/h2&gt;
+
+&lt;p&gt;Here are some examples of images and the associated &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; element construction for your Cloudinary images.&lt;/p&gt;
+
+&lt;h3 id=&#34;business-casual-web-image-example&#34;&gt;Business Casual Web Image Example:&lt;/h3&gt;
+
+&lt;div class=&#34;image&#34;&gt;
+  &lt;img
+    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479161837/unsplash-example.jpg&#39;
+    src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479161837/unsplash-example.jpg&#39;
+    alt=&#34;An image of sorts&#34;
+    class=&#34;cld-responsive responsive-img&#34;
+  &gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479161837/unsplash-example.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_2.0,q_auto,w_400/v1479161837/unsplash-example.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;alt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;An image of sorts&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;cld-responsive responsive-img&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3 id=&#34;artsy-web-image-example&#34;&gt;Artsy Web Image Example&lt;/h3&gt;
+
+&lt;div class=&#34;image&#34;&gt;
+  &lt;img
+    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162150/colorful.jpg&#39;
+    src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162150/colorful.jpg&#39;
+    alt=&#34;An image of sorts&#34;
+    class=&#34;cld-responsive responsive-img&#34;
+  &gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162150/colorful.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_2.0,q_auto,w_400/v1479162150/colorful.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;alt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;An image of sorts&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;cld-responsive responsive-img&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3 id=&#34;nature-oriented-web-image-example&#34;&gt;Nature Oriented Web Image Example&lt;/h3&gt;
+
+&lt;div class=&#34;image&#34;&gt;
+  &lt;img
+    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162320/yosemite.jpg&#39;
+    src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162320/yosemite.jpg&#39;
+    alt=&#34;An image of sorts&#34;
+    class=&#34;cld-responsive responsive-img&#34;
+  &gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,q_auto,w_auto/v1479162320/yosemite.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_2.0,q_auto,w_400/v1479162320/yosemite.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;alt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;An image of sorts&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;cld-responsive responsive-img&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;h2 id=&#34;in-closing&#34;&gt;In Closing&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Thank you, Unsplash&lt;/strong&gt;. Almost every image on this site is a representation of your offering. Dear reader, I encourage you to head over to &lt;a href=&#34;https://unsplash.com/&#34;&gt;their website&lt;/a&gt; and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose. &lt;strong&gt;Thank you, Cloudinary&lt;/strong&gt;. You&amp;rsquo;ve made the process of image optimization and management a breeze. I also encourage our readers to check out &lt;a href=&#34;http://www.cloudinary.com&#34;&gt;Cloudinary&lt;/a&gt; for more info. Please share your thoughts below, and be sure to tell your friends if you like what you see on their site.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thank you, Unsplash.com&lt;/strong&gt;. Almost every image on this site is a representation of your offering. Dear reader, I encourage you to head over to &lt;a href=&#34;https://unsplash.com/&#34;&gt;their website&lt;/a&gt; and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose. &lt;strong&gt;Thank you, Cloudinary&lt;/strong&gt;. You&amp;rsquo;ve made the process of image optimization and management a breeze. I also encourage our readers to check out &lt;a href=&#34;http://www.cloudinary.com&#34;&gt;Cloudinary&lt;/a&gt; for more info. Please share your thoughts below, and be sure to tell your friends if you like what you see on their site.&lt;/p&gt;
 </description>
     </item>
     
