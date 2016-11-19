@@ -74,7 +74,12 @@
 
 &lt;h3 id=&#34;cloudinary-javascript-dependencies&#34;&gt;Cloudinary Javascript Dependencies&lt;/h3&gt;
 
-&lt;p&gt;Cloudinary relies on Javascript for all the responsive and optimization features. You&amp;rsquo;ll need either &lt;a href=&#34;http://jquery.com/&#34;&gt;jQuery&lt;/a&gt; or &lt;a href=&#34;https://lodash.com/&#34;&gt;Lodash&lt;/a&gt; running in your project. This dependency is not ideal for us. It almost doesn&amp;rsquo;t make the cut. It sure does a lot of heavy lifting for us, though. We&amp;rsquo;ve decided the trade off is worth the extra dependencies.&lt;/p&gt;
+&lt;p&gt;he &lt;a href=&#34;https://github.com/somecallmejosh/majestic-monolith-blog/blob/master/static/js/cloudinary.js&#34;&gt;minified Cloudinary.js file&lt;/a&gt; is 45KB. You&amp;rsquo;ll also need either &lt;a href=&#34;http://jquery.com/&#34;&gt;jQuery&lt;/a&gt; or &lt;a href=&#34;https://lodash.com/&#34;&gt;Lodash&lt;/a&gt; running in your project. In a perfect world we would deem Cloudinary to be a monolith. It almost doesn&amp;rsquo;t make our cut. It sure does a lot of heavy lifting for us, though. We are also still able to get fast page load speeds by deferring Cloudinary and its dependencies. We&amp;rsquo;ve decided the trade off is worth the extra dependencies.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;/js/main.min.js&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;defer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;/js/cloudinary.js&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;defer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;h2 id=&#34;in-closing&#34;&gt;In Closing&lt;/h2&gt;
 
