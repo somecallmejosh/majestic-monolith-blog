@@ -128,6 +128,89 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;h2 id=&#34;the-real-magic-of-cloudinary&#34;&gt;The Real Magic of Cloudinary&lt;/h2&gt;
+
+&lt;p&gt;The above images are all responsive. Play around with the window size to see how the image changes. Take a look at the source code to notice how the natural image sized adjusts on the fly. It&amp;rsquo;s all pretty amazing. But, you can do more with Cloudinary adjusting the parameters in the URL.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s play around with this &lt;a href=&#34;https://unsplash.com/photos/IcypwC_7QrU&#34;&gt;image of a woman in a field&lt;/a&gt; from Unsplash.com.&lt;/p&gt;
+
+&lt;h3 id=&#34;here-s-the-original-image&#34;&gt;Here&amp;rsquo;s the &lt;strong&gt;original&lt;/strong&gt; image&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;image&#34;&gt;
+  &lt;img
+    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto/v1479647300/lady.jpg&#39;
+    alt=&#34;An image of sorts&#34;
+    class=&#34;cld-responsive responsive-img&#34;
+  &gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;how-about-grayscaling-it&#34;&gt;How about &lt;strong&gt;grayscaling&lt;/strong&gt; it?&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;image&#34;&gt;
+  &lt;img
+    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale/v1479647300/lady.jpg&#39;
+    alt=&#34;An image of sorts&#34;
+    class=&#34;cld-responsive responsive-img&#34;
+  &gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;let-s-crop-a-thumbnail-image-of-her-face&#34;&gt;Let&amp;rsquo;s &lt;strong&gt;crop a thumbnail&lt;/strong&gt; image of her face&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_thumb,g_face,dpr_auto,f_auto,q_auto,h_150,w_150/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;image&#34;&gt;
+  &lt;img
+    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_thumb,g_face,dpr_auto,f_auto,q_auto,h_150,w_150/v1479647300/lady.jpg&#39;
+    alt=&#34;An image of sorts&#34;
+    class=&#34;cld-responsive img-thumbnail&#34;
+  &gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;wait-she-doesn-t-want-her-face-to-be-recognized-so-let-s-pixelate-her&#34;&gt;Wait, she doesn&amp;rsquo;t want her face to be recognized, so let&amp;rsquo;s &lt;strong&gt;pixelate&lt;/strong&gt; her&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_pixelate_faces:9/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;image&#34;&gt;
+  &lt;img
+    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_pixelate_faces:9/v1479647300/lady.jpg&#39;
+    alt=&#34;An image of sorts&#34;
+    class=&#34;cld-responsive responsive-img&#34;
+  &gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;how-about-one-of-those-fancy-blurred-images-that-are-all-the-rage-lately&#34;&gt;How about one of those fancy &lt;strong&gt;blurred&lt;/strong&gt; images that are all the rage lately?&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,e_blur:2000,f_auto,q_auto,w_auto/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;image&#34;&gt;
+  &lt;img
+    data-src=&#39;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,e_blur:2000,f_auto,q_auto,w_auto/v1479647300/lady.jpg&#39;
+    alt=&#34;An image of sorts&#34;
+    class=&#34;cld-responsive responsive-img&#34;
+  &gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Again, we&amp;rsquo;re only scratching the surface of possibilities here. The options are nearly unlimited. And if you want to learn more, they offer live, free training online. How cool is that?&lt;/p&gt;
+
 &lt;h2 id=&#34;in-closing&#34;&gt;In Closing&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Thank you, Unsplash.com&lt;/strong&gt;. Almost every image on this site is a representation of your offering. Dear reader, I encourage you to head over to &lt;a href=&#34;https://unsplash.com/&#34;&gt;their website&lt;/a&gt; and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose.&lt;/p&gt;
