@@ -101,6 +101,52 @@ Here are some examples of images and the associated `<img>` element construction
 </div>
 {{< /highlight >}}
 
+## The Real Magic of Cloudinary
+
+The above images are all responsive. Play around with the window size to see how the image changes. Take a look at the source code to notice how the natural image sized adjusts on the fly. It's all pretty amazing. But, you can do more with Cloudinary adjusting the parameters in the URL.
+
+Let's play around with this [image of a woman in a field](https://unsplash.com/photos/IcypwC_7QrU) from Unsplash.com.
+
+### Here's the **original** image
+
+{{< highlight html >}}
+<img data-src="https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto/v1479647300/lady.jpg" >
+{{< /highlight >}}
+
+{{< cloudinaryTransforms "c_fill,dpr_auto,f_auto,q_auto,w_auto" "v1479647300/lady.jpg" >}}
+
+### How about **grayscaling** it?
+
+{{< highlight html >}}
+<img data-src="https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale/v1479647300/lady.jpg" >
+{{< /highlight >}}
+
+{{< cloudinaryTransforms "c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale" "v1479647300/lady.jpg" >}}
+
+### Let's **crop a thumbnail** image of her face
+{{< highlight html >}}
+<img data-src="https://res.cloudinary.com/dwjulenau/image/upload/c_thumb,g_face,dpr_auto,f_auto,q_auto,h_150,w_150/v1479647300/lady.jpg" >
+{{< /highlight >}}
+
+{{< cloudinaryThumbnail "c_thumb,g_face,dpr_auto,f_auto,q_auto,h_150,w_150" "v1479647300/lady.jpg" >}}
+
+### Wait, she doesn't want her face to be recognized, so let's **pixelate** her
+
+{{< highlight html >}}
+<img data-src="https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_pixelate_faces:9/v1479647300/lady.jpg" >
+{{< /highlight >}}
+
+{{< cloudinaryTransforms "c_fill,dpr_auto,f_auto,q_auto,w_auto,e_pixelate_faces:9" "v1479647300/lady.jpg" >}}
+
+### How about one of those fancy **blurred** images that are all the rage lately?
+{{< highlight html >}}
+<img data-src="https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,e_blur:2000,f_auto,q_auto,w_auto/v1479647300/lady.jpg" >
+{{< /highlight >}}
+
+{{< cloudinaryTransforms "c_fill,dpr_auto,e_blur:2000,f_auto,q_auto,w_auto" "v1479647300/lady.jpg" >}}
+
+Again, we're only scratching the surface of possibilities here. The options are nearly unlimited. And if you want to learn more, they offer live, free training online. How cool is that?
+
 ## In Closing
 **Thank you, Unsplash.com**. Almost every image on this site is a representation of your offering. Dear reader, I encourage you to head over to [their website](https://unsplash.com/) and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose.
 
