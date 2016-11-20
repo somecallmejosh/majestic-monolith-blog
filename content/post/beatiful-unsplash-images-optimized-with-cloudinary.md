@@ -118,11 +118,9 @@ Let's play around with this [image of a woman in a field](https://unsplash.com/p
 You'll notice this is the same treatment as the previously introduced images. It's just a responsive image with no bells or whistles. Let's change that by adding some transforms to the `data-src` attribute.
 
 ### How about **grayscaling** it?
-
-{{< highlight html >}}
-
 Add the `e_grayscale` transform to the `data-src` attribute.
 
+{{< highlight html >}}
 <img data-src="https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale/v1479647300/lady.jpg" >
 {{< /highlight >}}
 
