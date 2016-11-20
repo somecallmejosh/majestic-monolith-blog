@@ -21,6 +21,6 @@ The web industry seems to pride itself on complexity. But, Michael Peritore and 
 
 ## The Goal
 
-Things don't need to be so damned difficult in this industry. They don't need to be fancy. **They need to be fast and they need to make money**. The goal of Majestic Monolith is to teach you to plan, program and manage web projects.
+Things don't need to be so damned difficult in this industry. Things don't need to be fancy. **They need to be fast and they need to make money**. We strive for simple solutions, and we will share our findings along the way.
 
 Follow this blog to or signup for our **<a href="http://ikick.us7.list-manage.com/subscribe?u=8523d9263f5cc37057e16ab42&id=a0784e376f" target="_blank">newsletter</a>** to start learning.
