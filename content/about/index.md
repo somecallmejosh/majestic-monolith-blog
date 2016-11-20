@@ -17,7 +17,7 @@ The web industry seems to pride itself on complexity. But, Michael Peritore and 
 
 **Michael Peritore** is the Lead Software Engineer for America's Test Kitchen in Brookline, MA. He is an experienced Rails developer and enjoys architecting crazy simple backend solutions that wow the heck out of people. Follow Mike on [Github](http://www.github.com/primalcodes) and [Twitter](http://twitter.com/MikePeritore).
 
-**Joshua Briley** is a Senior Software Engineer for America's Test Kitchen in Brookline, MA. He focuses on front end architecture, performance and UI development. His tools of choice are HTML, Sass, and Javascript (when needed). Follow Josh on [Github](http://www.github.com/somecallmejosh) and [Twitter](http://twitter.com/joshuabriley).
+**Joshua Briley** is a Front End Developer for America's Test Kitchen in Brookline, MA. He focuses on front end architecture, performance and UI development. His tools of choice are HTML, Sass, and Javascript (when needed). Follow Josh on [Github](http://www.github.com/somecallmejosh) and [Twitter](http://twitter.com/joshuabriley).
 
 ## The Goal
 
