@@ -153,7 +153,9 @@
 
 &lt;h3 id=&#34;how-about-grayscaling-it&#34;&gt;How about &lt;strong&gt;grayscaling&lt;/strong&gt; it?&lt;/h3&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;Add the `e_grayscale` transform to the `data-src` attribute.
+
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
@@ -167,6 +169,15 @@
 
 
 &lt;h3 id=&#34;let-s-crop-a-thumbnail-image-of-her-face&#34;&gt;Let&amp;rsquo;s &lt;strong&gt;crop a thumbnail&lt;/strong&gt; image of her face&lt;/h3&gt;
+
+&lt;p&gt;Well add the following transforms to the &lt;code&gt;data-src&lt;/code&gt; attribute.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;c_thumb&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;g_face&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;h_150&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;w_150&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_thumb,g_face,dpr_auto,f_auto,q_auto,h_150,w_150/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -183,6 +194,8 @@
 
 &lt;h3 id=&#34;wait-she-doesn-t-want-her-face-to-be-recognized-so-let-s-pixelate-her&#34;&gt;Wait, she doesn&amp;rsquo;t want her face to be recognized, so let&amp;rsquo;s &lt;strong&gt;pixelate&lt;/strong&gt; her&lt;/h3&gt;
 
+&lt;p&gt;Add the &lt;code&gt;e_pixelate_faces:9&lt;/code&gt; transform to the &lt;code&gt;data-src&lt;/code&gt; attribute.&lt;/p&gt;
+
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_pixelate_faces:9/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -198,6 +211,8 @@
 
 &lt;h3 id=&#34;how-about-one-of-those-fancy-blurred-images-that-are-all-the-rage-lately&#34;&gt;How about one of those fancy &lt;strong&gt;blurred&lt;/strong&gt; images that are all the rage lately?&lt;/h3&gt;
 
+&lt;p&gt;Add the &lt;code&gt;e_blur:2000&lt;/code&gt; transform to the &lt;code&gt;data-src&lt;/code&gt; attribute.&lt;/p&gt;
+
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,e_blur:2000,f_auto,q_auto,w_auto/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -211,7 +226,7 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;Again, we&amp;rsquo;re only scratching the surface of possibilities here. The options are nearly unlimited. And if you want to learn more, they offer live, free training online. How cool is that?&lt;/p&gt;
+&lt;p&gt;Pretty amazing, right? We get instant edits without having to open image editing software. Again, we&amp;rsquo;re only scratching the surface of possibilities here. The options are nearly unlimited. And if you want to learn more, they offer live, free training online. How cool is that?&lt;/p&gt;
 
 &lt;h2 id=&#34;in-closing&#34;&gt;In Closing&lt;/h2&gt;
 
