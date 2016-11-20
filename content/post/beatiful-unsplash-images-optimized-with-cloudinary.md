@@ -25,11 +25,10 @@ Unsplash.com shares **[photos you can use online or in print](https://unsplash.c
 
 **But, are they nice pictures?** I think the title of this article answers that question. Allow me to continue on that thought. In my opinion, the pictures available on Unsplash.com are brilliant, professional photographs. They are interesting and thought provoking. They are a departure from the typical stock photo look and feel. I haven't come across any contrived images of two business people shaking hands. I haven't found an excited and well groomed customer service representative. The pictures feel more like real life. Or, at least a life we'd like to imagine as being real. Since they are all hi-resolution images you can use them on your website and printed materials. In the [Cloudinary section below](#optimized-unsplash-com-image-examples), I will demonstrate some Unsplash.com images. You can be the judge.
 
+Using their images is easy. You can go to their website and search for a particular keyword. This yielded better than expected results for my searches. They offer a series of user created collections that may prove useful. Mileage may vary, depending on your topic. They also offer [Javascript and PHP API's](https://unsplash.com/developers) for those who want to geek out.
+
 
 ## Web Image Management for Developers
-As a developer, you have a couple of options. You can go to their website and search for a particular keyword. This yielded better than expected results for my searches. They offer a series of user created collections that may prove useful. Mileage may vary, depending on your topic. They also offer [Javascript and PHP API's](https://unsplash.com/developers) for those who want to geek out.
-
-### Cloudinary
 
 We've been managing our Unsplash images with [Cloudinary](http://www.cloudinary.com). This is a service that deals with every image need we have. No need to save image variations for 1x, 1.5x, 2x and more. No need to write scripts to serve the appropriate file type (.webp, .jpg, .png, etc). No need to save cropped versions for smaller view ports. We've outsourced all these tasks to Cloudinary. Make sure to check out [their plans](http://cloudinary.com/pricing) to see if they offer a solution that meets your needs. Their free plan is serving at needs well (at the time of this writing). For us, it's a total win. They handle image optimization so we can research and write content.
 
