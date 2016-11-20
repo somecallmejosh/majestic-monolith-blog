@@ -32,7 +32,7 @@ Using their images is easy. You can go to their website and search for a particu
 
 [Cloudinary](http://www.cloudinary.com) removes the headache of creating and managing responsive images on the web. I learned about them a few months back, working on a project at work. It changed my life. Our web edit team was also appreciative of this service. Cloudinary was the single solution that was a win for both teams.
 
-We are also managing images on Majestic Monolith with Cloudinary. It deals with every image need we have. No need to save image variations for 1x, 1.5x, 2x and more. No more forgetting to add [picture polyfills](https://github.com/scottjehl/picturefill) for some older browsers. No need to save cropped versions for smaller view ports. We've outsourced all these tasks to Cloudinary. Make sure to check out [their plans](http://cloudinary.com/pricing) to see if they offer a solution that meets your needs. Their free plan is serving at needs well (at the time of this writing). For us, it's a total win. They handle image optimization so we can research and write content.
+We are also managing images on Majestic Monolith with Cloudinary. It deals with every image need we have. No need to save image variations for 1x, 1.5x, 2x and more. No more forgetting to add [picture polyfills](https://github.com/scottjehl/picturefill) for some older browsers. No need to save cropped versions for smaller view ports. We've outsourced all these tasks to Cloudinary. Make sure to check out [their plans](http://cloudinary.com/pricing) to see if they offer a solution that meets your needs. Their free plan is serving our needs well (at the time of this writing). Dealing with Photoshop isn't the best use of *our* time. We're developers, after all. This makes Cloudinary a total win. They handle image optimization and manipulation so we can focus on the things *we* do best -- writing code.
 
 ### Cloudinary Javascript Dependencies
 
@@ -103,7 +103,7 @@ Here are some examples of images and the associated `<img>` element construction
 
 ## The Real Magic of Cloudinary
 
-The above images are all responsive. Play around with the window size to see how the image changes. Take a look at the source code to notice how the natural image sized adjusts on the fly. It's all pretty amazing. But, you can do more with Cloudinary adjusting the parameters in the URL.
+The above images are all responsive. Play around with the window size to see how the image changes. Take a look at the source code to notice how the natural image size adjusts on the fly. It's all magical! But, you can do more with Cloudinary by modifying the URL string.
 
 Let's play around with this [image of a woman in a field](https://unsplash.com/photos/IcypwC_7QrU) from Unsplash.com.
 
@@ -114,6 +114,8 @@ Let's play around with this [image of a woman in a field](https://unsplash.com/p
 {{< /highlight >}}
 
 {{< cloudinaryTransforms "c_fill,dpr_auto,f_auto,q_auto,w_auto" "v1479647300/lady.jpg" >}}
+
+You'll notice this is the same treatment as the previously introduced images. It's just a responsive image with no bells or whistles. Let's change that by adding some transforms to the `data-src` attribute.
 
 ### How about **grayscaling** it?
 
