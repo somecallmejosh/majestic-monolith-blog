@@ -100,4 +100,8 @@ Here are some examples of images and the associated `<img>` element construction
 {{< /highlight >}}
 
 ## In Closing
-**Thank you, Unsplash.com**. Almost every image on this site is a representation of your offering. Dear reader, I encourage you to head over to [their website](https://unsplash.com/) and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose. **Thank you, Cloudinary**. You've made the process of image optimization and management a breeze. I also encourage our readers to check out [Cloudinary](http://www.cloudinary.com) for more info. Please share your thoughts below, and be sure to tell your friends if you like what you see on their site.
+**Thank you, Unsplash.com**. Almost every image on this site is a representation of your offering. Dear reader, I encourage you to head over to [their website](https://unsplash.com/) and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose.
+
+**Thank you, Cloudinary**. You've made the process of image optimization and management a breeze. I also encourage our readers to check out [Cloudinary](http://www.cloudinary.com) for more info.
+
+And, **thank you** for taking the time to read our very first blog post. If you have other image optimization solutions you use, please share your thoughts below. Also, be sure to tell your friends if you like what you see here.
