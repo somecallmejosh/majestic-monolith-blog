@@ -128,7 +128,7 @@ Add the `e_grayscale` transform to the `data-src` attribute.
 
 ### Let's **crop a thumbnail** image of her face
 
-Well add the following transforms to the `data-src` attribute.
+Cloudinary offers facial recognition. How rad is that? Let's add the following transforms to the `data-src` attribute.
 
 - `c_thumb`
 - `g_face `
