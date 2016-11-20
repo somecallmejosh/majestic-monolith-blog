@@ -30,7 +30,9 @@ Using their images is easy. You can go to their website and search for a particu
 
 ## Web Image Management for Developers
 
-We've been managing our Unsplash images with [Cloudinary](http://www.cloudinary.com). This is a service that deals with every image need we have. No need to save image variations for 1x, 1.5x, 2x and more. No need to write scripts to serve the appropriate file type (.webp, .jpg, .png, etc). No need to save cropped versions for smaller view ports. We've outsourced all these tasks to Cloudinary. Make sure to check out [their plans](http://cloudinary.com/pricing) to see if they offer a solution that meets your needs. Their free plan is serving at needs well (at the time of this writing). For us, it's a total win. They handle image optimization so we can research and write content.
+[Cloudinary](http://www.cloudinary.com) removes the headache of creating and managing responsive images on the web. I learned about them a few months back, working on a project at work. It changed my life. Our web edit team was also appreciative of this service. Cloudinary was the single solution that was a win for both teams.
+
+We are also managing images on Majestic Monolith with Cloudinary. It deals with every image need we have. No need to save image variations for 1x, 1.5x, 2x and more. No more forgetting to add [picture polyfills](https://github.com/scottjehl/picturefill) for some older browsers. No need to save cropped versions for smaller view ports. We've outsourced all these tasks to Cloudinary. Make sure to check out [their plans](http://cloudinary.com/pricing) to see if they offer a solution that meets your needs. Their free plan is serving at needs well (at the time of this writing). For us, it's a total win. They handle image optimization so we can research and write content.
 
 ### Cloudinary Javascript Dependencies
 
