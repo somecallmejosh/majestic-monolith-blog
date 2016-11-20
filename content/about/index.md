@@ -21,6 +21,6 @@ The web industry seems to pride itself on complexity. But, Michael Peritore and 
 
 ## The Goal
 
-Things don't need to be so damned difficult in this industry. Things don't need to be fancy. **They need to be fast and they need to make money**. We strive for simple solutions, and we will share our findings along the way.
+Things don't need to be so damned difficult in this industry. Things don't need to be fancy. **They need to be fast and they need to make money**. We strive to create simple solutions that make money. We will share what we've learned in the past. We will also share new things as we encounter them. Please feel free to add to the discussion. We can all learn from each other.
 
-Follow this blog to or signup for our **<a href="http://ikick.us7.list-manage.com/subscribe?u=8523d9263f5cc37057e16ab42&id=a0784e376f" target="_blank">newsletter</a>** to start learning.
+You can signup for our **<a href="http://ikick.us7.list-manage.com/subscribe?u=8523d9263f5cc37057e16ab42&id=a0784e376f" target="_blank">newsletter</a>** to receive future articles in your inbox.
