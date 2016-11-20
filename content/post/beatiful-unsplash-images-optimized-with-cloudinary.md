@@ -120,12 +120,23 @@ You'll notice this is the same treatment as the previously introduced images. It
 ### How about **grayscaling** it?
 
 {{< highlight html >}}
+
+Add the `e_grayscale` transform to the `data-src` attribute.
+
 <img data-src="https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale/v1479647300/lady.jpg" >
 {{< /highlight >}}
 
 {{< cloudinaryTransforms "c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale" "v1479647300/lady.jpg" >}}
 
 ### Let's **crop a thumbnail** image of her face
+
+Well add the following transforms to the `data-src` attribute.
+
+- `c_thumb`
+- `g_face `
+- `h_150`
+- `w_150 `
+
 {{< highlight html >}}
 <img data-src="https://res.cloudinary.com/dwjulenau/image/upload/c_thumb,g_face,dpr_auto,f_auto,q_auto,h_150,w_150/v1479647300/lady.jpg" >
 {{< /highlight >}}
@@ -134,6 +145,8 @@ You'll notice this is the same treatment as the previously introduced images. It
 
 ### Wait, she doesn't want her face to be recognized, so let's **pixelate** her
 
+Add the `e_pixelate_faces:9` transform to the `data-src` attribute.
+
 {{< highlight html >}}
 <img data-src="https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_pixelate_faces:9/v1479647300/lady.jpg" >
 {{< /highlight >}}
@@ -141,13 +154,16 @@ You'll notice this is the same treatment as the previously introduced images. It
 {{< cloudinaryTransforms "c_fill,dpr_auto,f_auto,q_auto,w_auto,e_pixelate_faces:9" "v1479647300/lady.jpg" >}}
 
 ### How about one of those fancy **blurred** images that are all the rage lately?
+
+Add the `e_blur:2000` transform to the `data-src` attribute.
+
 {{< highlight html >}}
 <img data-src="https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,e_blur:2000,f_auto,q_auto,w_auto/v1479647300/lady.jpg" >
 {{< /highlight >}}
 
 {{< cloudinaryTransforms "c_fill,dpr_auto,e_blur:2000,f_auto,q_auto,w_auto" "v1479647300/lady.jpg" >}}
 
-Again, we're only scratching the surface of possibilities here. The options are nearly unlimited. And if you want to learn more, they offer live, free training online. How cool is that?
+Pretty amazing, right? We get instant edits without having to open image editing software. Again, we're only scratching the surface of possibilities here. The options are nearly unlimited. And if you want to learn more, they offer live, free training online. How cool is that?
 
 ## In Closing
 **Thank you, Unsplash.com**. Almost every image on this site is a representation of your offering. Dear reader, I encourage you to head over to [their website](https://unsplash.com/) and poke around. There are no signups required. No trickery. No tomfoolery. Nothing to lose.
