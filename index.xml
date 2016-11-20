@@ -154,9 +154,9 @@
 
 &lt;h3 id=&#34;how-about-grayscaling-it&#34;&gt;How about &lt;strong&gt;grayscaling&lt;/strong&gt; it?&lt;/h3&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;Add the `e_grayscale` transform to the `data-src` attribute.
+&lt;p&gt;Add the &lt;code&gt;e_grayscale&lt;/code&gt; transform to the &lt;code&gt;data-src&lt;/code&gt; attribute.&lt;/p&gt;
 
-&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;data-src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;https://res.cloudinary.com/dwjulenau/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_auto,e_grayscale/v1479647300/lady.jpg&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
