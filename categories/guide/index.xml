@@ -33,7 +33,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.cloudinary.com&#34;&gt;Cloudinary&lt;/a&gt; removes the headache of creating and managing responsive images on the web. I learned about them a few months back, working on a project at work. It changed my life. Our web edit team was also appreciative of this service. Cloudinary was the single solution that was a win for both teams.&lt;/p&gt;
 
-&lt;p&gt;We are also managing images on Majestic Monolith with Cloudinary. It deals with every image need we have. No need to save image variations for 1x, 1.5x, 2x and more. No more forgetting to add &lt;a href=&#34;https://github.com/scottjehl/picturefill&#34;&gt;picture polyfills&lt;/a&gt; for some older browsers. No need to save cropped versions for smaller view ports. We&amp;rsquo;ve outsourced all these tasks to Cloudinary. Make sure to check out &lt;a href=&#34;http://cloudinary.com/pricing&#34;&gt;their plans&lt;/a&gt; to see if they offer a solution that meets your needs. Their free plan is serving at needs well (at the time of this writing). For us, it&amp;rsquo;s a total win. They handle image optimization so we can research and write content.&lt;/p&gt;
+&lt;p&gt;We are also managing images on Majestic Monolith with Cloudinary. It deals with every image need we have. No need to save image variations for 1x, 1.5x, 2x and more. No more forgetting to add &lt;a href=&#34;https://github.com/scottjehl/picturefill&#34;&gt;picture polyfills&lt;/a&gt; for some older browsers. No need to save cropped versions for smaller view ports. We&amp;rsquo;ve outsourced all these tasks to Cloudinary. Make sure to check out &lt;a href=&#34;http://cloudinary.com/pricing&#34;&gt;their plans&lt;/a&gt; to see if they offer a solution that meets your needs. Their free plan is serving our needs well (at the time of this writing). Dealing with Photoshop isn&amp;rsquo;t the best use of &lt;em&gt;our&lt;/em&gt; time. We&amp;rsquo;re developers, after all. This makes Cloudinary a total win. They handle image optimization and manipulation so we can focus on the things &lt;em&gt;we&lt;/em&gt; do best &amp;ndash; writing code.&lt;/p&gt;
 
 &lt;h3 id=&#34;cloudinary-javascript-dependencies&#34;&gt;Cloudinary Javascript Dependencies&lt;/h3&gt;
 
@@ -130,7 +130,7 @@
 
 &lt;h2 id=&#34;the-real-magic-of-cloudinary&#34;&gt;The Real Magic of Cloudinary&lt;/h2&gt;
 
-&lt;p&gt;The above images are all responsive. Play around with the window size to see how the image changes. Take a look at the source code to notice how the natural image sized adjusts on the fly. It&amp;rsquo;s all pretty amazing. But, you can do more with Cloudinary adjusting the parameters in the URL.&lt;/p&gt;
+&lt;p&gt;The above images are all responsive. Play around with the window size to see how the image changes. Take a look at the source code to notice how the natural image size adjusts on the fly. It&amp;rsquo;s all magical! But, you can do more with Cloudinary by modifying the URL string.&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s play around with this &lt;a href=&#34;https://unsplash.com/photos/IcypwC_7QrU&#34;&gt;image of a woman in a field&lt;/a&gt; from Unsplash.com.&lt;/p&gt;
 
@@ -148,6 +148,8 @@
   &gt;
 &lt;/div&gt;
 
+
+&lt;p&gt;You&amp;rsquo;ll notice this is the same treatment as the previously introduced images. It&amp;rsquo;s just a responsive image with no bells or whistles. Let&amp;rsquo;s change that by adding some transforms to the &lt;code&gt;data-src&lt;/code&gt; attribute.&lt;/p&gt;
 
 &lt;h3 id=&#34;how-about-grayscaling-it&#34;&gt;How about &lt;strong&gt;grayscaling&lt;/strong&gt; it?&lt;/h3&gt;
 
