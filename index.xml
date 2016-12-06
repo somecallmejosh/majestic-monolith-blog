@@ -43,78 +43,19 @@
 
 &lt;h2 id=&#34;placeholder-attribute-style-challenges&#34;&gt;Placeholder Attribute Style Challenges&lt;/h2&gt;
 
-&lt;p&gt;The first issue I noticed was that default browser styles for placeholder attributes are not consistent. Safari and Chrome apply an opacity to them. Firefox does not. The vertical alignment is different between them, also. Overriding these defaults takes a lot of CSS.&lt;/p&gt;
+&lt;h3 id=&#34;placeholder-browser-inconsistencies-are-numerous&#34;&gt;Placeholder Browser Inconsistencies are Numerous&lt;/h3&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;::placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;nd&#34;&gt;::-webkit-input-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;nd&#34;&gt;:-ms-input-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;nd&#34;&gt;::-ms-input-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;nd&#34;&gt;:-moz-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;nd&#34;&gt;::-moz-placeholder&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-  &lt;span class=&#34;nt&#34;&gt;opacity&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The first issue I noticed was that default browser styles for placeholder attributes are not consistent. Firefox applies an opacity to them. Safari (desktop and iOS) is ignoring my reference to the font family. Overriding all of this take a lot of CSS.&lt;/p&gt;
 
+&lt;h4 id=&#34;user-agent-shadow-dom-is-not-enabled-by-default&#34;&gt;User Agent Shadow DOM is Not Enabled By Default.&lt;/h4&gt;
 
-&lt;h3 id=&#34;user-agent-shadow-dom-is-not-enabled-by-default&#34;&gt;User Agent Shadow DOM is Not Enabled By Default.&lt;/h3&gt;
-
-&lt;p&gt;Through the magic of landing in a good stack overflow thread, I learned how to &lt;a href=&#34;http://stackoverflow.com/questions/26126587/how-to-enable-show-user-agent-shadow-dom-in-chrome-using-a-command-line-switch&#34;&gt;inspect the shadow DOM in Chrome&lt;/a&gt;. This helped me reason about some of the browser inconsistencies mentioned above. Overcoming each browser nuance took a lot of CSS. I can&amp;rsquo;t imagine the time spent working through this could yield any sort of return. Take a look at this Sass example using the &lt;a href=&#34;https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather&#34;&gt;Google font, Merriweather&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Trying to solve these issue in the browser is tough. Placeholder attributes are hidden in the shadow DOM. The firefox opacity issue was the hardest to figure out. It wasn&amp;rsquo;t until finding this &lt;a href=&#34;http://stackoverflow.com/questions/26126587/how-to-enable-show-user-agent-shadow-dom-in-chrome-using-a-command-line-switch&#34;&gt;Stack Overflow&lt;/a&gt; thread that I learned about this DOM issue. Overcoming each browser nuance took a lot of CSS. I can&amp;rsquo;t imagine the time spent working through this could yield any sort of return.&lt;/p&gt;
 
 &lt;h3 id=&#34;placeholder-styling-is-not-dry&#34;&gt;Placeholder Styling is Not DRY&lt;/h3&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;@mixin&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt; input-content&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;.6&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-  &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;email&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;montserrat&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;outline&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;none&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;p&gt;Notice in the Codepen example how I wasn&amp;rsquo;t able to combine selectors. This isn&amp;rsquo;t a lack of refactoring. This repetition was required. This violates DRY (Don&amp;rsquo;t Repeat Yourself) development principles.&lt;/p&gt;
 
-  &lt;span class=&#34;nd&#34;&gt;:-moz-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-  &lt;span class=&#34;nd&#34;&gt;::-moz-placeholder&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-      &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-      &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Merriweather&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-      &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-   &lt;span class=&#34;nd&#34;&gt;:-ms-input-placeholder&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-     &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-     &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Merriweather&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-     &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-
-    &lt;span class=&#34;nd&#34;&gt;::-webkit-input-placeholder&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-      &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-      &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Merriweather&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-      &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-
-    &lt;span class=&#34;nd&#34;&gt;::placeholder&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-     &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-     &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Merriweather&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-     &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Notice how I wasn&amp;rsquo;t able to combine selectors. This isn&amp;rsquo;t a lack of refactoring. This repetition was required. This violates DRY (Don&amp;rsquo;t Repeat Yourself) development principles.&lt;/p&gt;
-
-&lt;h3 id=&#34;this-would-have-been-cooler-but-fuggetabotit&#34;&gt;This Would Have Been Cooler, But Fuggetabotit!&lt;/h3&gt;
-
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;email&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;],&lt;/span&gt;
-&lt;span class=&#34;nd&#34;&gt;:-moz-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;nd&#34;&gt;::-moz-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;nd&#34;&gt;::-webkit-input-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;nd&#34;&gt;:-ms-input-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;nd&#34;&gt;::placeholder&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-   &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-   &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;montserrat&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-   &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Nope. No dice. The above snippet just doesn&amp;rsquo;t work. Bummer. There were other issues to address. Placeholders don&amp;rsquo;t work in Opera Mini, for instance.&lt;/p&gt;
+&lt;h3 id=&#34;placeholder-styling-is-not-fun&#34;&gt;Placeholder Styling is Not Fun&lt;/h3&gt;
 
 &lt;p&gt;That&amp;rsquo;s how I started this process. Nothing worked as expected. Troubleshooting was difficult. It was frustrating. But, I learned something. I know what&amp;rsquo;s involved in styling these suckers. And, I&amp;rsquo;m also more aware of what I&amp;rsquo;m actually building. And, I have even more respect for HTML. When used properly, it&amp;rsquo;s quite a joy to work with.&lt;/p&gt;
 
@@ -148,7 +89,7 @@
 
 &lt;h2 id=&#34;scss&#34;&gt;SCSS&lt;/h2&gt;
 
-&lt;p&gt;Since this is a complete refactor, the following styles are more like wireframes. Nothing fancy. I&amp;rsquo;m using the &lt;a href=&#34;https://fonts.google.com/specimen/Montserrat&#34;&gt;Montserrat Google Font&lt;/a&gt;, as opposed to Merriweather. Additionally, I use &lt;a href=&#34;https://css-tricks.com/snippets/sass/bem-mixins/&#34;&gt;BEM style SCSS syntax&lt;/a&gt; for almost all of my Sass work. I highly recommend it.&lt;/p&gt;
+&lt;p&gt;Since this is a complete refactor, the following styles are more like wireframes. Nothing fancy. I&amp;rsquo;m using the &lt;a href=&#34;https://fonts.google.com/specimen/Montserrat&#34;&gt;Montserrat Google Font&lt;/a&gt;, as opposed to Merriweather. Additionally, I use &lt;a href=&#34;https://css-tricks.com/snippets/sass/bem-mixins/&#34;&gt;BEM style SCSS syntax&lt;/a&gt; for almost all of my Sass work. I highly recommend it. If SCSS isn&amp;rsquo;t your bag, &lt;a href=&#34;https://gist.github.com/somecallmejosh/98b466de8ecebfec157526a9fb9a2bec#file-sassmeister-output-css&#34;&gt;here&amp;rsquo;s the compiled CSS&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$field-height&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 
