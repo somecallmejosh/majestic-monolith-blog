@@ -29,7 +29,7 @@
 
 &lt;p&gt;You may be thinking, &amp;ldquo;yes, I know that. Everyone knows that.&amp;rdquo; Take a look at this example:&lt;/p&gt;
 
-&lt;p&gt;&lt;p data-height=&#34;265&#34; data-theme-id=&#34;0&#34; data-slug-hash=&#34;JbLgWX&#34; data-default-tab=&#34;result&#34; data-user=&#34;somecallmejosh&#34; data-embed-version=&#34;2&#34; data-pen-title=&#34;JbLgWX&#34; class=&#34;codepen&#34;&gt;See the Pen &lt;a href=&#34;http://codepen.io/somecallmejosh/pen/JbLgWX/&#34;&gt;JbLgWX&lt;/a&gt; by Joshua Briley (&lt;a href=&#34;http://codepen.io/somecallmejosh&#34;&gt;@somecallmejosh&lt;/a&gt;) on &lt;a href=&#34;http://codepen.io&#34;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;p data-height=&#34;165&#34; data-theme-id=&#34;0&#34; data-slug-hash=&#34;JbLgWX&#34; data-default-tab=&#34;result&#34; data-user=&#34;somecallmejosh&#34; data-embed-version=&#34;2&#34; data-pen-title=&#34;JbLgWX&#34; class=&#34;codepen&#34;&gt;See the Pen &lt;a href=&#34;http://codepen.io/somecallmejosh/pen/JbLgWX/&#34;&gt;JbLgWX&lt;/a&gt; by Joshua Briley (&lt;a href=&#34;http://codepen.io/somecallmejosh&#34;&gt;@somecallmejosh&lt;/a&gt;) on &lt;a href=&#34;http://codepen.io&#34;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async src=&#34;https://production-assets.codepen.io/assets/embed/ei.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;Looks like a regular email form with a placeholder, right? Well, let&amp;rsquo;s look at the differences between a placeholder and a form label:&lt;/p&gt;
@@ -123,7 +123,7 @@
 
 &lt;p&gt;I&amp;rsquo;ll start by saying that &lt;strong&gt;form labels are much easier to style&lt;/strong&gt;. No crazy browser defaults. Nothing hiding in shadow DOM. No surprises. Here&amp;rsquo;s my refactored solution:&lt;/p&gt;
 
-&lt;p&gt;&lt;p data-height=&#34;265&#34; data-theme-id=&#34;0&#34; data-slug-hash=&#34;womVBy&#34; data-default-tab=&#34;result&#34; data-user=&#34;somecallmejosh&#34; data-embed-version=&#34;2&#34; data-pen-title=&#34;womVBy&#34; class=&#34;codepen&#34;&gt;See the Pen &lt;a href=&#34;http://codepen.io/somecallmejosh/pen/womVBy/&#34;&gt;womVBy&lt;/a&gt; by Joshua Briley (&lt;a href=&#34;http://codepen.io/somecallmejosh&#34;&gt;@somecallmejosh&lt;/a&gt;) on &lt;a href=&#34;http://codepen.io&#34;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;p data-height=&#34;165&#34; data-theme-id=&#34;0&#34; data-slug-hash=&#34;womVBy&#34; data-default-tab=&#34;result&#34; data-user=&#34;somecallmejosh&#34; data-embed-version=&#34;2&#34; data-pen-title=&#34;womVBy&#34; class=&#34;codepen&#34;&gt;See the Pen &lt;a href=&#34;http://codepen.io/somecallmejosh/pen/womVBy/&#34;&gt;womVBy&lt;/a&gt; by Joshua Briley (&lt;a href=&#34;http://codepen.io/somecallmejosh&#34;&gt;@somecallmejosh&lt;/a&gt;) on &lt;a href=&#34;http://codepen.io&#34;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async src=&#34;https://production-assets.codepen.io/assets/embed/ei.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;email-form-markup&#34;&gt;Email Form Markup&lt;/h3&gt;
@@ -321,12 +321,6 @@
 
   &lt;span class=&#34;k&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;__submitted&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;nt&#34;&gt;font&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;400&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;12px&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Montserrat&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;sans-serif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-
-  &lt;span class=&#34;k&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;__wrapper&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#f4f4f4&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;10px&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;border&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#ccc&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;1px&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;solid&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
