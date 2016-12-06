@@ -88,7 +88,7 @@ I'll start by saying that **form labels are much easier to style**. No crazy bro
 
 ## SCSS
 
-Since this is a complete refactor, the following styles are more like wireframes. Nothing fancy. I'm using the [Montserrat Google Font](https://fonts.google.com/specimen/Montserrat), as opposed to Merriweather. Additionally, I use [BEM style SCSS syntax](https://css-tricks.com/snippets/sass/bem-mixins/) for almost all of my Sass/SCSS work. I highly recommend it. If SCSS isn't your bag, [here's the compiled CSS](https://gist.github.com/somecallmejosh/98b466de8ecebfec157526a9fb9a2bec#file-sassmeister-output-css). Otherwise, here's the BEM infused SCSS:
+Since this is a complete refactor, the following styles are more like wireframes. Nothing fancy. I like using [BEM style SCSS syntax](https://css-tricks.com/snippets/sass/bem-mixins/) for almost all of my HTML/Sass/SCSS work. I highly recommend it. If SCSS isn't your bag, [here's the compiled CSS](https://gist.github.com/somecallmejosh/98b466de8ecebfec157526a9fb9a2bec#file-sassmeister-output-css). Otherwise, here's the BEM infused SCSS:
 
 
 {{< highlight scss >}}
