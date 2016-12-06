@@ -88,7 +88,8 @@ I'll start by saying that **form labels are much easier to style**. No crazy bro
 
 ## SCSS
 
-Since this is a complete refactor, the following styles are more like wireframes. Nothing fancy. I'm using the [Montserrat Google Font](https://fonts.google.com/specimen/Montserrat), as opposed to Merriweather. Additionally, I use [BEM style SCSS syntax](https://css-tricks.com/snippets/sass/bem-mixins/) for almost all of my Sass work. I highly recommend it. If SCSS isn't your bag, [here's the compiled CSS](https://gist.github.com/somecallmejosh/98b466de8ecebfec157526a9fb9a2bec#file-sassmeister-output-css).
+Since this is a complete refactor, the following styles are more like wireframes. Nothing fancy. I'm using the [Montserrat Google Font](https://fonts.google.com/specimen/Montserrat), as opposed to Merriweather. Additionally, I use [BEM style SCSS syntax](https://css-tricks.com/snippets/sass/bem-mixins/) for almost all of my Sass/SCSS work. I highly recommend it. If SCSS isn't your bag, [here's the compiled CSS](https://gist.github.com/somecallmejosh/98b466de8ecebfec157526a9fb9a2bec#file-sassmeister-output-css). Otherwise, here's the BEM infused SCSS:
+
 
 {{< highlight scss >}}
 $field-height: 50px;
@@ -271,7 +272,7 @@ $field-height: 50px;
 
 ## Javascript
 
-I'm using javascript (with jQuery) for some basic form validation.
+I'll start this section by announcing that I don't fancy myself a javascript developer. There are many ways to accomplish the following. I'm certain it can be refactored. The idea was to keep it simple and easy to maintain by nearly anyone. There was no reason to include an entire validation library like Parsley. A small chunk of jQuery does the trick. I've included inline comments for clarity.
 
 {{< highlight javascript >}}
 'use strict';
