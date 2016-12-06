@@ -15,6 +15,8 @@
       <guid>/post/are-you-using-placeholder-attributes-properly/</guid>
       <description>
 
+&lt;h2 id=&#34;html-is-important&#34;&gt;HTML is Important&lt;/h2&gt;
+
 &lt;p&gt;HTML. It&amp;rsquo;s the tool many developers treat as a byproduct of &lt;em&gt;real code&lt;/em&gt;. It&amp;rsquo;s often relegated to the ranks of &lt;em&gt;novice programmers&lt;/em&gt;. That&amp;rsquo;s unfortunate because HTML is the product consumed by the user. It&amp;rsquo;s where all the SEO happens. It&amp;rsquo;s where all the accessibility happens. I believe treating HTML as a first-class citizen is important. Knowing and respecting it can save time and lower developer frustration. In this post, I&amp;rsquo;ll show you how knowing some minor nuance in form elements could&amp;rsquo;ve saved me a lot of frustration.&lt;/p&gt;
 
 &lt;h2 id=&#34;sometimes-the-wrong-way-teaches-us-the-right-way&#34;&gt;Sometimes the wrong way teaches us the right way&lt;/h2&gt;
