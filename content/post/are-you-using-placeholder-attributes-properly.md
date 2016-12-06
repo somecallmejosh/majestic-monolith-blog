@@ -31,7 +31,7 @@ Styling the placeholder attribute was a continuous path of frustration. I had no
 
 You may be thinking, "yes, I know that. Everyone knows that." Take a look at this example:
 
-<p data-height="265" data-theme-id="0" data-slug-hash="JbLgWX" data-default-tab="result" data-user="somecallmejosh" data-embed-version="2" data-pen-title="JbLgWX" class="codepen">See the Pen <a href="http://codepen.io/somecallmejosh/pen/JbLgWX/">JbLgWX</a> by Joshua Briley (<a href="http://codepen.io/somecallmejosh">@somecallmejosh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="165" data-theme-id="0" data-slug-hash="JbLgWX" data-default-tab="result" data-user="somecallmejosh" data-embed-version="2" data-pen-title="JbLgWX" class="codepen">See the Pen <a href="http://codepen.io/somecallmejosh/pen/JbLgWX/">JbLgWX</a> by Joshua Briley (<a href="http://codepen.io/somecallmejosh">@somecallmejosh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Looks like a regular email form with a placeholder, right? Well, let's look at the differences between a placeholder and a form label:
@@ -125,7 +125,7 @@ Let's move on and take a look at the approach I ended up using.
 
 I'll start by saying that **form labels are much easier to style**. No crazy browser defaults. Nothing hiding in shadow DOM. No surprises. Here's my refactored solution:
 
-<p data-height="265" data-theme-id="0" data-slug-hash="womVBy" data-default-tab="result" data-user="somecallmejosh" data-embed-version="2" data-pen-title="womVBy" class="codepen">See the Pen <a href="http://codepen.io/somecallmejosh/pen/womVBy/">womVBy</a> by Joshua Briley (<a href="http://codepen.io/somecallmejosh">@somecallmejosh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="165" data-theme-id="0" data-slug-hash="womVBy" data-default-tab="result" data-user="somecallmejosh" data-embed-version="2" data-pen-title="womVBy" class="codepen">See the Pen <a href="http://codepen.io/somecallmejosh/pen/womVBy/">womVBy</a> by Joshua Briley (<a href="http://codepen.io/somecallmejosh">@somecallmejosh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ### Email Form Markup
@@ -324,12 +324,6 @@ $field-height: 50px;
 
   &__submitted {
     font: 400 12px 'Montserrat', sans-serif;
-  }
-
-  &__wrapper {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border: #ccc 1px solid;
   }
 }
 {{< /highlight >}}
