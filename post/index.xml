@@ -89,7 +89,7 @@
 
 &lt;h2 id=&#34;scss&#34;&gt;SCSS&lt;/h2&gt;
 
-&lt;p&gt;Since this is a complete refactor, the following styles are more like wireframes. Nothing fancy. I&amp;rsquo;m using the &lt;a href=&#34;https://fonts.google.com/specimen/Montserrat&#34;&gt;Montserrat Google Font&lt;/a&gt;, as opposed to Merriweather. Additionally, I use &lt;a href=&#34;https://css-tricks.com/snippets/sass/bem-mixins/&#34;&gt;BEM style SCSS syntax&lt;/a&gt; for almost all of my Sass/SCSS work. I highly recommend it. If SCSS isn&amp;rsquo;t your bag, &lt;a href=&#34;https://gist.github.com/somecallmejosh/98b466de8ecebfec157526a9fb9a2bec#file-sassmeister-output-css&#34;&gt;here&amp;rsquo;s the compiled CSS&lt;/a&gt;. Otherwise, here&amp;rsquo;s the BEM infused SCSS:&lt;/p&gt;
+&lt;p&gt;Since this is a complete refactor, the following styles are more like wireframes. Nothing fancy. I like using &lt;a href=&#34;https://css-tricks.com/snippets/sass/bem-mixins/&#34;&gt;BEM style SCSS syntax&lt;/a&gt; for almost all of my HTML/Sass/SCSS work. I highly recommend it. If SCSS isn&amp;rsquo;t your bag, &lt;a href=&#34;https://gist.github.com/somecallmejosh/98b466de8ecebfec157526a9fb9a2bec#file-sassmeister-output-css&#34;&gt;here&amp;rsquo;s the compiled CSS&lt;/a&gt;. Otherwise, here&amp;rsquo;s the BEM infused SCSS:&lt;/p&gt;
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$field-height&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 
