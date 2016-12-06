@@ -19,13 +19,13 @@ categories = [
 
 ## HTML is Important
 
-HTML. It's the tool many developers treat as a byproduct of *real code*. It's often relegated to the ranks of *novice programmers*. That's unfortunate because HTML is the product consumed by the user. It's where all the SEO happens. It's where all the accessibility happens. I believe treating HTML as a first-class citizen is important. Knowing and respecting it can save time and lower developer frustration. In this post, I'll show you how knowing some minor nuance in form elements could've saved me a lot of frustration.
+HTML. It's the tool many developers treat as a byproduct of *real code*. It's often relegated to the ranks of *novice programmers*. That's unfortunate because **HTML is the product consumed by the user. It's where all the SEO happens. It's where all the accessibility happens**. I believe treating HTML as a first-class citizen is important. Knowing and respecting it can save time and lower developer frustration. In this post, I'll show you how knowing proper use of form elements could've saved me a lot of frustration.
 
 ## Sometimes the wrong way teaches us the right way
 
-The complexities of styling placeholder attributes taught me a lesson. I think we've all tried to do some minor styling of placeholder content. In the past, I changed the font size or the color. A more recent challenge proved more difficult. We needed a professional font, at a specific size, at full opacity. Let the fun begin.
+I think we've all tried to do some minor styling of placeholder attributes. In the past, I changed the font size or the color. A more recent challenge proved more difficult. We needed a professional font, at a specific size, at full opacity. Let the fun begin. The complexities of this extra styling taught me a lesson: Always Be Checking the semantics of your markup.
 
-Styling the placeholder attribute was a continuous path of frustration. I had no idea how to edit placeholder styles in dev tools. I couldn't do it in the browser. So, I had to reload my Rails app every time I changed a style. Sass change, refresh. I began to notice a bunch of inconsistencies between browsers. Alignment issues. Opacity issues. I felt like I was doing this all wrong. As it turns out, I was.
+Styling the placeholder attribute was a continuous path of frustration. I had no idea how to edit placeholder styles in dev tools. I couldn't do it in the browser. So, I had to reload my Rails app every time I changed a style. I began to notice a bunch of inconsistencies between browsers. Vertical alignment issues were creeping in. Opacity issues. I felt like I was doing this all wrong. As it turns out, I was.
 
 ## Placeholder attributes and form labels are different
 
@@ -38,97 +38,7 @@ Looks like a regular email form with a placeholder, right? Well, let's look at t
 
 > The `<label>` attribute describes the role of the form element.  it indicates expected information. Placeholder attribute is a hint about the format that the content should take. There are cases in which the placeholder attribute is never displayed to the user. The form must be understandable without it. -- Paraphrased from Mozilla Developer Network
 
-There's no placeholder in this form, according to this definition. The content *Enter Your Email Address* is more consistent with the definition of a form label. `email@youremail.com` would be more inline with a placeholder attribute. I had been treating a form label like a placeholder attribute. Seems innocent enough, but it led to much more work. Let's take a look.
-
-## Placeholder Attribute Style Challenges
-
-Default browser styles for placeholder attributes are not consistent. Safari and Chrome apply an opacity to them. Firefox does not. The vertical alignment is different between them, also. Overriding these defaults takes a lot of CSS.
-
-{{< highlight scss >}}
-::placeholder,
-::-webkit-input-placeholder,
-:-ms-input-placeholder,
-::-ms-input-placeholder,
-:-moz-placeholder,
-::-moz-placeholder {
-  opacity: 1;
-}
-{{< /highlight >}}
-
-
-### User Agent Shadow DOM is Not Enabled By Default.
-
-Through the magic of landing in a good stack overflow thread, I learned how to [inspect the shadow DOM in Chrome](http://stackoverflow.com/questions/26126587/how-to-enable-show-user-agent-shadow-dom-in-chrome-using-a-command-line-switch). This helped me reason about some of the browser inconsistencies mentioned above. Overcoming each browser nuance took a lot of CSS. I can't imagine the time spent working through this could yield any sort of return. Take a look at this Sass example using the [Google font, Merriweather](https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather):
-
-### Placeholder Stying is Not DRY
-
-{{< highlight scss >}}
-@mixin input-content($font-size: 1.6rem) {
-  [type='email'] {
-    color: #333;
-    font-family: $montserrat;
-    font-size: $font-size;
-    outline: none;
-  }
-
-  :-moz-placeholder,
-  ::-moz-placeholder {
-      color: #333;
-      font-family: 'Merriweather', serif;
-      font-size: $font-size;
-  }
-   :-ms-input-placeholder {
-     color: #333;
-     font-family: 'Merriweather', serif;
-     font-size: $font-size;
-   }
-
-    ::-webkit-input-placeholder {
-      color: #333;
-      font-family: 'Merriweather', serif;
-      font-size: $font-size;
-    }
-
-    ::placeholder  {
-     color: #333;
-     font-family: 'Merriweather', serif;
-     font-size: $font-size;
-   }
-}
-{{< /highlight >}}
-
-Notice how I wasn't able to combine selectors. This violates DRY (Don't Repeat Yourself) development strategies. This isn't a lack of refactoring. This repetition was required.
-
-### This Would Have Been Cooler, But Fuggetabotit!
-
-{{< highlight scss >}}
-[type='email'],
-:-moz-placeholder,
-::-moz-placeholder,
-::-webkit-input-placeholder,
-:-ms-input-placeholder,
-::placeholder {
-   color: #333;
-   font-family: $montserrat;
-   font-size: $font-size;
-}
-{{< /highlight >}}
-
-HTML. It's the tool many developers treat as a byproduct of *real code*. It's often relegated to the ranks of *novice programmers*. That's unfortunate because **HTML is the product consumed by the user. It's where all the SEO happens. It's where all the accessibility happens**. I believe treating HTML as a first-class citizen is important. Knowing and respecting it can save time and lower developer frustration. In this post, I'll show you how knowing proper use of form elements could've saved me a lot of frustration.
-
-## Sometimes the wrong way teaches us the right way
-
-I think we've all tried to do some minor styling of placeholder attributes. In the past, I changed the font size or the color. A more recent challenge proved more difficult. We needed a professional font, at a specific size, at full opacity. Let the fun begin. The complexities of this extra styling taught me a lesson: Always Be Checking the semantics of your markup.
-
-Styling the placeholder attribute was a continuous path of frustration. I had no idea how to edit placeholder styles in dev tools. I couldn't do it in the browser. So, I had to reload my Rails app every time I changed a style. I began to notice a bunch of inconsistencies between browsers. Vertical alignment issues were creeping in. Opacity issues. I felt like I was doing this all wrong. As it turns out, I was.
-
-## Placeholder attributes and form labels are different
-
-You may be thinking, *yes, I know that. Everyone knows that.* Take another look at the Codepen example above. Looks like a regular email form with a placeholder, right? Well, let's look at the **differences between a placeholder and a form label**:
-
-> The `<label>` attribute describes the role of the form element.  it indicates expected information. Placeholder attribute is a hint about the format that the content should take. There are cases in which the placeholder attribute is never displayed to the user. The form must be understandable without it. -- Paraphrased from [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-placeholder)
-
-There's no placeholder in the Codepen example above, according to the Mozilla definition. The content *Enter Your Email Address* is more consistent with the definition of a form *label*. Something like `email@youremail.com` would be more in line with a placeholder attribute. **I had been treating a form label like a placeholder attribute**. Seems innocent enough, but it led to a ton of work. Let's take a look.
+There's no placeholder in the above form, according to the Mozilla definition. The content *Enter Your Email Address* is more consistent with the definition of a form *label*. Something like `email@youremail.com` would be more in line with a placeholder attribute. **I had been treating a form label like a placeholder attribute**. Seems innocent enough, but it led to a ton of work. Let's take a look.
 
 ## Placeholder Attribute Style Challenges
 
@@ -150,7 +60,7 @@ The first issue I noticed was that default browser styles for placeholder attrib
 
 Through the magic of landing in a good stack overflow thread, I learned how to [inspect the shadow DOM in Chrome](http://stackoverflow.com/questions/26126587/how-to-enable-show-user-agent-shadow-dom-in-chrome-using-a-command-line-switch). This helped me reason about some of the browser inconsistencies mentioned above. Overcoming each browser nuance took a lot of CSS. I can't imagine the time spent working through this could yield any sort of return. Take a look at this Sass example using the [Google font, Merriweather](https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather):
 
-### Placeholder Stying is Not DRY
+### Placeholder Styling is Not DRY
 
 {{< highlight scss >}}
 @mixin input-content($font-size: 1.6rem) {
@@ -187,7 +97,7 @@ Through the magic of landing in a good stack overflow thread, I learned how to [
 }
 {{< /highlight >}}
 
-Notice how I wasn't able to combine selectors. This violates DRY (Don't Repeat Yourself) development strategies. This isn't a lack of refactoring. This repetition was required.
+Notice how I wasn't able to combine selectors. This isn't a lack of refactoring. This repetition was required. This violates DRY (Don't Repeat Yourself) development principles.
 
 ### This Would Have Been Cooler, But Fuggetabotit!
 
@@ -203,6 +113,7 @@ Notice how I wasn't able to combine selectors. This violates DRY (Don't Repeat Y
    font-size: $font-size;
 }
 {{< /highlight >}}
+
 
 Nope. No dice. The above snippet just doesn't work. Bummer. There were other issues to address. Placeholders don't work in Opera Mini, for instance.
 
