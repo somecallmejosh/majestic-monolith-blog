@@ -36,7 +36,7 @@ You may be thinking, "yes, I know that. Everyone knows that." Take a look at thi
 
 Looks like a regular email form with a placeholder, right? Well, let's look at the differences between a placeholder and a form label:
 
-> The `<label>` attribute describes the role of the form element.  it indicates expected information. Placeholder attribute is a hint about the format that the content should take. There are cases in which the placeholder attribute is never displayed to the user. The form must be understandable without it. -- Paraphrased from Mozilla Developer Network
+> The `<label>` attribute describes the role of the form element.  it indicates expected information. Placeholder attribute is a hint about the format that the content should take. There are cases in which the placeholder attribute is never displayed to the user. The form must be understandable without it. -- Paraphrased from [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-placeholder)
 
 There's no placeholder in the above form, according to the Mozilla definition. The content *Enter Your Email Address* is more consistent with the definition of a form *label*. Something like `email@youremail.com` would be more in line with a placeholder attribute. **I had been treating a form label like a placeholder attribute**. Seems innocent enough, but it led to a ton of work. Let's take a look.
 
