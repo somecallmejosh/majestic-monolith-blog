@@ -42,80 +42,19 @@ There's no placeholder in the above form, according to the Mozilla definition. T
 
 ## Placeholder Attribute Style Challenges
 
-The first issue I noticed was that default browser styles for placeholder attributes are not consistent. Safari and Chrome apply an opacity to them. Firefox does not. The vertical alignment is different between them, also. Overriding these defaults takes a lot of CSS.
+### Placeholder Browser Inconsistencies are Numerous
 
-{{< highlight scss >}}
-::placeholder,
-::-webkit-input-placeholder,
-:-ms-input-placeholder,
-::-ms-input-placeholder,
-:-moz-placeholder,
-::-moz-placeholder {
-  opacity: 1;
-}
-{{< /highlight >}}
+The first issue I noticed was that default browser styles for placeholder attributes are not consistent. Firefox applies an opacity to them. Safari (desktop and iOS) is ignoring my reference to the font family. Overriding all of this take a lot of CSS.
 
+#### User Agent Shadow DOM is Not Enabled By Default.
 
-### User Agent Shadow DOM is Not Enabled By Default.
-
-Through the magic of landing in a good stack overflow thread, I learned how to [inspect the shadow DOM in Chrome](http://stackoverflow.com/questions/26126587/how-to-enable-show-user-agent-shadow-dom-in-chrome-using-a-command-line-switch). This helped me reason about some of the browser inconsistencies mentioned above. Overcoming each browser nuance took a lot of CSS. I can't imagine the time spent working through this could yield any sort of return. Take a look at this Sass example using the [Google font, Merriweather](https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather):
+Trying to solve these issue in the browser is tough. Placeholder attributes are hidden in the shadow DOM. The firefox opacity issue was the hardest to figure out. It wasn't until finding this [Stack Overflow](http://stackoverflow.com/questions/26126587/how-to-enable-show-user-agent-shadow-dom-in-chrome-using-a-command-line-switch) thread that I learned about this DOM issue. Overcoming each browser nuance took a lot of CSS. I can't imagine the time spent working through this could yield any sort of return.
 
 ### Placeholder Styling is Not DRY
 
-{{< highlight scss >}}
-@mixin input-content($font-size: 1.6rem) {
-  [type='email'] {
-    color: #333;
-    font-family: $montserrat;
-    font-size: $font-size;
-    outline: none;
-  }
+Notice in the Codepen example how I wasn't able to combine selectors. This isn't a lack of refactoring. This repetition was required. This violates DRY (Don't Repeat Yourself) development principles.
 
-  :-moz-placeholder,
-  ::-moz-placeholder {
-      color: #333;
-      font-family: 'Merriweather', serif;
-      font-size: $font-size;
-  }
-   :-ms-input-placeholder {
-     color: #333;
-     font-family: 'Merriweather', serif;
-     font-size: $font-size;
-   }
-
-    ::-webkit-input-placeholder {
-      color: #333;
-      font-family: 'Merriweather', serif;
-      font-size: $font-size;
-    }
-
-    ::placeholder  {
-     color: #333;
-     font-family: 'Merriweather', serif;
-     font-size: $font-size;
-   }
-}
-{{< /highlight >}}
-
-Notice how I wasn't able to combine selectors. This isn't a lack of refactoring. This repetition was required. This violates DRY (Don't Repeat Yourself) development principles.
-
-### This Would Have Been Cooler, But Fuggetabotit!
-
-{{< highlight scss >}}
-[type='email'],
-:-moz-placeholder,
-::-moz-placeholder,
-::-webkit-input-placeholder,
-:-ms-input-placeholder,
-::placeholder {
-   color: #333;
-   font-family: $montserrat;
-   font-size: $font-size;
-}
-{{< /highlight >}}
-
-
-Nope. No dice. The above snippet just doesn't work. Bummer. There were other issues to address. Placeholders don't work in Opera Mini, for instance.
+### Placeholder Styling is Not Fun
 
 That's how I started this process. Nothing worked as expected. Troubleshooting was difficult. It was frustrating. But, I learned something. I know what's involved in styling these suckers. And, I'm also more aware of what I'm actually building. And, I have even more respect for HTML. When used properly, it's quite a joy to work with.
 
@@ -149,7 +88,7 @@ I'll start by saying that **form labels are much easier to style**. No crazy bro
 
 ## SCSS
 
-Since this is a complete refactor, the following styles are more like wireframes. Nothing fancy. I'm using the [Montserrat Google Font](https://fonts.google.com/specimen/Montserrat), as opposed to Merriweather. Additionally, I use [BEM style SCSS syntax](https://css-tricks.com/snippets/sass/bem-mixins/) for almost all of my Sass work. I highly recommend it.
+Since this is a complete refactor, the following styles are more like wireframes. Nothing fancy. I'm using the [Montserrat Google Font](https://fonts.google.com/specimen/Montserrat), as opposed to Merriweather. Additionally, I use [BEM style SCSS syntax](https://css-tricks.com/snippets/sass/bem-mixins/) for almost all of my Sass work. I highly recommend it. If SCSS isn't your bag, [here's the compiled CSS](https://gist.github.com/somecallmejosh/98b466de8ecebfec157526a9fb9a2bec#file-sassmeister-output-css).
 
 {{< highlight scss >}}
 $field-height: 50px;
