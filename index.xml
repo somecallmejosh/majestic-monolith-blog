@@ -36,7 +36,7 @@
 &lt;p&gt;Looks like a regular email form with a placeholder, right? Well, let&amp;rsquo;s look at the differences between a placeholder and a form label:&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;The &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt; attribute describes the role of the form element.  it indicates expected information. Placeholder attribute is a hint about the format that the content should take. There are cases in which the placeholder attribute is never displayed to the user. The form must be understandable without it. &amp;ndash; Paraphrased from Mozilla Developer Network&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt; attribute describes the role of the form element.  it indicates expected information. Placeholder attribute is a hint about the format that the content should take. There are cases in which the placeholder attribute is never displayed to the user. The form must be understandable without it. &amp;ndash; Paraphrased from &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-placeholder&#34;&gt;Mozilla Developer Network&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;There&amp;rsquo;s no placeholder in the above form, according to the Mozilla definition. The content &lt;em&gt;Enter Your Email Address&lt;/em&gt; is more consistent with the definition of a form &lt;em&gt;label&lt;/em&gt;. Something like &lt;code&gt;email@youremail.com&lt;/code&gt; would be more in line with a placeholder attribute. &lt;strong&gt;I had been treating a form label like a placeholder attribute&lt;/strong&gt;. Seems innocent enough, but it led to a ton of work. Let&amp;rsquo;s take a look.&lt;/p&gt;
