@@ -15,7 +15,7 @@
       <guid>/post/are-you-using-placeholder-attributes-properly/</guid>
       <description>
 
-&lt;p&gt;HTML. It&amp;rsquo;s the tool many developers treat as a byproduct of real code. So many relegate it to the ranks of non-programmers. It&amp;rsquo;s unfortunate. On the web, HTML is the product consumed by the user. It&amp;rsquo;s where all the SEO happens. It&amp;rsquo;s where all the accessibility happens. Treating HTML as a first-class citizen is important. Knowing and respecting HTML can save time and lower frustration. In this post, I&amp;rsquo;ll show you how knowing some minor nuance could&amp;rsquo;ve save me a lot of frustration.&lt;/p&gt;
+&lt;p&gt;HTML. It&amp;rsquo;s the tool many developers treat as a byproduct of &lt;em&gt;real code&lt;/em&gt;. It&amp;rsquo;s often relegated to the ranks of &lt;em&gt;novice programmers&lt;/em&gt;. That&amp;rsquo;s unfortunate because HTML is the product consumed by the user. It&amp;rsquo;s where all the SEO happens. It&amp;rsquo;s where all the accessibility happens. I believe treating HTML as a first-class citizen is important. Knowing and respecting it can save time and lower developer frustration. In this post, I&amp;rsquo;ll show you how knowing some minor nuance in form elements could&amp;rsquo;ve saved me a lot of frustration.&lt;/p&gt;
 
 &lt;h2 id=&#34;sometimes-the-wrong-way-teaches-us-the-right-way&#34;&gt;Sometimes the wrong way teaches us the right way&lt;/h2&gt;
 
@@ -25,7 +25,12 @@
 
 &lt;h2 id=&#34;placeholder-attributes-and-form-labels-are-different&#34;&gt;Placeholder attributes and form labels are different&lt;/h2&gt;
 
-&lt;p&gt;You may be thinking, &amp;ldquo;yes, I know that. Everyone knows that.&amp;rdquo; Take a look at &lt;a href=&#34;https://somecallmejosh.github.io/atk-form-validation/side-by-side-form.html&#34;&gt;this example&lt;/a&gt;. Looks like a regular email form with a placeholder, right? Well, let&amp;rsquo;s look at the differences between a placeholder and a form label:&lt;/p&gt;
+&lt;p&gt;You may be thinking, &amp;ldquo;yes, I know that. Everyone knows that.&amp;rdquo; Take a look at this example:&lt;/p&gt;
+
+&lt;p&gt;&lt;p data-height=&#34;265&#34; data-theme-id=&#34;0&#34; data-slug-hash=&#34;JbLgWX&#34; data-default-tab=&#34;result&#34; data-user=&#34;somecallmejosh&#34; data-embed-version=&#34;2&#34; data-pen-title=&#34;JbLgWX&#34; class=&#34;codepen&#34;&gt;See the Pen &lt;a href=&#34;http://codepen.io/somecallmejosh/pen/JbLgWX/&#34;&gt;JbLgWX&lt;/a&gt; by Joshua Briley (&lt;a href=&#34;http://codepen.io/somecallmejosh&#34;&gt;@somecallmejosh&lt;/a&gt;) on &lt;a href=&#34;http://codepen.io&#34;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async src=&#34;https://production-assets.codepen.io/assets/embed/ei.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Looks like a regular email form with a placeholder, right? Well, let&amp;rsquo;s look at the differences between a placeholder and a form label:&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;The &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt; attribute describes the role of the form element.  it indicates expected information. Placeholder attribute is a hint about the format that the content should take. There are cases in which the placeholder attribute is never displayed to the user. The form must be understandable without it. &amp;ndash; Paraphrased from Mozilla Developer Network&lt;/p&gt;
@@ -106,6 +111,97 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;p&gt;HTML. It&amp;rsquo;s the tool many developers treat as a byproduct of &lt;em&gt;real code&lt;/em&gt;. It&amp;rsquo;s often relegated to the ranks of &lt;em&gt;novice programmers&lt;/em&gt;. That&amp;rsquo;s unfortunate because &lt;strong&gt;HTML is the product consumed by the user. It&amp;rsquo;s where all the SEO happens. It&amp;rsquo;s where all the accessibility happens&lt;/strong&gt;. I believe treating HTML as a first-class citizen is important. Knowing and respecting it can save time and lower developer frustration. In this post, I&amp;rsquo;ll show you how knowing proper use of form elements could&amp;rsquo;ve saved me a lot of frustration.&lt;/p&gt;
+
+&lt;h2 id=&#34;sometimes-the-wrong-way-teaches-us-the-right-way-1&#34;&gt;Sometimes the wrong way teaches us the right way&lt;/h2&gt;
+
+&lt;p&gt;I think we&amp;rsquo;ve all tried to do some minor styling of placeholder attributes. In the past, I changed the font size or the color. A more recent challenge proved more difficult. We needed a professional font, at a specific size, at full opacity. Let the fun begin. The complexities of this extra styling taught me a lesson: Always Be Checking the semantics of your markup.&lt;/p&gt;
+
+&lt;p&gt;Styling the placeholder attribute was a continuous path of frustration. I had no idea how to edit placeholder styles in dev tools. I couldn&amp;rsquo;t do it in the browser. So, I had to reload my Rails app every time I changed a style. I began to notice a bunch of inconsistencies between browsers. Vertical alignment issues were creeping in. Opacity issues. I felt like I was doing this all wrong. As it turns out, I was.&lt;/p&gt;
+
+&lt;h2 id=&#34;placeholder-attributes-and-form-labels-are-different-1&#34;&gt;Placeholder attributes and form labels are different&lt;/h2&gt;
+
+&lt;p&gt;You may be thinking, &lt;em&gt;yes, I know that. Everyone knows that.&lt;/em&gt; Take another look at the Codepen example above. Looks like a regular email form with a placeholder, right? Well, let&amp;rsquo;s look at the &lt;strong&gt;differences between a placeholder and a form label&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt; attribute describes the role of the form element.  it indicates expected information. Placeholder attribute is a hint about the format that the content should take. There are cases in which the placeholder attribute is never displayed to the user. The form must be understandable without it. &amp;ndash; Paraphrased from &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-placeholder&#34;&gt;Mozilla Developer Network&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There&amp;rsquo;s no placeholder in the Codepen example above, according to the Mozilla definition. The content &lt;em&gt;Enter Your Email Address&lt;/em&gt; is more consistent with the definition of a form &lt;em&gt;label&lt;/em&gt;. Something like &lt;code&gt;email@youremail.com&lt;/code&gt; would be more in line with a placeholder attribute. &lt;strong&gt;I had been treating a form label like a placeholder attribute&lt;/strong&gt;. Seems innocent enough, but it led to a ton of work. Let&amp;rsquo;s take a look.&lt;/p&gt;
+
+&lt;h2 id=&#34;placeholder-attribute-style-challenges-1&#34;&gt;Placeholder Attribute Style Challenges&lt;/h2&gt;
+
+&lt;p&gt;The first issue I noticed was that default browser styles for placeholder attributes are not consistent. Safari and Chrome apply an opacity to them. Firefox does not. The vertical alignment is different between them, also. Overriding these defaults takes a lot of CSS.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;::placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;::-webkit-input-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;:-ms-input-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;::-ms-input-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;:-moz-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;::-moz-placeholder&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;opacity&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3 id=&#34;user-agent-shadow-dom-is-not-enabled-by-default-1&#34;&gt;User Agent Shadow DOM is Not Enabled By Default.&lt;/h3&gt;
+
+&lt;p&gt;Through the magic of landing in a good stack overflow thread, I learned how to &lt;a href=&#34;http://stackoverflow.com/questions/26126587/how-to-enable-show-user-agent-shadow-dom-in-chrome-using-a-command-line-switch&#34;&gt;inspect the shadow DOM in Chrome&lt;/a&gt;. This helped me reason about some of the browser inconsistencies mentioned above. Overcoming each browser nuance took a lot of CSS. I can&amp;rsquo;t imagine the time spent working through this could yield any sort of return. Take a look at this Sass example using the &lt;a href=&#34;https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather&#34;&gt;Google font, Merriweather&lt;/a&gt;:&lt;/p&gt;
+
+&lt;h3 id=&#34;placeholder-stying-is-not-dry-1&#34;&gt;Placeholder Stying is Not DRY&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;@mixin&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt; input-content&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;.6&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;email&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;montserrat&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;outline&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;none&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+  &lt;span class=&#34;nd&#34;&gt;:-moz-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nd&#34;&gt;::-moz-placeholder&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+      &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+      &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Merriweather&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+      &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+   &lt;span class=&#34;nd&#34;&gt;:-ms-input-placeholder&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+     &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+     &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Merriweather&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+     &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;nd&#34;&gt;::-webkit-input-placeholder&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+      &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+      &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Merriweather&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+      &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;nd&#34;&gt;::placeholder&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+     &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+     &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Merriweather&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+     &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Notice how I wasn&amp;rsquo;t able to combine selectors. This violates DRY (Don&amp;rsquo;t Repeat Yourself) development strategies. This isn&amp;rsquo;t a lack of refactoring. This repetition was required.&lt;/p&gt;
+
+&lt;h3 id=&#34;this-would-have-been-cooler-but-fuggetabotit-1&#34;&gt;This Would Have Been Cooler, But Fuggetabotit!&lt;/h3&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;email&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;],&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;:-moz-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;::-moz-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;::-webkit-input-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;:-ms-input-placeholder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;::placeholder&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+   &lt;span class=&#34;nt&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;#333&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+   &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;montserrat&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+   &lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;Nope. No dice. The above snippet just doesn&amp;rsquo;t work. Bummer. There were other issues to address. Placeholders don&amp;rsquo;t work in Opera Mini, for instance.&lt;/p&gt;
 
 &lt;p&gt;That&amp;rsquo;s how I started this process. Nothing worked as expected. Troubleshooting was difficult. It was frustrating. But, I learned something. I know what&amp;rsquo;s involved in styling these suckers. And, I&amp;rsquo;m also more aware of what I&amp;rsquo;m actually building. And, I have even more respect for HTML. When used properly, it&amp;rsquo;s quite a joy to work with.&lt;/p&gt;
@@ -115,6 +211,9 @@
 &lt;h2 id=&#34;form-labels-as-opposed-to-placeholder-attributes&#34;&gt;Form Labels As Opposed To Placeholder Attributes&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;ll start by saying that &lt;strong&gt;form labels are much easier to style&lt;/strong&gt;. No crazy browser defaults. Nothing hiding in shadow DOM. No surprises. Here&amp;rsquo;s my refactored solution:&lt;/p&gt;
+
+&lt;p&gt;&lt;p data-height=&#34;265&#34; data-theme-id=&#34;0&#34; data-slug-hash=&#34;womVBy&#34; data-default-tab=&#34;result&#34; data-user=&#34;somecallmejosh&#34; data-embed-version=&#34;2&#34; data-pen-title=&#34;womVBy&#34; class=&#34;codepen&#34;&gt;See the Pen &lt;a href=&#34;http://codepen.io/somecallmejosh/pen/womVBy/&#34;&gt;womVBy&lt;/a&gt; by Joshua Briley (&lt;a href=&#34;http://codepen.io/somecallmejosh&#34;&gt;@somecallmejosh&lt;/a&gt;) on &lt;a href=&#34;http://codepen.io&#34;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async src=&#34;https://production-assets.codepen.io/assets/embed/ei.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;email-form-markup&#34;&gt;Email Form Markup&lt;/h3&gt;
 
