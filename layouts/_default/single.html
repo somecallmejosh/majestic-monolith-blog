@@ -3,12 +3,13 @@
   <h1 class="x-large">{{ .Title }}</h1>
   <small>Posted {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.authors }}</small>
   <small>Reading Time: {{.ReadingTime}}min</small>
+  <small>Experience Level: {{.Params.experience}}</small>
   <p class="article-view__header--snippet">{{ .Params.snippet }}</p>
 </div>
-<div class="hero">
-  {{ partial "pageImage" . }}
-</div>
 <main role="main" class="article-view">
+  <div class="hero">
+    {{ partial "pageImage" . }}
+  </div>
   {{ .Content }}
   {{ partial "disqus" . }}
 </main>

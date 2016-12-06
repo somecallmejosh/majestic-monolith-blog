@@ -5,6 +5,7 @@ date = "2016-11-18T15:57:14-05:00"
 draft = false
 snippet = "Are you being tricked into improper use of placeholder attributes? I was!"
 title = "Are You Using Placeholder Attributes Properly?"
+experience = "Intermediate"
 tags = [
   "CSS",
   "Code Example",
@@ -15,6 +16,8 @@ categories = [
   "Guide"
 ]
 +++
+
+## HTML is Important
 
 HTML. It's the tool many developers treat as a byproduct of *real code*. It's often relegated to the ranks of *novice programmers*. That's unfortunate because HTML is the product consumed by the user. It's where all the SEO happens. It's where all the accessibility happens. I believe treating HTML as a first-class citizen is important. Knowing and respecting it can save time and lower developer frustration. In this post, I'll show you how knowing some minor nuance in form elements could've saved me a lot of frustration.
 

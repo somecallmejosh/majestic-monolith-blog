@@ -10,7 +10,7 @@
 						</a>
 					</div>
 					<div class="card__content">
-						<small>Category: {{ delimit .Params.categories ", " }}</small>
+						<small>Category: {{ delimit .Params.categories ", " }}</small> <small>Experience Level: {{.Params.experience}}</small>
 						<h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</a></h2>
 						<p>{{ .Params.snippet }}</p>
 						<a href="{{ .Permalink }}" class="button">Read Article</a>
